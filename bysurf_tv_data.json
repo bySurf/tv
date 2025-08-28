@@ -19,16 +19,12 @@
       "title": "Episode Example Title",
       "description": "Description example for a episode under a show",
       "thumbnail": "https://bysurf.github.io/tv/img/phil-1.jpg",
-      "show": "CHILLS",
+      "show": "Show Title Example",
       "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/103077",
       "releaseDate": "2025-08-28"
     }
   ],
   "categories": [
-    "Docs",
-    "Philosophy",
-    "Behind the Scenes",
-    "Talkshows",
-    "Fantasy & Sci‑Fi"
+    "Docs"
   ]
 }
