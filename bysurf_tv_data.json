@@ -12,6 +12,20 @@
       "banner": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
       "thumbnail": "https://bysurf.github.io/tv/img/cover.jpg",
       "category": "Docs"
+    },
+    {
+      "title": "Show 2",
+      "description": "Show Description Test Text.",
+      "tags": [
+        "documentary",
+        "test",
+        "mind-blowing",
+        "website"
+      ],
+      "presents": "bySurf presents",
+      "banner": "https://bysurf.github.io/tv/img/phil-1.jpg",
+      "thumbnail": "https://bysurf.github.io/tv/img/cover2.png",
+      "category": "Philosophy"
     }
   ],
   "videos": [
@@ -22,9 +36,18 @@
       "show": "Show Title Example",
       "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/103077",
       "releaseDate": "2025-08-28"
+    },
+    {
+      "title": "Test Episode 1",
+      "description": "Test Description for a Show fetched by JSON list",
+      "thumbnail": "https://bysurf.github.io/tv/img/cover.jpg",
+      "show": "Show 2",
+      "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/117023",
+      "releaseDate": "2025-08-28"
     }
   ],
   "categories": [
-    "Docs"
+    "Docs",
+    "Philosophy"
   ]
 }
