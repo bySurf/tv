@@ -1,7 +1,7 @@
 {
   "shows": [
     {
-      "title": "CHILLS",
+      "title": "Show Title Example",
       "description": "Experience disturbing stories..",
       "tags": [
         "documentary",
@@ -16,8 +16,8 @@
   ],
   "videos": [
     {
-      "title": "Dr.Phil's Sins",
-      "description": "Testttttt",
+      "title": "Episode Title Example",
+      "description": "Description",
       "thumbnail": "https://bysurf.github.io/tv/img/phil-1.jpg",
       "show": "CHILLS",
       "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/103077",
@@ -25,10 +25,6 @@
     }
   ],
   "categories": [
-    "Docs",
-    "Philosophy",
-    "Behind the Scenes",
-    "Talkshows",
-    "Fantasy & Sci‑Fi"
+    "Docs"
   ]
 }
