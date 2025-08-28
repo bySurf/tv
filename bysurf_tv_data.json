@@ -1,0 +1,34 @@
+{
+  "shows": [
+    {
+      "title": "CHILLS",
+      "description": "Experience disturbing stories..",
+      "tags": [
+        "documentary",
+        "creepy",
+        "docuseries"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
+      "thumbnail": "https://bysurf.github.io/tv/img/phil-1.jpg",
+      "category": "Docs"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Dr.Phil's Sins",
+      "description": "Testttttt",
+      "thumbnail": "https://bysurf.github.io/tv/img/phil-1.jpg",
+      "show": "CHILLS",
+      "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/103077",
+      "releaseDate": "2025-08-28"
+    }
+  ],
+  "categories": [
+    "Docs",
+    "Philosophy",
+    "Behind the Scenes",
+    "Talkshows",
+    "Fantasy & Sci‑Fi"
+  ]
+}
