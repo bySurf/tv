@@ -1,46 +1,6 @@
 {
   "shows": [
     {
-      "title": "Show Title Example",
-      "description": "Experience disturbing stories..",
-      "tags": [
-        "documentary",
-        "creepy",
-        "docuseries"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
-      "thumbnail": "https://bysurf.github.io/tv/img/cover.jpg",
-      "category": "Docs"
-    },
-    {
-      "title": "Show 2",
-      "description": "Show Description Test Text.",
-      "tags": [
-        "documentary",
-        "test",
-        "mind-blowing",
-        "website"
-      ],
-      "presents": "bySurf presents",
-      "banner": "https://bysurf.github.io/tv/img/phil-1.jpg",
-      "thumbnail": "https://bysurf.github.io/tv/img/cover2.png",
-      "category": "Philosophy"
-    },
-    {
-      "title": "Github Test",
-      "description": "Show Test From GitHub JSON App",
-      "tags": [
-        "test",
-        "tag 1",
-        "tag 2"
-      ],
-      "presents": "a Github Test",
-      "banner": "https://bysurf.github.io/tv/img/cover.jpg",
-      "thumbnail": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
-      "category": "Docs"
-    },
-    {
       "title": "Show Test With Image",
       "description": "Testtttt",
       "tags": [
@@ -54,24 +14,7 @@
       "category": "Philosophy"
     }
   ],
-  "videos": [
-    {
-      "title": "Episode Example Title",
-      "description": "Description example for a episode under a show",
-      "thumbnail": "https://bysurf.github.io/tv/img/phil-1.jpg",
-      "show": "Show Title Example",
-      "url": "https://bysurf.tv/supporters/videos/103077",
-      "releaseDate": "2025-08-28"
-    },
-    {
-      "title": "Test Episode 1",
-      "description": "Test Description for a Show fetched by JSON list",
-      "thumbnail": "https://bysurf.github.io/tv/img/cover.jpg",
-      "show": "Show 2",
-      "url": "https://bysurf.tv/supporters/videos/117023",
-      "releaseDate": "2025-08-28"
-    }
-  ],
+  "videos": [],
   "categories": [
     "Docs",
     "Philosophy"
