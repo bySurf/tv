@@ -26,6 +26,32 @@
       "banner": "https://bysurf.github.io/tv/img/phil-1.jpg",
       "thumbnail": "https://bysurf.github.io/tv/img/cover2.png",
       "category": "Philosophy"
+    },
+    {
+      "title": "Github Test",
+      "description": "Show Test From GitHub JSON App",
+      "tags": [
+        "test",
+        "tag 1",
+        "tag 2"
+      ],
+      "presents": "a Github Test",
+      "banner": "https://bysurf.github.io/tv/img/cover.jpg",
+      "thumbnail": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
+      "category": "Docs"
+    },
+    {
+      "title": "Show Test With Image",
+      "description": "Testtttt",
+      "tags": [
+        "tag 1",
+        "tag 2",
+        "description"
+      ],
+      "presents": "a bySurf Test",
+      "banner": "https://bysurf.github.io/tv/img/Sequence%2001.00_06_11_40.Still002.png",
+      "thumbnail": "https://bysurf.github.io/tv/img/the%20social%20media%20apocalypse.jpg",
+      "category": "Philosophy"
     }
   ],
   "videos": [
@@ -34,7 +60,7 @@
       "description": "Description example for a episode under a show",
       "thumbnail": "https://bysurf.github.io/tv/img/phil-1.jpg",
       "show": "Show Title Example",
-      "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/103077",
+      "url": "https://bysurf.tv/supporters/videos/103077",
       "releaseDate": "2025-08-28"
     },
     {
@@ -42,7 +68,7 @@
       "description": "Test Description for a Show fetched by JSON list",
       "thumbnail": "https://bysurf.github.io/tv/img/cover.jpg",
       "show": "Show 2",
-      "url": "https://iambysurf-shop.fourthwall.com/supporters/videos/117023",
+      "url": "https://bysurf.tv/supporters/videos/117023",
       "releaseDate": "2025-08-28"
     }
   ],
