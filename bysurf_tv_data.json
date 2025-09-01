@@ -15,7 +15,16 @@
       "category": "Documentaries"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "title": "Geraldine's Trail",
+      "description": "Geraldine Largay goes on a hike that ends in chaos...",
+      "thumbnail": "https://bysurf.github.io/tv/img/d0b979ee-cefc-48b3-83c0-383f36ed5328.jpg",
+      "show": "Missing Files",
+      "url": "https://bysurf.tv/supporters/videos/91039",
+      "releaseDate": "2025-09-01"
+    }
+  ],
   "categories": [
     "Documentaries",
     "Commentary",
