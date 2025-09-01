@@ -94,6 +94,19 @@
       "banner": "https://bysurf.github.io/tv/img/blue-banner.jpg",
       "thumbnail": "https://bysurf.github.io/tv/img/behind%20the%20scenes.png",
       "category": "Behind The Scenes"
+    },
+    {
+      "title": "The Progressbar",
+      "description": "Catching up every now and then on what's been going on in life and YouTube.",
+      "tags": [
+        "Catch Up",
+        "Commentary",
+        "Gameplay"
+      ],
+      "presents": "a Commentary Series",
+      "banner": "https://bysurf.github.io/tv/img/e0e38238-ff85-4a37-a961-7a3f76d0ca50.jpg",
+      "thumbnail": "https://bysurf.github.io/tv/img/owjv58s0jaeuh1356av3p6xez4n5.webp",
+      "category": "Commentary"
     }
   ],
   "videos": [
