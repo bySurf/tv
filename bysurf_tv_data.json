@@ -80,6 +80,20 @@
       "banner": "https://bysurf.github.io/tv/img/barnes_show_bgadgadgadg.png",
       "thumbnail": "https://bysurf.github.io/tv/img/sadasdgagd.jpg",
       "category": "Documentaries"
+    },
+    {
+      "title": "Behind The Scene",
+      "description": "Breaking down certain scenes from recent videos :)",
+      "tags": [
+        "BTS",
+        "Video Breakdown",
+        "How It's Made",
+        "Editing Tutorial"
+      ],
+      "presents": "a bySurf Breakdown",
+      "banner": "https://bysurf.github.io/tv/img/blue-banner.jpg",
+      "thumbnail": "https://bysurf.github.io/tv/img/behind%20the%20scenes.png",
+      "category": "Behind The Scenes"
     }
   ],
   "videos": [
