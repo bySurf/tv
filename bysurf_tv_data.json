@@ -40,6 +40,19 @@
       "banner": "https://bysurf.github.io/tv/img/adlkjighakjdhgadg.png",
       "thumbnail": "https://bysurf.github.io/tv/img/Untaddgagdagdagadgadgadgdagdaitled-1.png",
       "category": "Documentaries"
+    },
+    {
+      "title": "CHILLS",
+      "description": "Disturbing Mini-Stories...",
+      "tags": [
+        "Disturbing",
+        "Documentary",
+        "Mini-Docuseries"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://bysurf.github.io/tv/img/image-029859c9-36b7-499e-a0d1-f5a0644a884a-image-33e06228616ca95b9e1cabf04c9a811d60da2577e05f60f67721d3b270d3b496.webp",
+      "thumbnail": "https://bysurf.github.io/tv/img/image-f7385580-4822-4571-91f3-c7e9fadbaad2-image-37581c6af6ff478282f1149b99edcf5078af7fc9a6d0bcbec7bd145db4e3090e.jpg",
+      "category": "Documentaries"
     }
   ],
   "videos": [
