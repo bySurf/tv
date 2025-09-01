@@ -26,6 +26,19 @@
       "banner": "https://bysurf.github.io/tv/img/phil-1.jpg",
       "thumbnail": "https://bysurf.github.io/tv/img/cover2.png",
       "category": "Philosophy"
+    },
+    {
+      "title": "Github Test",
+      "description": "Show Test From GitHub JSON App",
+      "tags": [
+        "test",
+        "tag 1",
+        "tag 2"
+      ],
+      "presents": "a Github Test",
+      "banner": "https://bysurf.github.io/tv/img/cover.jpg",
+      "thumbnail": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
+      "category": "Docs"
     }
   ],
   "videos": [
