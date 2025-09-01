@@ -16,7 +16,7 @@
     },
     {
       "title": "North Korea's Cyber Ninjas",
-      "description": "A hacker group emerges and commits lots of crimes and steals lots of money..",
+      "description": "A hacker group emerges and commits lots of crimes and steals lots of money.. Until it's found out that this is none other than North Korea's government-funded hacking group, lazarus.\n\nIn this mini docuseries, we explore different heists that this group has done over the years.",
       "tags": [
         "documentary",
         "docuseries",
@@ -26,6 +26,19 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://bysurf.github.io/tv/img/nk%20doc%20show%20banner.png",
       "thumbnail": "https://bysurf.github.io/tv/img/nk%20doc%20show.png",
+      "category": "Documentaries"
+    },
+    {
+      "title": "TV Edition",
+      "description": "Supporters get early-access to upcoming documentaries, uncensored & ad-free.",
+      "tags": [
+        "Early-Access",
+        "Ad-Free",
+        "Documentary"
+      ],
+      "presents": "For Patrons",
+      "banner": "https://bysurf.github.io/tv/img/adlkjighakjdhgadg.png",
+      "thumbnail": "https://bysurf.github.io/tv/img/Untaddgagdagdagadgadgadgdagdaitled-1.png",
       "category": "Documentaries"
     }
   ],
