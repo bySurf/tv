@@ -39,6 +39,19 @@
       "banner": "https://bysurf.github.io/tv/img/cover.jpg",
       "thumbnail": "https://bysurf.github.io/tv/img/Sequence%2008.00_00_34_35.Still001.png",
       "category": "Docs"
+    },
+    {
+      "title": "Show Test With Image",
+      "description": "Testtttt",
+      "tags": [
+        "tag 1",
+        "tag 2",
+        "description"
+      ],
+      "presents": "a bySurf Test",
+      "banner": "https://bysurf.github.io/tv/img/Sequence%2001.00_06_11_40.Still002.png",
+      "thumbnail": "https://bysurf.github.io/tv/img/the%20social%20media%20apocalypse.jpg",
+      "category": "Philosophy"
     }
   ],
   "videos": [
