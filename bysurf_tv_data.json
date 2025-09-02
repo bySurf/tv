@@ -71,7 +71,7 @@
     },
     {
       "title": "PRINCESS DIANA",
-      "description": "A two sided mystery..\n\nHosted by Barnes",
+      "description": "A two sided mystery..",
       "tags": [
         "docuseries",
         "mind-bending"
@@ -79,7 +79,13 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://bysurf.github.io/tv/img/barnes_show_bgadgadgadg.png",
       "thumbnail": "https://bysurf.github.io/tv/img/sadasdgagd.jpg",
-      "category": "Documentaries"
+      "category": "Documentaries",
+      "creatorLinks": [
+        {
+          "title": "Hosted by Barnes",
+          "href": "https://x.com/Barnical_"
+        }
+      ]
     },
     {
       "title": "Behind The Scene",
