@@ -79,13 +79,7 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://bysurf.github.io/tv/img/barnes_show_bgadgadgadg.png",
       "thumbnail": "https://bysurf.github.io/tv/img/sadasdgagd.jpg",
-      "category": "Documentaries",
-      "creatorLinks": [
-        {
-          "title": "Hosted by Barnes",
-          "href": "https://x.com/Barnical_"
-        }
-      ]
+      "category": "Documentaries"
     },
     {
       "title": "Behind The Scene",
@@ -125,19 +119,6 @@
       "banner": "https://bysurf.github.io/tv/img/5834ijhgcur76q5ikynowq24x05y.webp",
       "thumbnail": "https://bysurf.github.io/tv/img/9vn4meyu96sae0v9co4wxz7ieoe5.jpeg",
       "category": "Documentaries"
-    },
-    {
-      "title": "The Progressbar: Season 2",
-      "description": "SEASON TWO: Catching up every now and then on what's been going on in life and YouTube.",
-      "tags": [
-        "Catch Up",
-        "Commentary",
-        "Gameplay"
-      ],
-      "presents": "a Commentary Series",
-      "banner": "https://bysurf.github.io/tv/img/twitter_1960384636741181904.gif",
-      "thumbnail": "https://bysurf.github.io/tv/img/owjv58s0jaeuh1356av3p6xez4n5.webp",
-      "category": "Commentary"
     }
   ],
   "videos": [
@@ -332,15 +313,6 @@
       "show": "The Pursuit Of The World",
       "url": "https://bysurf.tv/supporters/videos/156777",
       "releaseDate": "2025-09-02"
-    },
-    {
-      "title": "v2 - we are back",
-      "description": "man it's been a while",
-      "thumbnail": "https://bysurf.github.io/tv/img/FqjAgZkaIAAvdnN.jpg",
-      "show": "The Progressbar",
-      "url": "https://bysurf.tv/supporters/videos/156943",
-      "releaseDate": "2025-09-02",
-      "seasonNumber": 2
     },
     {
       "title": "Discord Documentary Breakdown",
