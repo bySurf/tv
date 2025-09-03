@@ -125,6 +125,25 @@
       "banner": "https://bysurf.github.io/tv/img/5834ijhgcur76q5ikynowq24x05y.webp",
       "thumbnail": "https://bysurf.github.io/tv/img/9vn4meyu96sae0v9co4wxz7ieoe5.jpeg",
       "category": "Documentaries"
+    },
+    {
+      "title": "Geraldine's Trail",
+      "description": "Geraldine Largay goes on a hiking trip and never gets found again..",
+      "tags": [
+        "disturbing",
+        "investigation",
+        "mini-documentary"
+      ],
+      "presents": "a bySurf Original",
+      "banner": "https://bysurf.github.io/tv/img/Uncovering%20the%20Disturbing%20Disappearance%20Of%20A%20Hiker%202-54%20screenshot.png",
+      "thumbnail": "https://bysurf.github.io/tv/img/geraldines%20trail.jpg",
+      "category": "Documentaries",
+      "creatorLinks": [
+        {
+          "title": "Hosted by Barnes",
+          "href": "https://x.com/barnical_"
+        }
+      ]
     }
   ],
   "videos": [
@@ -146,11 +165,11 @@
     },
     {
       "title": "Geraldine's Trail",
-      "description": "Geraldine Largay goes on a hike that ends in chaos..",
-      "thumbnail": "https://bysurf.github.io/tv/img/largay222.jpg",
-      "show": "Missing Files",
+      "description": "Geraldine Largay goes on a hiking trip and never gets found again..",
+      "thumbnail": "https://bysurf.github.io/tv/img/agadgadgadgadgadgadg.jpg",
+      "show": "Geraldine's Trail",
       "url": "https://bysurf.tv/supporters/videos/91039",
-      "releaseDate": "2025-09-01"
+      "releaseDate": "2025-09-03"
     },
     {
       "title": "LAZARUS.NK",
@@ -335,15 +354,6 @@
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/156943",
       "releaseDate": "2025-09-02",
-      "seasonNumber": 2
-    },
-    {
-      "title": "do you really need school?",
-      "description": "in todays modern age where online possibilites open up further, do we really need our kids to go to school to \"make it\"?",
-      "thumbnail": "https://bysurf.github.io/tv/img/ss_7f43808b5db642a830564c24cff1b5700d865e9c.1920x1080.jpg",
-      "show": "The Progressbar",
-      "url": "https://bysurf.tv/supporters/videos/157351",
-      "releaseDate": "2025-09-03",
       "seasonNumber": 2
     }
   ],
