@@ -144,6 +144,25 @@
         }
       ],
       "thumbnail": "https://imgproxy.fourthwall.com/09AncgvMmCw9vDd48PDjQa7fBk3i249cHeBYOJC92fA/el:0/q:90/sm:1/enc/Yjc1MTcyOTUwNzk2/MzAyN4xRiGA47YYY/vxurfk8kJ3Gs3MJP/nYGbArbXcb-fCPdA/jxLxfP5CG1EIGWIN/UGBmM92nTijvwGJZ/UdF0SmmUMdYIQ-7L/j9if_YAuQUrPZFMJ/KQ2HFf199-6xKbJq/G8ItlefO7T6Rry0q/jgzTZeIkSnY.webp"
+    },
+    {
+      "title": "Test Show",
+      "description": "A description..",
+      "tags": [
+        "test",
+        "tag 1",
+        "tag 2"
+      ],
+      "presents": "a Filip Dawidow Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/iB7iHYSl6dYiyNZCjIB2YCqj69rJ5PSnTlKiQzZbYrs/el:0/q:90/sm:1/enc/YjIyYjVlMDE5ZTY0/YTNjZrJIrXxdotEh/bxord0aU27rNp9pH/_6JrJm6D2HizRmi2/dQyZ8mK_AqGKAwbO/-su9VycCNrgdiy-G/L9gGnQWATTAtgcIN/D8_n9bkOLjCHImzi/BuHQYMk7dPbnPQos/e50yFzFEva_Yn2rH/y9jV4B1uL3k.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/FDET1AaIynIHQ9so4_sOWFAUp9eV26cEc58qZw4uW1o/el:0/q:90/sm:1/enc/MDEzMTM4YmMwYjRj/ODY3Nr7J_Ls6OBQG/OkmxuoDbR0zZYHwq/QWhgpCIW86PoNSJ3/0IPY-wf_hJx1KLPX/P-fB5hifAolxT9MD/wpk1DZVqhsRpzh6y/drcP3gLFsroYBXO8/kCOfHKdWehoNcE17/UsePO8wSXlhp7vsw/TqhOd_sM9j0.webp",
+      "category": "Documentaries",
+      "creatorLinks": [
+        {
+          "title": "Presented by Filip Dawidow",
+          "href": "https://www.youtube.com/@bysurf2"
+        }
+      ]
     }
   ],
   "videos": [
@@ -364,10 +383,19 @@
       "releaseDate": "2025-09-03",
       "seasonNumber": 2,
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/prb3aatqqscrpgjojle4h2nmcw95"
+    },
+    {
+      "title": "How the re-designed website works",
+      "description": "Filip",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/oabmmdpnwuks2icsp8ehh46i8jg9",
+      "show": "Missing Files",
+      "url": "https://bysurf.tv/supporters/videos/93726",
+      "releaseDate": "2025-09-06"
     }
   ],
   "categories": [
     "Documentaries",
+    "Test",
     "Commentary",
     "Behind The Scenes"
   ]
