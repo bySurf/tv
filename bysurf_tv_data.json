@@ -1,19 +1,6 @@
 {
   "shows": [
     {
-      "title": "The Pursuit Of The World",
-      "description": "My story of becoming a content creator..",
-      "tags": [
-        "documentary",
-        "motivational"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/OJkNMdVW2KwGJ1H4y8YXmNs9x2FEEh4xvQXOHF2I6Ts/el:0/q:90/sm:1/enc/NTdmOGQ4YmNiMWY5/MGYxMKEzUpcG1g2i/ZfyjJ_X7NANTMhh5/-xzpuhJpFY-sFTSH/S4wQ6_-xSQiqYQ-T/SV98_8pj74Pgtlq2/KpWnemAPR8_QPt2d/MUVTwMtXBV0BOblR/lpjV6OfWzLWmmfL4/BQdFHmcDlz7Ugqj_/BUE7Draechg.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/7bDH5d96R5NziG9QTsQVALAnEj_u2KaK7oXscgORIQk/el:0/q:90/sm:1/enc/ZDA4MmFmOWIzNDVl/ZjAxYnTdU7rHfSFT/sgZtDhsUbvPUn8AY/kjPgLZ6QAHPX3Ryq/86uVIqceAAiXTrs6/2r6JRlCtcdzvz5JE/dgVWLMkbjlUXbjQe/jeeiVHeHZPvjQaFa/95zW6I5x4XiDnwPO/tMpVwnaHAhBoPhZc/qx-724xI4Vo.webp",
-      "category": "Documentaries",
-      "creatorLinks": []
-    },
-    {
       "title": "Missing Files",
       "description": "Old bySurf Videos that were either deleted or never published.",
       "tags": [
@@ -39,6 +26,19 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://imgproxy.fourthwall.com/cZ-__dDmNvZBClyFkI4PWVZgnMpe6EmdHu6WdOIZRyc/el:0/q:90/sm:1/enc/OTFiZmY3Yjc5YjRk/MzgxOFNZyb4GM02B/kqbroU02uocXHJpi/rkVJw-2PUnawjwIJ/DxvVYdln9vFZCoHT/racSWAYcrn7pxtvo/RDiIxXrQsgXXjNqb/wp1TzbQTm0U8iZMG/UoGODHzz7pFyitxU/XEWlgxQX4tfs93An/xSCQJ1ZfjtI.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/vRmchanR8FFwUdIVRU9Upw78fMZUiVvXzdoevczABXc/el:0/q:90/sm:1/enc/MGUzMDU2ZTM3YWQ5/YjQzMnK2XWvAuqS4/8g0hrcA4tavxy-OA/9VsYGC1cmrndOnZr/k9-LSaGs83R75siF/EoPCN8IXlGWFZ2QM/qP8h7uGIA_QbgFN0/EDDigCrLoNJoZcGn/L2caGf5YiVavmY5t/hG3iVNou1IG85wtN/FwRRlHJoz0E.webp",
+      "category": "Documentaries",
+      "creatorLinks": []
+    },
+    {
+      "title": "The Pursuit Of The World",
+      "description": "My story of becoming a content creator..",
+      "tags": [
+        "documentary",
+        "motivational"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/OJkNMdVW2KwGJ1H4y8YXmNs9x2FEEh4xvQXOHF2I6Ts/el:0/q:90/sm:1/enc/NTdmOGQ4YmNiMWY5/MGYxMKEzUpcG1g2i/ZfyjJ_X7NANTMhh5/-xzpuhJpFY-sFTSH/S4wQ6_-xSQiqYQ-T/SV98_8pj74Pgtlq2/KpWnemAPR8_QPt2d/MUVTwMtXBV0BOblR/lpjV6OfWzLWmmfL4/BQdFHmcDlz7Ugqj_/BUE7Draechg.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/7bDH5d96R5NziG9QTsQVALAnEj_u2KaK7oXscgORIQk/el:0/q:90/sm:1/enc/ZDA4MmFmOWIzNDVl/ZjAxYnTdU7rHfSFT/sgZtDhsUbvPUn8AY/kjPgLZ6QAHPX3Ryq/86uVIqceAAiXTrs6/2r6JRlCtcdzvz5JE/dgVWLMkbjlUXbjQe/jeeiVHeHZPvjQaFa/95zW6I5x4XiDnwPO/tMpVwnaHAhBoPhZc/qx-724xI4Vo.webp",
       "category": "Documentaries",
       "creatorLinks": []
     },
