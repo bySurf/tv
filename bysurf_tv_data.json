@@ -1,6 +1,19 @@
 {
   "shows": [
     {
+      "title": "The Pursuit Of The World",
+      "description": "My story of becoming a content creator..",
+      "tags": [
+        "documentary",
+        "motivational"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/OJkNMdVW2KwGJ1H4y8YXmNs9x2FEEh4xvQXOHF2I6Ts/el:0/q:90/sm:1/enc/NTdmOGQ4YmNiMWY5/MGYxMKEzUpcG1g2i/ZfyjJ_X7NANTMhh5/-xzpuhJpFY-sFTSH/S4wQ6_-xSQiqYQ-T/SV98_8pj74Pgtlq2/KpWnemAPR8_QPt2d/MUVTwMtXBV0BOblR/lpjV6OfWzLWmmfL4/BQdFHmcDlz7Ugqj_/BUE7Draechg.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/7bDH5d96R5NziG9QTsQVALAnEj_u2KaK7oXscgORIQk/el:0/q:90/sm:1/enc/ZDA4MmFmOWIzNDVl/ZjAxYnTdU7rHfSFT/sgZtDhsUbvPUn8AY/kjPgLZ6QAHPX3Ryq/86uVIqceAAiXTrs6/2r6JRlCtcdzvz5JE/dgVWLMkbjlUXbjQe/jeeiVHeHZPvjQaFa/95zW6I5x4XiDnwPO/tMpVwnaHAhBoPhZc/qx-724xI4Vo.webp",
+      "category": "Documentaries",
+      "creatorLinks": []
+    },
+    {
       "title": "Missing Files",
       "description": "Old bySurf Videos that were either deleted or never published.",
       "tags": [
@@ -116,18 +129,6 @@
       "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
       "category": "Commentary",
       "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp"
-    },
-    {
-      "title": "The Pursuit Of The World",
-      "description": "My story of becoming a content creator..",
-      "tags": [
-        "documentary",
-        "motivational"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/OJkNMdVW2KwGJ1H4y8YXmNs9x2FEEh4xvQXOHF2I6Ts/el:0/q:90/sm:1/enc/NTdmOGQ4YmNiMWY5/MGYxMKEzUpcG1g2i/ZfyjJ_X7NANTMhh5/-xzpuhJpFY-sFTSH/S4wQ6_-xSQiqYQ-T/SV98_8pj74Pgtlq2/KpWnemAPR8_QPt2d/MUVTwMtXBV0BOblR/lpjV6OfWzLWmmfL4/BQdFHmcDlz7Ugqj_/BUE7Draechg.webp",
-      "category": "Documentaries",
-      "thumbnail": "https://imgproxy.fourthwall.com/48vc2QxLKO6zjNEw97Ahn7WLMUdxXTZiX6LrGWdF91U/el:0/q:90/sm:1/enc/ZDMzZjc1OGUzMzQ5/NTVjYoGsRcCwJS_D/fM4Z9RRuVKGRDbVV/j_NygE5EjCV1ojKF/eJ8CUrQB7Rfzzg0w/gS461BRtoKdcLLSh/NSzHaks9SB95oV-G/4VU2JUsgSkDtw1VA/RiZTf84EC3viEn3h/zvRSbqVIuKKzRjM6/lp6Pnu2XtlY.webp"
     },
     {
       "title": "Geraldine's Trail",
@@ -337,10 +338,10 @@
     {
       "title": "The Pursuit Of The World (Full Documentary)",
       "description": "My story of becoming a content creator..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9vn4meyu96sae0v9co4wxz7ieoe5",
       "show": "The Pursuit Of The World",
-      "url": "https://bysurf.tv/supporters/videos/156777",
-      "releaseDate": "2025-09-02",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2tp7s0654842db3wg45h0ku16u7r"
+      "url": "https://bysurf.tv/supporters/video_embeds/102795",
+      "releaseDate": "2025-01-17"
     },
     {
       "title": "Discord Documentary Breakdown",
