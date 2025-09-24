@@ -149,6 +149,20 @@
       "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
       "category": "Commentary",
       "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp"
+    },
+    {
+      "title": "THE DEATH OF NORMALITY",
+      "description": "Trapped in an age where people have become wired to their screens...",
+      "tags": [
+        "documentary",
+        "philosophy",
+        "deep"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/-dKhASA5VlzJyIxUMCpEFpBDEdZR9Q_0rKYAM5ZaMq4/el:0/q:90/sm:1/enc/NGQyZDUxYTFiMmE0/YWNlYYZUYqeQY8LD/K0KZ-02Fwp241FdD/sEhez6BzAvHWuEcb/tnxENan_Xun2JGFB/2YrtJchy3ynI5-NC/oOjGmViQHoFDArk5/r7eMMJQVV8O1Q-4Q/KrmpSdkIlfOmTzcR/dgO05aDfd9hqtF1d/yc_pqDmM708.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/OfbjjIpnNUihCJe355ynGNf0u9Lzm108Z6Ycd-clUcQ/el:0/q:90/sm:1/enc/ZTg0MDFmN2Y5MDc3/NTI2ZMGm7dXAQfuc/WaLKPtyD_TVOP-6k/vydPbOXcJsuIZqqP/h4sd5BE1o3Mr0sMr/WNLfKek0oS_fIPou/D4wQBK943yLZ8BEv/lgMa2jJwc5rNeMd8/0FOJxhtVZEkmCOX8/SDopINi8fV43YB8F/HoqdjpizXJI.webp",
+      "category": "Philosophy",
+      "creatorLinks": []
     }
   ],
   "videos": [
@@ -436,11 +450,20 @@
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/162489",
       "releaseDate": "2025-09-24"
+    },
+    {
+      "title": "THE DEATH OF NORMALITY (Full Documentary)",
+      "description": "In an age where people have become wired to their screens, what happened to normality?",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
+      "show": "THE DEATH OF NORMALITY",
+      "url": "https://bysurf.tv/supporters/videos/162585",
+      "releaseDate": "2025-09-24"
     }
   ],
   "categories": [
     "Documentaries",
     "Commentary",
-    "Behind The Scenes"
+    "Behind The Scenes",
+    "Philosophy"
   ]
 }
