@@ -452,7 +452,9 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/bp4xsp3x5e2i98yuysopq0swwa8a",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/162489",
-      "releaseDate": "2025-09-24"
+      "releaseDate": "2025-09-24",
+      "isFree": false,
+      "isRecommended": true
     },
     {
       "title": "THE DEATH OF NORMALITY (Full Documentary)",
