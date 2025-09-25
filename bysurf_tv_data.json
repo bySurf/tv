@@ -460,7 +460,9 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
       "show": "THE DEATH OF NORMALITY",
       "url": "https://bysurf.tv/supporters/videos/162585",
-      "releaseDate": "2025-09-24"
+      "releaseDate": "2025-09-24",
+      "isFree": false,
+      "isRecommended": true
     },
     {
       "title": "What is up next for bySurf TV and YT",
