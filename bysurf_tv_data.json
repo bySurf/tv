@@ -170,46 +170,6 @@
   ],
   "videos": [
     {
-      "title": "The Pursuit Of The World (Full Documentary)",
-      "description": "My story of becoming a content creator..",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1qyjnuz41yjy9lt89rhjs00v0rso",
-      "show": "The Pursuit Of The World",
-      "url": "https://bysurf.tv/supporters/video_embeds/102795",
-      "releaseDate": "2025-01-17",
-      "isFree": true,
-      "isRecommended": true
-    },
-    {
-      "title": "THE DEATH OF NORMALITY (Full Documentary)",
-      "description": "In an age where people have become wired to their screens, what happened to normality?",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
-      "show": "THE DEATH OF NORMALITY",
-      "url": "https://bysurf.tv/supporters/videos/162585",
-      "releaseDate": "2025-09-24",
-      "isFree": false,
-      "isRecommended": true
-    },
-    {
-      "title": "The Biggest Digital Bank Heist",
-      "description": "A North-Korean Cybersecurity Group steals over a billion dollars from Bangladesh..",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x3yk6lse4xx167lpy1zkjbm6itch",
-      "show": "Cyber Ninjas",
-      "url": "https://bysurf.tv/supporters/videos/91024",
-      "releaseDate": "2024-11-20",
-      "isFree": false,
-      "isRecommended": true
-    },
-    {
-      "title": "d4vd: A Devil With An Angel's Voice",
-      "description": "On the 8th of September, a body was found in the front trunk of d4vd's car.. Did he do it?",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/bp4xsp3x5e2i98yuysopq0swwa8a",
-      "show": "TV Edition",
-      "url": "https://bysurf.tv/supporters/videos/162489",
-      "releaseDate": "2025-09-24",
-      "isFree": false,
-      "isRecommended": true
-    },
-    {
       "title": "gl0betr0tter.onion",
       "description": "How a p*do tried to make money out of his illegal acts..",
       "show": "Missing Files",
@@ -232,6 +192,16 @@
       "url": "https://bysurf.tv/supporters/videos/91039",
       "releaseDate": "2025-09-03",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mnq9id0wtmawio6o7klt42rut49d"
+    },
+    {
+      "title": "The Biggest Digital Bank Heist",
+      "description": "A North-Korean Cybersecurity Group steals over a billion dollars from Bangladesh..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x3yk6lse4xx167lpy1zkjbm6itch",
+      "show": "Cyber Ninjas",
+      "url": "https://bysurf.tv/supporters/videos/91024",
+      "releaseDate": "2024-11-20",
+      "isFree": false,
+      "isRecommended": true
     },
     {
       "title": "LAZARUS.NK",
@@ -314,6 +284,24 @@
       "releaseDate": ""
     },
     {
+      "title": "The Disturbing Tea Cult",
+      "description": "On the surface level, the tea dating app seems like a safety tool, made for women who date online. But when looking deeper into the app, we find out it's disturbing tools...",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/if7oz3clnu8e9dtgm6u720sg17zx",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/161213",
+      "releaseDate": "2025-09-20"
+    },
+    {
+      "title": "d4vd: A Devil With An Angel's Voice",
+      "description": "On the 8th of September, a body was found in the front trunk of d4vd's car.. Did he do it?",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/bp4xsp3x5e2i98yuysopq0swwa8a",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/162489",
+      "releaseDate": "2025-09-24",
+      "isFree": false,
+      "isRecommended": true
+    },
+    {
       "title": "ANATAHAN Video 3D Breakdown",
       "description": "Breaking down some of the CGI from the ANATAHAN Video",
       "show": "Behind The Scene",
@@ -336,6 +324,14 @@
       "url": "https://bysurf.tv/supporters/videos/156945",
       "releaseDate": "2025-09-02",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xd290n66vqmzu7imak59pbasd64v"
+    },
+    {
+      "title": "Tea App Documentary Breakdown",
+      "description": "Breaking down some animations & the thumbnail from the Tea App Documentary",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/m6drkj4ykqyeo6hokm1ma727055n",
+      "show": "Behind The Scene",
+      "url": "https://bysurf.tv/supporters/videos/161215",
+      "releaseDate": "2025-09-20"
     },
     {
       "title": "life update",
@@ -446,22 +442,6 @@
       "seasonNumber": 2
     },
     {
-      "title": "The Disturbing Tea Cult",
-      "description": "On the surface level, the tea dating app seems like a safety tool, made for women who date online. But when looking deeper into the app, we find out it's disturbing tools...",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/if7oz3clnu8e9dtgm6u720sg17zx",
-      "show": "TV Edition",
-      "url": "https://bysurf.tv/supporters/videos/161213",
-      "releaseDate": "2025-09-20"
-    },
-    {
-      "title": "Tea App Documentary Breakdown",
-      "description": "Breaking down some animations & the thumbnail from the Tea App Documentary",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/m6drkj4ykqyeo6hokm1ma727055n",
-      "show": "Behind The Scene",
-      "url": "https://bysurf.tv/supporters/videos/161215",
-      "releaseDate": "2025-09-20"
-    },
-    {
       "title": "Why bySurfTV?",
       "description": "Speaking about YouTube's potential downfall + why I made bySurfTV",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x2zwfafk7dbvx073myzz0lnhsryh",
@@ -479,6 +459,26 @@
       "releaseDate": "2025-09-25",
       "seasonNumber": 2,
       "isFree": false
+    },
+    {
+      "title": "THE DEATH OF NORMALITY (Full Documentary)",
+      "description": "In an age where people have become wired to their screens, what happened to normality?",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
+      "show": "THE DEATH OF NORMALITY",
+      "url": "https://bysurf.tv/supporters/videos/162585",
+      "releaseDate": "2025-09-24",
+      "isFree": false,
+      "isRecommended": true
+    },
+    {
+      "title": "The Pursuit Of The World (Full Documentary)",
+      "description": "My story of becoming a content creator..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1qyjnuz41yjy9lt89rhjs00v0rso",
+      "show": "The Pursuit Of The World",
+      "url": "https://bysurf.tv/supporters/video_embeds/102795",
+      "releaseDate": "2025-01-17",
+      "isFree": true,
+      "isRecommended": true
     }
   ],
   "categories": [
