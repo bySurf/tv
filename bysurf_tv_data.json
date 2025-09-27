@@ -197,11 +197,17 @@
       "title": "The Biggest Digital Bank Heist",
       "description": "A North-Korean Cybersecurity Group steals over a billion dollars from Bangladesh..",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x3yk6lse4xx167lpy1zkjbm6itch",
-      "show": "Cyber Ninjas",
+      "show": "Missing Files",
       "url": "https://bysurf.tv/supporters/videos/91024",
       "releaseDate": "2024-11-20",
       "isFree": false,
-      "isRecommended": true
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/qd9zuo8chpqwrlwnjifi9lq3nf9y",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163363",
+      "pillText": "a bySurf Original",
+      "heroTitle": "North Korea's Digital heist",
+      "heroDesc": "A government-funded hacking group steals $1,000,000,000..."
     },
     {
       "title": "LAZARUS.NK",
@@ -484,7 +490,13 @@
       "url": "https://bysurf.tv/supporters/video_embeds/102795",
       "releaseDate": "2025-01-16",
       "isFree": true,
-      "isRecommended": true
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/7ttp8sozizy5gbkywvwyip637x2d",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163364",
+      "pillText": "a Free bySurfTV Exclusive",
+      "heroTitle": "The Pursuit Of The World",
+      "heroDesc": "My personal journey towards content-creation..."
     }
   ],
   "categories": [
