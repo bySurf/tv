@@ -500,6 +500,18 @@
       "pillText": "a Free bySurfTV Exclusive",
       "heroTitle": "The Pursuit Of The World",
       "heroDesc": "My personal journey towards content-creation..."
+    },
+    {
+      "title": "The World Is Ending (Social Media)",
+      "description": "The impact social media used to have has drastically changed, for the worse",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/w3h3y7bpcne7sfcooxd8veg6hy8t",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/video_embeds/163396",
+      "releaseDate": "2025-09-27",
+      "seasonNumber": 2,
+      "isFree": true,
+      "isRecommended": false,
+      "addedToHero": false
     }
   ],
   "categories": [
