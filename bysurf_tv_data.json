@@ -468,7 +468,13 @@
       "url": "https://bysurf.tv/supporters/videos/162585",
       "releaseDate": "2025-09-24",
       "isFree": false,
-      "isRecommended": true
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wqiuz7n3gx6uytuxdk911jrml7t4",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
+      "pillText": "a bySurfTV Exclusive",
+      "heroTitle": "THE DEATH OF NORMALITY",
+      "heroDesc": "Trapped in a age of digital nihilism... What is the escape?"
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
