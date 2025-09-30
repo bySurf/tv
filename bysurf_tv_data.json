@@ -210,7 +210,8 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/164101",
       "pillText": "a Free bySurf Original",
       "heroTitle": "SCAMXSEC",
-      "heroDesc": "Taking  down a $100,000 Scam Call Center..."
+      "heroDesc": "Taking  down a $100,000 Scam Call Center...",
+      "heroOrder": 0
     },
     {
       "title": "Geraldine's Trail",
@@ -242,7 +243,8 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163363",
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
-      "heroDesc": "A government-funded hacking group steals $1,000,000,000..."
+      "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
+      "heroOrder": 1
     },
     {
       "title": "Episode 1",
@@ -519,15 +521,16 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "THE DEATH OF NORMALITY",
-      "heroDesc": "Trapped in a age of digital nihilism... What is the escape?"
+      "heroDesc": "Trapped in a age of digital nihilism... What is the escape?",
+      "heroOrder": 2
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
       "description": "My story of becoming a content creator..",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/uvmb7rbjasu1dee2mqs7lzdn7biz",
-      "show": "The Pursuit Of The World",
+      "show": "SCAMXSEC",
       "url": "https://bysurf.tv/supporters/video_embeds/102795",
-      "releaseDate": "2025-01-16",
+      "releaseDate": "2025-01-08",
       "isFree": true,
       "isRecommended": true,
       "addedToHero": true,
@@ -535,7 +538,8 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163364",
       "pillText": "a Free bySurfTV Exclusive",
       "heroTitle": "The Pursuit Of The World",
-      "heroDesc": "My personal journey towards content-creation..."
+      "heroDesc": "My personal journey towards content-creation...",
+      "heroOrder": 3
     }
   ],
   "categories": [
