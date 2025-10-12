@@ -555,9 +555,8 @@
       "releaseDate": "2025-10-12",
       "seasonNumber": 2,
       "isFree": false,
-      "isRecommended": true,
-      "addedToHero": false,
-      "recommendedOrder": 1
+      "isRecommended": false,
+      "addedToHero": false
     }
   ],
   "categories": [
