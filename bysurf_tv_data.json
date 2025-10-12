@@ -211,7 +211,8 @@
       "pillText": "a Free bySurf Original",
       "heroTitle": "SCAMXSEC",
       "heroDesc": "Taking  down a $100,000 Scam Call Center...",
-      "heroOrder": 0
+      "heroOrder": 0,
+      "recommendedOrder": 0
     },
     {
       "title": "Geraldine's Trail",
@@ -244,7 +245,8 @@
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
       "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
-      "heroOrder": 1
+      "heroOrder": 1,
+      "recommendedOrder": 2
     },
     {
       "title": "Episode 1",
@@ -334,7 +336,8 @@
       "url": "https://bysurf.tv/supporters/videos/162489",
       "releaseDate": "2025-09-24",
       "isFree": false,
-      "isRecommended": true
+      "isRecommended": true,
+      "recommendedOrder": 3
     },
     {
       "title": "ANATAHAN Video 3D Breakdown",
@@ -522,7 +525,8 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "Trapped in a age of digital nihilism... What is the escape?",
-      "heroOrder": 2
+      "heroOrder": 2,
+      "recommendedOrder": 4
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -539,7 +543,21 @@
       "pillText": "a Free bySurfTV Exclusive",
       "heroTitle": "The Pursuit Of The World",
       "heroDesc": "My personal journey towards content-creation...",
-      "heroOrder": 3
+      "heroOrder": 3,
+      "recommendedOrder": 5
+    },
+    {
+      "title": "topics for bySurf YT",
+      "description": "hopefully ending 2025 with some banger investigations :)",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2vwb10eutf08kr3nm891zofk9t7r",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/videos/167039",
+      "releaseDate": "2025-10-12",
+      "seasonNumber": 2,
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": false,
+      "recommendedOrder": 1
     }
   ],
   "categories": [
