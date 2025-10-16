@@ -534,13 +534,12 @@
       "releaseDate": "2025-09-24",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "Trapped in a age of digital nihilism... What is the escape?",
-      "heroOrder": 2,
       "recommendedOrder": 4
     },
     {
