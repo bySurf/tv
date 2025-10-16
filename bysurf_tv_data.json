@@ -228,8 +228,8 @@
       "pillText": "a Free bySurf Original",
       "heroTitle": "SCAMXSEC",
       "heroDesc": "Taking  down a $100,000 Scam Call Center...",
-      "heroOrder": 0,
-      "recommendedOrder": 0
+      "recommendedOrder": 0,
+      "heroOrder": 1
     },
     {
       "title": "Geraldine's Trail",
@@ -262,8 +262,8 @@
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
       "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
-      "heroOrder": 1,
-      "recommendedOrder": 2
+      "recommendedOrder": 2,
+      "heroOrder": 2
     },
     {
       "title": "Episode 1",
@@ -542,8 +542,8 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "Trapped in a age of digital nihilism... What is the escape?",
-      "heroOrder": 2,
-      "recommendedOrder": 4
+      "recommendedOrder": 4,
+      "heroOrder": 3
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -560,8 +560,8 @@
       "pillText": "a Free bySurfTV Exclusive",
       "heroTitle": "The Pursuit Of The World",
       "heroDesc": "My personal journey towards content-creation...",
-      "heroOrder": 3,
-      "recommendedOrder": 5
+      "recommendedOrder": 5,
+      "heroOrder": 4
     },
     {
       "title": "topics for bySurf YT",
@@ -589,7 +589,8 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/168078",
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "The Social Media Apocalypse",
-      "heroDesc": "The Internet is no longer a destination, but a companion to modern life.."
+      "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
+      "heroOrder": 0
     }
   ],
   "categories": [
