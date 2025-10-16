@@ -1,6 +1,23 @@
 {
   "shows": [
     {
+      "title": "The Social Media Apocalypse",
+      "description": "The Internet is no longer a destination, but a companion to modern life..",
+      "tags": [
+        "mini-documentary",
+        "philosophy",
+        "deep",
+        "social media",
+        "reality"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/53jO6Lpdz6kaJM66fGLTjfrZzLk7i6b2q17NK9Warf4/el:0/q:90/sm:1/enc/Y2IyM2RiY2UwMjZj/OTgxMet7hDLLX3F1/o5MqLAj65-yqr61c/7ZsUZeqeKP424eWa/5mq5lZRmyPz3E_xP/EMGJPD4hE2t1eDL2/h0g87OrZyZMJmRZC/Qu2Xi6PXcu5bQasx/HeQuKCV9Ep_aM4MU/kolQ1tgi3M-fsQ1P/21qe0ywTr4s.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/5vAZ161LdsGSws7KxNmDbKQxHK71_fkVMI4LJJhPvDo/el:0/q:90/sm:1/enc/NjZkNThiYzYzZWNj/Y2M4NMDNqKBsHyB0/MEqcvliDDrC-fK7P/fZEsjAfLXSh9Xk9j/SUHWMv2wSruvU3bZ/LnOh0A6fKR5XnCom/dhdd3cR_ViZs0ZXv/9e1L-Mb7_-RuYvDK/xGilcuM4C0CTp-kX/F-PUYm3WQAFCCb61/k96RCIjYgVw.webp",
+      "category": "Philosophy",
+      "creatorLinks": [],
+      "isFree": false
+    },
+    {
       "title": "SCAMXSEC",
       "description": "Taking down a $100,000 Scam Call Center...",
       "tags": [
@@ -153,23 +170,6 @@
       "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp",
       "category": "Commentary",
-      "creatorLinks": [],
-      "isFree": false
-    },
-    {
-      "title": "The Social Media Apocalypse",
-      "description": "The Internet is no longer a destination, but a companion to modern life..",
-      "tags": [
-        "mini-documentary",
-        "philosophy",
-        "deep",
-        "social media",
-        "reality"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/53jO6Lpdz6kaJM66fGLTjfrZzLk7i6b2q17NK9Warf4/el:0/q:90/sm:1/enc/Y2IyM2RiY2UwMjZj/OTgxMet7hDLLX3F1/o5MqLAj65-yqr61c/7ZsUZeqeKP424eWa/5mq5lZRmyPz3E_xP/EMGJPD4hE2t1eDL2/h0g87OrZyZMJmRZC/Qu2Xi6PXcu5bQasx/HeQuKCV9Ep_aM4MU/kolQ1tgi3M-fsQ1P/21qe0ywTr4s.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/5vAZ161LdsGSws7KxNmDbKQxHK71_fkVMI4LJJhPvDo/el:0/q:90/sm:1/enc/NjZkNThiYzYzZWNj/Y2M4NMDNqKBsHyB0/MEqcvliDDrC-fK7P/fZEsjAfLXSh9Xk9j/SUHWMv2wSruvU3bZ/LnOh0A6fKR5XnCom/dhdd3cR_ViZs0ZXv/9e1L-Mb7_-RuYvDK/xGilcuM4C0CTp-kX/F-PUYm3WQAFCCb61/k96RCIjYgVw.webp",
-      "category": "Philosophy",
       "creatorLinks": [],
       "isFree": false
     },
