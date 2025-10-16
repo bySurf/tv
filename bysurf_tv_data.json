@@ -255,13 +255,12 @@
       "releaseDate": "2024-11-20",
       "isFree": true,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/qd9zuo8chpqwrlwnjifi9lq3nf9y",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163363",
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
       "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
-      "heroOrder": 1,
       "recommendedOrder": 2
     },
     {
@@ -553,13 +552,12 @@
       "releaseDate": "2024-11-08",
       "isFree": true,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/7ttp8sozizy5gbkywvwyip637x2d",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163364",
       "pillText": "a Free bySurfTV Exclusive",
       "heroTitle": "The Pursuit Of The World",
-      "heroDesc": "My personal journey towards content-creation...",
-      "heroOrder": 4
+      "heroDesc": "My personal journey towards content-creation..."
     },
     {
       "title": "topics for bySurf YT",
