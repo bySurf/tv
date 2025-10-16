@@ -228,8 +228,8 @@
       "pillText": "a Free bySurf Original",
       "heroTitle": "SCAMXSEC",
       "heroDesc": "Taking  down a $100,000 Scam Call Center...",
-      "recommendedOrder": 0,
-      "heroOrder": 1
+      "heroOrder": 3,
+      "recommendedOrder": 1
     },
     {
       "title": "Geraldine's Trail",
@@ -262,8 +262,8 @@
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
       "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
-      "recommendedOrder": 2,
-      "heroOrder": 2
+      "heroOrder": 1,
+      "recommendedOrder": 2
     },
     {
       "title": "Episode 1",
@@ -542,8 +542,8 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "Trapped in a age of digital nihilism... What is the escape?",
-      "recommendedOrder": 4,
-      "heroOrder": 3
+      "heroOrder": 2,
+      "recommendedOrder": 4
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -553,14 +553,13 @@
       "url": "https://bysurf.tv/supporters/video_embeds/102795",
       "releaseDate": "2024-11-08",
       "isFree": true,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": true,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/7ttp8sozizy5gbkywvwyip637x2d",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163364",
       "pillText": "a Free bySurfTV Exclusive",
       "heroTitle": "The Pursuit Of The World",
       "heroDesc": "My personal journey towards content-creation...",
-      "recommendedOrder": 5,
       "heroOrder": 4
     },
     {
@@ -590,7 +589,8 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "heroOrder": 0
+      "heroOrder": 0,
+      "recommendedOrder": 0
     }
   ],
   "categories": [
