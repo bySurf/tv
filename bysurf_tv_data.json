@@ -244,7 +244,7 @@
       "pillText": "a Free bySurf Original",
       "heroTitle": "SCAMXSEC",
       "heroDesc": "Taking  down a $100,000 Scam Call Center...",
-      "recommendedOrder": 1
+      "recommendedOrder": 0
     },
     {
       "title": "Geraldine's Trail",
@@ -277,7 +277,7 @@
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
       "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
-      "recommendedOrder": 2
+      "recommendedOrder": 1
     },
     {
       "title": "Episode 1",
@@ -367,8 +367,7 @@
       "url": "https://bysurf.tv/supporters/videos/162489",
       "releaseDate": "2025-09-24",
       "isFree": false,
-      "isRecommended": true,
-      "recommendedOrder": 3
+      "isRecommended": false
     },
     {
       "title": "ANATAHAN Video 3D Breakdown",
@@ -556,7 +555,7 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "Trapped in a age of digital nihilism... What is the escape?",
-      "recommendedOrder": 4
+      "recommendedOrder": 3
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -601,8 +600,8 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "recommendedOrder": 0,
-      "heroOrder": 1
+      "heroOrder": 1,
+      "recommendedOrder": 5
     },
     {
       "title": "The Frutiger Era",
@@ -619,7 +618,8 @@
       "pillText": "a deep-dive into the Future of the Past",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
-      "heroOrder": 0
+      "heroOrder": 0,
+      "recommendedOrder": 4
     }
   ],
   "categories": [
