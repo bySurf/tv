@@ -594,13 +594,12 @@
       "releaseDate": "2025-10-16",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/nabcjb3dzl4ijc1l2qx3s02aoh8a",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/168078",
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "heroOrder": 1,
       "recommendedOrder": 5
     },
     {
