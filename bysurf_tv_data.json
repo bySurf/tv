@@ -601,8 +601,8 @@
       "pillText": "a bySurfTV Exclusive",
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "heroOrder": 0,
-      "recommendedOrder": 0
+      "recommendedOrder": 0,
+      "heroOrder": 1
     },
     {
       "title": "The Frutiger Era",
@@ -618,7 +618,8 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
       "pillText": "a deep-dive into the Future of the Past",
       "heroTitle": "The Frutiger Era",
-      "heroDesc": "A deep-dive into Frutiger Aero & it's Origins..."
+      "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
+      "heroOrder": 0
     }
   ],
   "categories": [
