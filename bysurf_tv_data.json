@@ -611,14 +611,13 @@
       "releaseDate": "2025-11-03",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d4nrq3ueix89ml4xmagishgzl6xh",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
       "pillText": "a deep-dive into the Future of the Past",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
-      "recommendedOrder": 4,
-      "heroOrder": 2
+      "recommendedOrder": 4
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
