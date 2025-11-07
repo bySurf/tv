@@ -1,6 +1,55 @@
 {
   "shows": [
     {
+      "title": "The Frutiger Era",
+      "description": "A deep dive into the future we were promised...",
+      "tags": [
+        "documentary",
+        "deep-dive",
+        "nostalgia",
+        "frutiger aero"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/GCDD1T6UjJICF309J9LLgF6hRsaNppBd8Gf48i6RZzc/el:0/q:90/sm:1/enc/Zjc2ZGJkZWJjYTUw/MTFjMZJU_ews7nE1/gU1Bq6fIEr6E_SBo/s6BoFtWrK7xoEypa/O6-LTjiQToCnMVy-/33sHDxUpz5Bfbxyo/gO2cNFSTuqHWZ0rh/YMSQVZSBiInJSID3/eOOcyNCj8LweYS-W/RXJ_EMnBXpcCNEXY/oPUvRRmGD8g.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/nyaGE9tC_I1w8-aKmOYfI3YLJzsesV3WIlcPYoG1OaU/el:0/q:90/sm:1/enc/YTFlY2RhZjE4MjRi/MDQ3NnGEnqFeJPvO/c6638S_I1kxP8qMR/GDCoN1NDcWPRGHNn/o5WitPeBTZ6WxXr4/8P2dV2IDivLFb-Ux/AkNjQQbVCytQWyaV/Et8_DJ2tpKhZuxYB/mdFGpdLUb3_YMNm_/nfvgh15ZI_VAiLiS/sx1yHbd3nqM.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": false
+    },
+    {
+      "title": "The Social Media Apocalypse",
+      "description": "The Internet is no longer a destination, but a companion to modern life..",
+      "tags": [
+        "mini-documentary",
+        "philosophy",
+        "deep",
+        "social media",
+        "reality"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/53jO6Lpdz6kaJM66fGLTjfrZzLk7i6b2q17NK9Warf4/el:0/q:90/sm:1/enc/Y2IyM2RiY2UwMjZj/OTgxMet7hDLLX3F1/o5MqLAj65-yqr61c/7ZsUZeqeKP424eWa/5mq5lZRmyPz3E_xP/EMGJPD4hE2t1eDL2/h0g87OrZyZMJmRZC/Qu2Xi6PXcu5bQasx/HeQuKCV9Ep_aM4MU/kolQ1tgi3M-fsQ1P/21qe0ywTr4s.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/5vAZ161LdsGSws7KxNmDbKQxHK71_fkVMI4LJJhPvDo/el:0/q:90/sm:1/enc/NjZkNThiYzYzZWNj/Y2M4NMDNqKBsHyB0/MEqcvliDDrC-fK7P/fZEsjAfLXSh9Xk9j/SUHWMv2wSruvU3bZ/LnOh0A6fKR5XnCom/dhdd3cR_ViZs0ZXv/9e1L-Mb7_-RuYvDK/xGilcuM4C0CTp-kX/F-PUYm3WQAFCCb61/k96RCIjYgVw.webp",
+      "category": "Philosophy",
+      "creatorLinks": [],
+      "isFree": false
+    },
+    {
+      "title": "SCAMXSEC",
+      "description": "Taking down a $100,000 Scam Call Center...",
+      "tags": [
+        "documentary",
+        "scambaiting",
+        "hacking",
+        "scam-takedown"
+      ],
+      "presents": "a bySurf Original",
+      "banner": "https://imgproxy.fourthwall.com/PUVqUi4oHzeiX-WVVSNIvddfxCIo4cpEvXlHA4gHh_I/el:0/q:90/sm:1/enc/OGQ3ZjFjNmQ5Mjc0/MzE5OYbHHV2p3phC/hFl-4XJatI0Hut4M/UAl7p47_KF-U6NY6/aWpJrLtel5d5GhgY/z0eY7UGNMLml02d8/529jpNK-DsLawfek/CPZD_olO1qeJK1R6/XzhKTOhKoP6sEQNq/ntq8oCt8wgtvfNwk/BKzjUCl62-g.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/6U-0QFQc2dnzRaYMfxjO7X4A5oLnF-7l86KKcb483rY/el:0/q:90/sm:1/enc/ZjMyNDQwYzM3OGJl/ZjBlZAXOPA_5Kjri/0bINUoWJHvg03uGX/XGNGriiEwAE4Xq4y/j3NDrSaRiFNfj3TA/cDiqV4EXfb8oQXDQ/EXCufbmy-ew2RcyF/dHFESGLsOzl9tgWJ/TI7ucktIL2MJTzBz/7NPk2N5uSXbybD72/o_mJLY2nYBE.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": true
+    },
+    {
       "title": "Missing Files",
       "description": "Old bySurf Videos that were either deleted or never published.",
       "tags": [
@@ -45,19 +94,6 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://imgproxy.fourthwall.com/cZ-__dDmNvZBClyFkI4PWVZgnMpe6EmdHu6WdOIZRyc/el:0/q:90/sm:1/enc/OTFiZmY3Yjc5YjRk/MzgxOFNZyb4GM02B/kqbroU02uocXHJpi/rkVJw-2PUnawjwIJ/DxvVYdln9vFZCoHT/racSWAYcrn7pxtvo/RDiIxXrQsgXXjNqb/wp1TzbQTm0U8iZMG/UoGODHzz7pFyitxU/XEWlgxQX4tfs93An/xSCQJ1ZfjtI.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/Y2zEDi8crOgn_J-eTlqIBONopkp5HFPH3QEOCIxjinE/el:0/q:90/sm:1/enc/Y2Y2ZjQ1Yjg4OTNl/YjRiZQX5xr4XFwTm/00kF-WpbFBhplSej/Z-xq8zCXQQ8GkKbY/2a3QDcxxb0E9lYqO/Fcw9-DblgZW7rGVK/JyPz18iyfkX3xegk/oQu8ckHQt3oiuZEq/Aafjd6GpVOIFk6xU/7ooe3eOGiB7zu0tV/dRZdIqKgSA4.webp",
-      "category": "Documentaries",
-      "creatorLinks": []
-    },
-    {
-      "title": "The Pursuit Of The World",
-      "description": "My story of becoming a content creator..",
-      "tags": [
-        "documentary",
-        "motivational"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/OJkNMdVW2KwGJ1H4y8YXmNs9x2FEEh4xvQXOHF2I6Ts/el:0/q:90/sm:1/enc/NTdmOGQ4YmNiMWY5/MGYxMKEzUpcG1g2i/ZfyjJ_X7NANTMhh5/-xzpuhJpFY-sFTSH/S4wQ6_-xSQiqYQ-T/SV98_8pj74Pgtlq2/KpWnemAPR8_QPt2d/MUVTwMtXBV0BOblR/lpjV6OfWzLWmmfL4/BQdFHmcDlz7Ugqj_/BUE7Draechg.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/NKtMuPtGICHzE_Q2vmXvV8-kzD-JBN-N64dQUauOScg/el:0/q:90/sm:1/enc/MjVmNzI2ZGIxMDAy/YThjZCvQvwJjGX6G/Zofh67o8nnGHgG6i/JtSGepCfc3tQcI1b/MC3UC6mh63rpyfVt/XPFUNlXdjWzREjAC/TpSqjS1NUIQWYjjX/ZDfvEqrGqNNtvjQI/ozByfFyvdMgSy_MS/0EXxvpJxjpYm4ros/nsnGDh42vvQ.webp",
       "category": "Documentaries",
       "creatorLinks": []
     },
@@ -143,12 +179,45 @@
       "tags": [
         "Catch Up",
         "Commentary",
-        "Gameplay"
+        "Gameplay",
+        "Podcast"
       ],
       "presents": "a Commentary Series",
       "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp",
       "category": "Commentary",
-      "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp"
+      "creatorLinks": [],
+      "isFree": false
+    },
+    {
+      "title": "THE DEATH OF NORMALITY",
+      "description": "Trapped in an age where people have become wired to their screens...",
+      "tags": [
+        "documentary",
+        "philosophy",
+        "deep"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/-dKhASA5VlzJyIxUMCpEFpBDEdZR9Q_0rKYAM5ZaMq4/el:0/q:90/sm:1/enc/NGQyZDUxYTFiMmE0/YWNlYYZUYqeQY8LD/K0KZ-02Fwp241FdD/sEhez6BzAvHWuEcb/tnxENan_Xun2JGFB/2YrtJchy3ynI5-NC/oOjGmViQHoFDArk5/r7eMMJQVV8O1Q-4Q/KrmpSdkIlfOmTzcR/dgO05aDfd9hqtF1d/yc_pqDmM708.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/OfbjjIpnNUihCJe355ynGNf0u9Lzm108Z6Ycd-clUcQ/el:0/q:90/sm:1/enc/ZTg0MDFmN2Y5MDc3/NTI2ZMGm7dXAQfuc/WaLKPtyD_TVOP-6k/vydPbOXcJsuIZqqP/h4sd5BE1o3Mr0sMr/WNLfKek0oS_fIPou/D4wQBK943yLZ8BEv/lgMa2jJwc5rNeMd8/0FOJxhtVZEkmCOX8/SDopINi8fV43YB8F/HoqdjpizXJI.webp",
+      "category": "Philosophy",
+      "creatorLinks": [],
+      "isFree": false
+    },
+    {
+      "title": "The Pursuit Of The World",
+      "description": "My story of becoming a content creator..",
+      "tags": [
+        "documentary",
+        "motivational",
+        "philosophy"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/OJkNMdVW2KwGJ1H4y8YXmNs9x2FEEh4xvQXOHF2I6Ts/el:0/q:90/sm:1/enc/NTdmOGQ4YmNiMWY5/MGYxMKEzUpcG1g2i/ZfyjJ_X7NANTMhh5/-xzpuhJpFY-sFTSH/S4wQ6_-xSQiqYQ-T/SV98_8pj74Pgtlq2/KpWnemAPR8_QPt2d/MUVTwMtXBV0BOblR/lpjV6OfWzLWmmfL4/BQdFHmcDlz7Ugqj_/BUE7Draechg.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/Xu91o_S6jEGeTGXXqnNts7lArQqqH-b2F4W5aVNplRo/el:0/q:90/sm:1/enc/MTdiMTIzODRmZDg3/MmYzYoX7Y5qwWvI6/PNDxkhCbl0XxZMmQ/eXO1VKVb4e_slvQT/dADCHpGEMlXeXORk/2WoXItS68BSgvTMQ/duGAaDLojK5p5W3N/MGdytB_Acb11OKH6/mt64DA6ktd96Mrl9/o-hoLJUORy1aJnch/X22eUZzt34Y.webp",
+      "category": "Philosophy",
+      "creatorLinks": [],
+      "isFree": true
     }
   ],
   "videos": [
@@ -162,11 +231,20 @@
     },
     {
       "title": "SCAMXSEC",
-      "description": "Shutting down a scam operation.",
-      "show": "Missing Files",
-      "url": "https://bysurf.tv/supporters/videos/91011",
-      "releaseDate": "2025-09-01",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/iohayr8m789ojs259lfu31kgzsv7"
+      "description": "Originally produced in 2023, we took down a $100,000 Scam Call Center...",
+      "show": "SCAMXSEC",
+      "url": "https://bysurf.tv/supporters/video_embeds/164102",
+      "releaseDate": "2024-11-20",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/s1nhmqgv3q00n540fryubjkfjmck",
+      "isFree": true,
+      "isRecommended": true,
+      "addedToHero": false,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/j5gvg75md5me7fuu75ejemngly8x",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/164101",
+      "pillText": "a Free bySurf Original",
+      "heroTitle": "SCAMXSEC",
+      "heroDesc": "Taking  down a $100,000 Scam Call Center...",
+      "recommendedOrder": 0
     },
     {
       "title": "Geraldine's Trail",
@@ -187,34 +265,19 @@
     {
       "title": "The Biggest Digital Bank Heist",
       "description": "A North-Korean Cybersecurity Group steals over a billion dollars from Bangladesh..",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x3yk6lse4xx167lpy1zkjbm6itch",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/klj1are7us6os9fff9fqucgycd9f",
       "show": "Cyber Ninjas",
-      "url": "https://bysurf.tv/supporters/videos/91024",
-      "releaseDate": "2024-11-20"
-    },
-    {
-      "title": "The Disturbing Rabbit Hole Behind Adult Content",
-      "description": "The existence of Explicit Content goes way deeper than just being on Adult Websites..",
-      "show": "TV Edition",
-      "url": "https://bysurf.tv/supporters/videos/97372",
-      "releaseDate": "2025-09-01",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/258en5009mdk2hchktmm3kgobmoy"
-    },
-    {
-      "title": "The Disapperance Of Ben McDaniel",
-      "description": "On the 20th of August 2010, a man named Ben McDaniel goes missing while diving..",
-      "show": "CHILLS",
-      "url": "https://bysurf.tv/supporters/videos/101445",
-      "releaseDate": "2025-09-01",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/k3prrsbtsxtkwqv7iev0pk4du0iq"
-    },
-    {
-      "title": "Trapped On Sea For 76 Days",
-      "description": "A man named Steve Callahan embarks on a journey with his boat, when things suddenly go wrong..",
-      "show": "CHILLS",
-      "url": "https://bysurf.tv/supporters/videos/102430",
-      "releaseDate": "2025-09-01",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vwzrh6ua94u66aptsgi8a4l6798d"
+      "url": "https://bysurf.tv/supporters/video_embeds/163402",
+      "releaseDate": "2024-11-20",
+      "isFree": true,
+      "isRecommended": true,
+      "addedToHero": false,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/qd9zuo8chpqwrlwnjifi9lq3nf9y",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163363",
+      "pillText": "a bySurf Original",
+      "heroTitle": "North Korea's Digital heist",
+      "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
+      "recommendedOrder": 1
     },
     {
       "title": "Episode 1",
@@ -241,12 +304,70 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/k9642dew4rna32q7ls06arqqbo36"
     },
     {
+      "title": "The Disapperance Of Ben McDaniel",
+      "description": "On the 20th of August 2010, a man named Ben McDaniel goes missing while diving..",
+      "show": "CHILLS",
+      "url": "https://bysurf.tv/supporters/videos/101445",
+      "releaseDate": "2025-09-01",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/k3prrsbtsxtkwqv7iev0pk4du0iq"
+    },
+    {
+      "title": "Trapped On Sea For 76 Days",
+      "description": "A man named Steve Callahan embarks on a journey with his boat, when things suddenly go wrong..",
+      "show": "CHILLS",
+      "url": "https://bysurf.tv/supporters/videos/102430",
+      "releaseDate": "2025-09-01",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vwzrh6ua94u66aptsgi8a4l6798d"
+    },
+    {
       "title": "How Paparazzi Killed Princess Diana",
       "description": "Where does the line between journalism and assault get drawn?",
       "show": "PRINCESS DIANA",
       "url": "https://bysurf.tv/supporters/videos/110749",
       "releaseDate": "2025-09-01",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/3lbrjrwovi9u3eavdj9kcd4vb5a5"
+    },
+    {
+      "title": "The Disturbing Rabbit Hole Behind Adult Content",
+      "description": "The existence of Explicit Content goes way deeper than just being on Adult Websites..",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/97372",
+      "releaseDate": "2025-09-01",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/258en5009mdk2hchktmm3kgobmoy"
+    },
+    {
+      "title": "The Troubled Teen Industry",
+      "description": "A Multi-Billion-Dollar Cult..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vlsnchrl5ytu25j7ro58ocf315k0",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/158205",
+      "releaseDate": ""
+    },
+    {
+      "title": "The Disturbing Side Of Discord",
+      "description": "On the surface level, discord seems like a innovative app, but when diving deeper..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/3h7k7trv3rlv3539qy1moztwhkir",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/158212",
+      "releaseDate": ""
+    },
+    {
+      "title": "The Disturbing Tea Cult",
+      "description": "On the surface level, the tea dating app seems like a safety tool, made for women who date online. But when looking deeper into the app, we find out it's disturbing tools...",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/if7oz3clnu8e9dtgm6u720sg17zx",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/161213",
+      "releaseDate": "2025-09-20"
+    },
+    {
+      "title": "d4vd: A Devil With An Angel's Voice",
+      "description": "On the 8th of September, a body was found in the front trunk of d4vd's car.. Did he do it?",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/bp4xsp3x5e2i98yuysopq0swwa8a",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/162489",
+      "releaseDate": "2025-09-24",
+      "isFree": false,
+      "isRecommended": false
     },
     {
       "title": "ANATAHAN Video 3D Breakdown",
@@ -263,6 +384,22 @@
       "url": "https://bysurf.tv/supporters/videos/97461",
       "releaseDate": "2025-09-01",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/pokkswiri38lbpmdak8mfv45srxt"
+    },
+    {
+      "title": "Discord Documentary Breakdown",
+      "description": "Breaking down some edits and the thumbnail from the Discord Documentary",
+      "show": "Behind The Scene",
+      "url": "https://bysurf.tv/supporters/videos/156945",
+      "releaseDate": "2025-09-02",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xd290n66vqmzu7imak59pbasd64v"
+    },
+    {
+      "title": "Tea App Documentary Breakdown",
+      "description": "Breaking down some animations & the thumbnail from the Tea App Documentary",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/m6drkj4ykqyeo6hokm1ma727055n",
+      "show": "Behind The Scene",
+      "url": "https://bysurf.tv/supporters/videos/161215",
+      "releaseDate": "2025-09-20"
     },
     {
       "title": "life update",
@@ -337,22 +474,6 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vfeo9vlgj0e1z0txqh4ybmtdwlwm"
     },
     {
-      "title": "The Pursuit Of The World (Full Documentary)",
-      "description": "My story of becoming a content creator..",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9vn4meyu96sae0v9co4wxz7ieoe5",
-      "show": "The Pursuit Of The World",
-      "url": "https://bysurf.tv/supporters/video_embeds/102795",
-      "releaseDate": "2025-01-17"
-    },
-    {
-      "title": "Discord Documentary Breakdown",
-      "description": "Breaking down some edits and the thumbnail from the Discord Documentary",
-      "show": "Behind The Scene",
-      "url": "https://bysurf.tv/supporters/videos/156945",
-      "releaseDate": "2025-09-02",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xd290n66vqmzu7imak59pbasd64v"
-    },
-    {
       "title": "v2 - we are back",
       "description": "",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/t9zt5u8fzhzbybit7gxh4d3ypfqe",
@@ -371,22 +492,6 @@
       "seasonNumber": 2
     },
     {
-      "title": "The Troubled Teen Industry",
-      "description": "A Multi-Billion-Dollar Cult..",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vlsnchrl5ytu25j7ro58ocf315k0",
-      "show": "TV Edition",
-      "url": "https://bysurf.tv/supporters/videos/158205",
-      "releaseDate": ""
-    },
-    {
-      "title": "The Disturbing Side Of Discord",
-      "description": "On the surface level, discord seems like a innovative app, but when diving deeper..",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/3h7k7trv3rlv3539qy1moztwhkir",
-      "show": "TV Edition",
-      "url": "https://bysurf.tv/supporters/videos/158212",
-      "releaseDate": ""
-    },
-    {
       "title": "is gaming dead?",
       "description": "getting older, companies listening to shareholders and not fans.. is gaming dead?",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/v6gnj46uggxcm5dh9ol8mxf46ddx",
@@ -403,10 +508,124 @@
       "url": "https://bysurf.tv/supporters/videos/158343",
       "releaseDate": "2025-09-07",
       "seasonNumber": 2
+    },
+    {
+      "title": "Why bySurfTV?",
+      "description": "Speaking about YouTube's potential downfall + why I made bySurfTV",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x2zwfafk7dbvx073myzz0lnhsryh",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/videos/161829",
+      "releaseDate": "2025-09-22",
+      "seasonNumber": 2
+    },
+    {
+      "title": "What is up next for bySurf TV and YT",
+      "description": "It's been a great week, finally taking it easy + talking about what's up next + some potential shows for the platform",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/byn4ntl3gxefgvyshi4jr8b6b44j",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/videos/162921",
+      "releaseDate": "2025-09-25",
+      "seasonNumber": 2,
+      "isFree": false
+    },
+    {
+      "title": "The World Is Ending (Social Media)",
+      "description": "The impact social media used to have has drastically changed, for the worse",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/w3h3y7bpcne7sfcooxd8veg6hy8t",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/video_embeds/163396",
+      "releaseDate": "2025-09-30",
+      "seasonNumber": 2,
+      "isFree": true,
+      "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "THE DEATH OF NORMALITY (Full Documentary)",
+      "description": "In an age where people have become wired to their screens, what happened to normality?",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
+      "show": "THE DEATH OF NORMALITY",
+      "url": "https://bysurf.tv/supporters/videos/162585",
+      "releaseDate": "2025-09-23",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
+      "pillText": "a look at the evolution of the screen",
+      "heroTitle": "THE DEATH OF NORMALITY",
+      "heroDesc": "In an age where people have become wired to their screens...",
+      "recommendedOrder": 3,
+      "heroOrder": 1
+    },
+    {
+      "title": "The Pursuit Of The World (Full Documentary)",
+      "description": "My story of becoming a content creator..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/uvmb7rbjasu1dee2mqs7lzdn7biz",
+      "show": "The Pursuit Of The World",
+      "url": "https://bysurf.tv/supporters/video_embeds/102795",
+      "releaseDate": "2024-11-08",
+      "isFree": true,
+      "isRecommended": false,
+      "addedToHero": false,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/7ttp8sozizy5gbkywvwyip637x2d",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163364",
+      "pillText": "a Free bySurfTV Exclusive",
+      "heroTitle": "The Pursuit Of The World",
+      "heroDesc": "My personal journey towards content-creation..."
+    },
+    {
+      "title": "topics for bySurf YT",
+      "description": "hopefully ending 2025 with some banger investigations :)",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2vwb10eutf08kr3nm891zofk9t7r",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/videos/167039",
+      "releaseDate": "2025-10-12",
+      "seasonNumber": 2,
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "The Social Media Apocalypse",
+      "description": "The Internet is no longer a destination, but a companion to modern life..",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/fg1uadv8kwdpfcjco30qbaw2q6ij",
+      "show": "The Social Media Apocalypse",
+      "url": "https://bysurf.tv/supporters/videos/168076",
+      "releaseDate": "2025-10-15",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/nabcjb3dzl4ijc1l2qx3s02aoh8a",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/168078",
+      "pillText": "how Social Media controls you",
+      "heroTitle": "The Social Media Apocalypse",
+      "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
+      "recommendedOrder": 5,
+      "heroOrder": 2
+    },
+    {
+      "title": "The Frutiger Era",
+      "description": "A deep dive into the future we were promised...",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/kjgz3lk58js3khsxvjzznha5u71u",
+      "show": "The Frutiger Era",
+      "url": "https://bysurf.tv/supporters/videos/172537",
+      "releaseDate": "2025-11-03",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d4nrq3ueix89ml4xmagishgzl6xh",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
+      "pillText": "a deep-dive into the Future of the Past",
+      "heroTitle": "The Frutiger Era",
+      "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
+      "recommendedOrder": 4,
+      "heroOrder": 0
     }
   ],
   "categories": [
     "Documentaries",
+    "Philosophy",
     "Commentary",
     "Behind The Scenes"
   ]
