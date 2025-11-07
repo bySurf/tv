@@ -1,22 +1,6 @@
 {
   "shows": [
     {
-      "title": "The Frutiger Era",
-      "description": "A deep dive into the future we were promised...",
-      "tags": [
-        "documentary",
-        "deep-dive",
-        "nostalgia",
-        "frutiger aero"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/GCDD1T6UjJICF309J9LLgF6hRsaNppBd8Gf48i6RZzc/el:0/q:90/sm:1/enc/Zjc2ZGJkZWJjYTUw/MTFjMZJU_ews7nE1/gU1Bq6fIEr6E_SBo/s6BoFtWrK7xoEypa/O6-LTjiQToCnMVy-/33sHDxUpz5Bfbxyo/gO2cNFSTuqHWZ0rh/YMSQVZSBiInJSID3/eOOcyNCj8LweYS-W/RXJ_EMnBXpcCNEXY/oPUvRRmGD8g.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/nyaGE9tC_I1w8-aKmOYfI3YLJzsesV3WIlcPYoG1OaU/el:0/q:90/sm:1/enc/YTFlY2RhZjE4MjRi/MDQ3NnGEnqFeJPvO/c6638S_I1kxP8qMR/GDCoN1NDcWPRGHNn/o5WitPeBTZ6WxXr4/8P2dV2IDivLFb-Ux/AkNjQQbVCytQWyaV/Et8_DJ2tpKhZuxYB/mdFGpdLUb3_YMNm_/nfvgh15ZI_VAiLiS/sx1yHbd3nqM.webp",
-      "category": "Documentaries",
-      "creatorLinks": [],
-      "isFree": false
-    },
-    {
       "title": "The Social Media Apocalypse",
       "description": "The Internet is no longer a destination, but a companion to modern life..",
       "tags": [
@@ -62,6 +46,22 @@
       "thumbnail": "https://imgproxy.fourthwall.com/7d9YvRasZezW11tU5gK-Bb6D2Kgg1JWEcTrqw5zEZ1A/el:0/q:90/sm:1/enc/MTkxZTlmNzVlNDI0/MTIzZsQUFNQlFsKt/9QL1Y17FMeFpaTJQ/Hq2Fp66u_1SUbIhM/zRA5bK9W22e07ldC/Y-wqrpQWolRNOPzL/7rJ05iNCIZNY5Z18/PPZ-h0hpZV5a9LJW/IcfoRWavoOszh1Yt/p_Rak2fedhFY0aYe/9qvm0t-M6bs.webp",
       "category": "Documentaries",
       "creatorLinks": []
+    },
+    {
+      "title": "The Frutiger Era",
+      "description": "A deep dive into the future we were promised...",
+      "tags": [
+        "documentary",
+        "deep-dive",
+        "nostalgia",
+        "frutiger aero"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/GCDD1T6UjJICF309J9LLgF6hRsaNppBd8Gf48i6RZzc/el:0/q:90/sm:1/enc/Zjc2ZGJkZWJjYTUw/MTFjMZJU_ews7nE1/gU1Bq6fIEr6E_SBo/s6BoFtWrK7xoEypa/O6-LTjiQToCnMVy-/33sHDxUpz5Bfbxyo/gO2cNFSTuqHWZ0rh/YMSQVZSBiInJSID3/eOOcyNCj8LweYS-W/RXJ_EMnBXpcCNEXY/oPUvRRmGD8g.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/nyaGE9tC_I1w8-aKmOYfI3YLJzsesV3WIlcPYoG1OaU/el:0/q:90/sm:1/enc/YTFlY2RhZjE4MjRi/MDQ3NnGEnqFeJPvO/c6638S_I1kxP8qMR/GDCoN1NDcWPRGHNn/o5WitPeBTZ6WxXr4/8P2dV2IDivLFb-Ux/AkNjQQbVCytQWyaV/Et8_DJ2tpKhZuxYB/mdFGpdLUb3_YMNm_/nfvgh15ZI_VAiLiS/sx1yHbd3nqM.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": false
     },
     {
       "title": "Geraldine's Trail",
