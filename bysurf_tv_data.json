@@ -556,7 +556,7 @@
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "In an age where people have become wired to their screens...",
       "recommendedOrder": 3,
-      "heroOrder": 3
+      "heroOrder": 1
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -602,7 +602,7 @@
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
       "recommendedOrder": 5,
-      "heroOrder": 2
+      "heroOrder": 0
     },
     {
       "title": "The Frutiger Era",
@@ -620,7 +620,7 @@
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
       "recommendedOrder": 4,
-      "heroOrder": 1
+      "heroOrder": 2
     }
   ],
   "categories": [
