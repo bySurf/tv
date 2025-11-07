@@ -556,7 +556,7 @@
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "In an age where people have become wired to their screens...",
       "recommendedOrder": 3,
-      "heroOrder": 1
+      "heroOrder": 3
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -620,7 +620,7 @@
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
       "recommendedOrder": 4,
-      "heroOrder": 0
+      "heroOrder": 1
     }
   ],
   "categories": [
