@@ -549,14 +549,13 @@
       "releaseDate": "2025-09-23",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
       "pillText": "a look at the evolution of the screen",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "In an age where people have become wired to their screens...",
-      "recommendedOrder": 3,
-      "heroOrder": 1
+      "recommendedOrder": 3
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -595,14 +594,13 @@
       "releaseDate": "2025-10-15",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/nabcjb3dzl4ijc1l2qx3s02aoh8a",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/168078",
       "pillText": "how Social Media controls you",
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "recommendedOrder": 5,
-      "heroOrder": 0
+      "recommendedOrder": 5
     },
     {
       "title": "The Frutiger Era",
@@ -621,6 +619,22 @@
       "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
       "recommendedOrder": 4,
       "heroOrder": 2
+    },
+    {
+      "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
+      "description": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/6wd6f0mkh1y8x0pgs5mltb5rbr1x",
+      "show": "TV Edition",
+      "url": "https://bysurf.tv/supporters/videos/173757",
+      "releaseDate": "2025-11-07",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/jmtzxpnewf2b8uqwvgbsk3yx09oj",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/173768",
+      "pillText": "a web of lies and cults..",
+      "heroTitle": "Jakub Jahl's Curse",
+      "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole..."
     }
   ],
   "categories": [
