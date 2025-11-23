@@ -48,6 +48,20 @@
       "creatorLinks": []
     },
     {
+      "title": "TV Edition",
+      "description": "Supporters get early-access to upcoming documentaries, ad-free.",
+      "tags": [
+        "Early-Access",
+        "Ad-Free",
+        "Documentary"
+      ],
+      "presents": "For Patrons",
+      "banner": "https://imgproxy.fourthwall.com/3UJi9pn_a0hpjZq7XoPZ3lZuvEvjLxyWiGlAYNVX9ns/el:0/q:90/sm:1/enc/NGM0OGMxNTExZjlh/OTAzNxiHOeLeXYKu/4Waemv0T-WwmjOuO/AVPGF_5KeNHZR-V8/2WAPRzmmRw_LR_i1/aPEwq0LCQz5LPJ0p/4LyZw432pL0ft_2_/MDTrMVymV3c6WmtY/3FVxYkgXdKAngEfv/uZxfqZZWDgkbXg6j/iZzh0ZNDg9M.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/M9xekisj6j5IJKz03NyIoDOde3rCTyBtnTdOR8lETPg/el:0/q:90/sm:1/enc/YzQwYzZiYjc3MTgx/MDU2NloefZgnQAHJ/RYMan1ZWAaH96zUh/aYAXB5r3o95yzMIM/61HES3Y3U5xVSTd6/FrZd3hQCe-9s2H-b/pV6VxXYX-Sh6I_KC/ugsqoHLj4QoqLudY/j52ndFSfa3iQX604/zooS6o0i-13zD_wg/rcANRIfnFvQ.webp",
+      "category": "Documentaries",
+      "creatorLinks": []
+    },
+    {
       "title": "The Frutiger Era",
       "description": "A deep dive into the future we were promised...",
       "tags": [
@@ -144,20 +158,6 @@
           "href": "https://x.com/Barnical_"
         }
       ]
-    },
-    {
-      "title": "TV Edition",
-      "description": "Supporters get early-access to upcoming documentaries, ad-free.",
-      "tags": [
-        "Early-Access",
-        "Ad-Free",
-        "Documentary"
-      ],
-      "presents": "For Patrons",
-      "banner": "https://imgproxy.fourthwall.com/3UJi9pn_a0hpjZq7XoPZ3lZuvEvjLxyWiGlAYNVX9ns/el:0/q:90/sm:1/enc/NGM0OGMxNTExZjlh/OTAzNxiHOeLeXYKu/4Waemv0T-WwmjOuO/AVPGF_5KeNHZR-V8/2WAPRzmmRw_LR_i1/aPEwq0LCQz5LPJ0p/4LyZw432pL0ft_2_/MDTrMVymV3c6WmtY/3FVxYkgXdKAngEfv/uZxfqZZWDgkbXg6j/iZzh0ZNDg9M.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/M9xekisj6j5IJKz03NyIoDOde3rCTyBtnTdOR8lETPg/el:0/q:90/sm:1/enc/YzQwYzZiYjc3MTgx/MDU2NloefZgnQAHJ/RYMan1ZWAaH96zUh/aYAXB5r3o95yzMIM/61HES3Y3U5xVSTd6/FrZd3hQCe-9s2H-b/pV6VxXYX-Sh6I_KC/ugsqoHLj4QoqLudY/j52ndFSfa3iQX604/zooS6o0i-13zD_wg/rcANRIfnFvQ.webp",
-      "category": "Documentaries",
-      "creatorLinks": []
     },
     {
       "title": "Behind The Scene",
@@ -555,7 +555,7 @@
       "pillText": "a look at the evolution of the screen",
       "heroTitle": "THE DEATH OF NORMALITY",
       "heroDesc": "In an age where people have become wired to their screens...",
-      "recommendedOrder": 3
+      "recommendedOrder": 2
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -600,7 +600,7 @@
       "pillText": "how Social Media controls you",
       "heroTitle": "The Social Media Apocalypse",
       "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "recommendedOrder": 5
+      "recommendedOrder": 3
     },
     {
       "title": "The Frutiger Era",
@@ -617,8 +617,8 @@
       "pillText": "a deep dive into the Future of the Past",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep dive into the future we were promised...",
-      "recommendedOrder": 4,
-      "heroOrder": 1
+      "recommendedOrder": 5,
+      "heroOrder": 0
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -635,7 +635,8 @@
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
       "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
-      "heroOrder": 0
+      "recommendedOrder": 4,
+      "heroOrder": 1
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
