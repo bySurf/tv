@@ -608,16 +608,17 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/kjgz3lk58js3khsxvjzznha5u71u",
       "show": "The Frutiger Era",
       "url": "https://bysurf.tv/supporters/videos/172537",
-      "releaseDate": "2025-11-03",
+      "releaseDate": "2025-11-02",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": false,
+      "addedToHero": true,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d4nrq3ueix89ml4xmagishgzl6xh",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
-      "pillText": "a deep-dive into the Future of the Past",
+      "pillText": "a deep dive into the Future of the Past",
       "heroTitle": "The Frutiger Era",
-      "heroDesc": "A deep-dive into Frutiger Aero & it's Origins...",
-      "recommendedOrder": 4
+      "heroDesc": "A deep dive into the future we were promised...",
+      "recommendedOrder": 4,
+      "heroOrder": 1
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -633,7 +634,8 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/173768",
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
-      "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole..."
+      "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
+      "heroOrder": 0
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
