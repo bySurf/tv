@@ -611,14 +611,13 @@
       "releaseDate": "2025-11-02",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d4nrq3ueix89ml4xmagishgzl6xh",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
       "pillText": "a deep dive into the Future of the Past",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep dive into the future we were promised...",
-      "recommendedOrder": 5,
-      "heroOrder": 1
+      "recommendedOrder": 5
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -629,14 +628,13 @@
       "releaseDate": "2025-11-07",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/jmtzxpnewf2b8uqwvgbsk3yx09oj",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/173768",
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
       "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
-      "recommendedOrder": 4,
-      "heroOrder": 0
+      "recommendedOrder": 4
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
@@ -648,6 +646,23 @@
       "isFree": false,
       "isRecommended": false,
       "addedToHero": false
+    },
+    {
+      "title": "How the Royal Family Killed Princess Diana",
+      "description": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/985rc8et45xwzat096vx8hgv2cls",
+      "show": "PRINCESS DIANA",
+      "url": "https://bysurf.tv/supporters/videos/186378",
+      "releaseDate": "2025-11-26",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/3qpk5hannllncp3d6j9uq57lrtmj",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/186380",
+      "pillText": "a mind-bender",
+      "heroTitle": "How the Royal Family Killed Princess Diana",
+      "heroDesc": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
+      "heroOrder": 0
     }
   ],
   "categories": [
