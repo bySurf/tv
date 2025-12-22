@@ -558,7 +558,7 @@
       "releaseDate": "2025-09-23",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
       "pillText": "a stance on the screen",
@@ -566,8 +566,7 @@
       "heroDesc": "In an age where people have become wired to their screens, what happened to normality?",
       "recommendedOrder": 2,
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
-      "heroOrder": 2
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe"
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
