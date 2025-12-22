@@ -631,7 +631,7 @@
       "recommendedOrder": 5,
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "heroOrder": 1
+      "heroOrder": 0
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -670,14 +670,15 @@
       "releaseDate": "2025-11-26",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": false,
-      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9lz0ah3bglajsxocacu048maas3o",
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/192727",
-      "pillText": "a mind-bender",
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/3qpk5hannllncp3d6j9uq57lrtmj",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/186380",
+      "pillText": "",
       "heroTitle": "How the Royal Family Killed Princess Diana",
       "heroDesc": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "heroOrder": 1
     },
     {
       "title": "don't try to please the audience (yt)",
