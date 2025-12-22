@@ -619,7 +619,8 @@
       "heroDesc": "A deep dive into the future we were promised...",
       "recommendedOrder": 5,
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5ol1yfrqwbs2h0plsymcddnq3n02"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5ol1yfrqwbs2h0plsymcddnq3n02",
+      "heroOrder": 1
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -664,9 +665,9 @@
       "pillText": "a mind-bender",
       "heroTitle": "How the Royal Family Killed Princess Diana",
       "heroDesc": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
-      "heroOrder": 0,
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "heroOrder": 0
     },
     {
       "title": "don't try to please the audience (yt)",
