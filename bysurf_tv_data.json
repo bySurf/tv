@@ -611,13 +611,15 @@
       "releaseDate": "2025-11-02",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": false,
+      "addedToHero": true,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d4nrq3ueix89ml4xmagishgzl6xh",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
-      "pillText": "a deep dive into the Future of the Past",
+      "pillText": "A nostalgic deep-dive",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep dive into the future we were promised...",
-      "recommendedOrder": 5
+      "recommendedOrder": 5,
+      "heroShowHasLogo": true,
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5ol1yfrqwbs2h0plsymcddnq3n02"
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
