@@ -161,7 +161,10 @@
           "title": "Hosted by Barnes",
           "href": "https://x.com/Barnical_"
         }
-      ]
+      ],
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x"
     },
     {
       "title": "Behind The Scene",
