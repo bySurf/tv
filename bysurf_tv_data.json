@@ -15,7 +15,9 @@
       "thumbnail": "https://imgproxy.fourthwall.com/5vAZ161LdsGSws7KxNmDbKQxHK71_fkVMI4LJJhPvDo/el:0/q:90/sm:1/enc/NjZkNThiYzYzZWNj/Y2M4NMDNqKBsHyB0/MEqcvliDDrC-fK7P/fZEsjAfLXSh9Xk9j/SUHWMv2wSruvU3bZ/LnOh0A6fKR5XnCom/dhdd3cR_ViZs0ZXv/9e1L-Mb7_-RuYvDK/xGilcuM4C0CTp-kX/F-PUYm3WQAFCCb61/k96RCIjYgVw.webp",
       "category": "Philosophy",
       "creatorLinks": [],
-      "isFree": false
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ms7of65nul7krvin0i2uih5vj2r"
     },
     {
       "title": "SCAMXSEC",
@@ -204,7 +206,9 @@
       "thumbnail": "https://imgproxy.fourthwall.com/OfbjjIpnNUihCJe355ynGNf0u9Lzm108Z6Ycd-clUcQ/el:0/q:90/sm:1/enc/ZTg0MDFmN2Y5MDc3/NTI2ZMGm7dXAQfuc/WaLKPtyD_TVOP-6k/vydPbOXcJsuIZqqP/h4sd5BE1o3Mr0sMr/WNLfKek0oS_fIPou/D4wQBK943yLZ8BEv/lgMa2jJwc5rNeMd8/0FOJxhtVZEkmCOX8/SDopINi8fV43YB8F/HoqdjpizXJI.webp",
       "category": "Philosophy",
       "creatorLinks": [],
-      "isFree": false
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe"
     },
     {
       "title": "The Pursuit Of The World",
@@ -551,13 +555,16 @@
       "releaseDate": "2025-09-23",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": false,
+      "addedToHero": true,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
-      "pillText": "a look at the evolution of the screen",
-      "heroTitle": "THE DEATH OF NORMALITY",
-      "heroDesc": "In an age where people have become wired to their screens...",
-      "recommendedOrder": 2
+      "pillText": "a stance on the screen",
+      "heroTitle": "THE DEATH OF NORMALITY (Full Documentary)",
+      "heroDesc": "In an age where people have become wired to their screens, what happened to normality?",
+      "recommendedOrder": 2,
+      "heroShowHasLogo": true,
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
+      "heroOrder": 1
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -622,7 +629,7 @@
       "recommendedOrder": 5,
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "heroOrder": 1
+      "heroOrder": 0
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -669,7 +676,7 @@
       "heroDesc": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "heroOrder": 0
+      "heroOrder": 2
     },
     {
       "title": "don't try to please the audience (yt)",
