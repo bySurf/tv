@@ -279,14 +279,13 @@
       "url": "https://bysurf.tv/supporters/video_embeds/163402",
       "releaseDate": "2024-11-20",
       "isFree": true,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/qd9zuo8chpqwrlwnjifi9lq3nf9y",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163363",
       "pillText": "a bySurf Original",
       "heroTitle": "North Korea's Digital heist",
-      "heroDesc": "A government-funded hacking group steals $1,000,000,000...",
-      "recommendedOrder": 1
+      "heroDesc": "A government-funded hacking group steals $1,000,000,000..."
     },
     {
       "title": "Episode 1",
@@ -564,9 +563,9 @@
       "pillText": "a stance on the screen",
       "heroTitle": "THE DEATH OF NORMALITY (Full Documentary)",
       "heroDesc": "In an age where people have become wired to their screens, what happened to normality?",
-      "recommendedOrder": 2,
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
+      "recommendedOrder": 2
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -604,14 +603,13 @@
       "url": "https://bysurf.tv/supporters/videos/168076",
       "releaseDate": "2025-10-15",
       "isFree": false,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/nabcjb3dzl4ijc1l2qx3s02aoh8a",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/168078",
       "pillText": "how Social Media controls you",
       "heroTitle": "The Social Media Apocalypse",
-      "heroDesc": "The Internet is no longer a destination, but a companion to modern life..",
-      "recommendedOrder": 3
+      "heroDesc": "The Internet is no longer a destination, but a companion to modern life.."
     },
     {
       "title": "The Frutiger Era",
@@ -628,9 +626,9 @@
       "pillText": "A nostalgic deep-dive",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep dive into the future we were promised...",
-      "recommendedOrder": 5,
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
+      "recommendedOrder": 3,
       "heroOrder": 0
     },
     {
@@ -648,7 +646,7 @@
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
       "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
-      "recommendedOrder": 4
+      "recommendedOrder": 1
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
@@ -678,6 +676,7 @@
       "heroDesc": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "recommendedOrder": 4,
       "heroOrder": 1
     },
     {
