@@ -1,6 +1,24 @@
 {
   "shows": [
     {
+      "title": "SCAMXSEC",
+      "description": "Taking down a $100,000 Scam Call Center...",
+      "tags": [
+        "documentary",
+        "scambaiting",
+        "hacking",
+        "scam-takedown"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/PUVqUi4oHzeiX-WVVSNIvddfxCIo4cpEvXlHA4gHh_I/el:0/q:90/sm:1/enc/OGQ3ZjFjNmQ5Mjc0/MzE5OYbHHV2p3phC/hFl-4XJatI0Hut4M/UAl7p47_KF-U6NY6/aWpJrLtel5d5GhgY/z0eY7UGNMLml02d8/529jpNK-DsLawfek/CPZD_olO1qeJK1R6/XzhKTOhKoP6sEQNq/ntq8oCt8wgtvfNwk/BKzjUCl62-g.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/6U-0QFQc2dnzRaYMfxjO7X4A5oLnF-7l86KKcb483rY/el:0/q:90/sm:1/enc/ZjMyNDQwYzM3OGJl/ZjBlZAXOPA_5Kjri/0bINUoWJHvg03uGX/XGNGriiEwAE4Xq4y/j3NDrSaRiFNfj3TA/cDiqV4EXfb8oQXDQ/EXCufbmy-ew2RcyF/dHFESGLsOzl9tgWJ/TI7ucktIL2MJTzBz/7NPk2N5uSXbybD72/o_mJLY2nYBE.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": true,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7"
+    },
+    {
       "title": "The Social Media Apocalypse",
       "description": "The Internet is no longer a destination, but a companion to modern life..",
       "tags": [
@@ -18,22 +36,6 @@
       "isFree": false,
       "showHasLogo": true,
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ms7of65nul7krvin0i2uih5vj2r"
-    },
-    {
-      "title": "SCAMXSEC",
-      "description": "Taking down a $100,000 Scam Call Center...",
-      "tags": [
-        "documentary",
-        "scambaiting",
-        "hacking",
-        "scam-takedown"
-      ],
-      "presents": "a bySurf Original",
-      "banner": "https://imgproxy.fourthwall.com/PUVqUi4oHzeiX-WVVSNIvddfxCIo4cpEvXlHA4gHh_I/el:0/q:90/sm:1/enc/OGQ3ZjFjNmQ5Mjc0/MzE5OYbHHV2p3phC/hFl-4XJatI0Hut4M/UAl7p47_KF-U6NY6/aWpJrLtel5d5GhgY/z0eY7UGNMLml02d8/529jpNK-DsLawfek/CPZD_olO1qeJK1R6/XzhKTOhKoP6sEQNq/ntq8oCt8wgtvfNwk/BKzjUCl62-g.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/6U-0QFQc2dnzRaYMfxjO7X4A5oLnF-7l86KKcb483rY/el:0/q:90/sm:1/enc/ZjMyNDQwYzM3OGJl/ZjBlZAXOPA_5Kjri/0bINUoWJHvg03uGX/XGNGriiEwAE4Xq4y/j3NDrSaRiFNfj3TA/cDiqV4EXfb8oQXDQ/EXCufbmy-ew2RcyF/dHFESGLsOzl9tgWJ/TI7ucktIL2MJTzBz/7NPk2N5uSXbybD72/o_mJLY2nYBE.webp",
-      "category": "Documentaries",
-      "creatorLinks": [],
-      "isFree": true
     },
     {
       "title": "Missing Files",
@@ -247,13 +249,16 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/s1nhmqgv3q00n540fryubjkfjmck",
       "isFree": true,
       "isRecommended": true,
-      "addedToHero": false,
-      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/j5gvg75md5me7fuu75ejemngly8x",
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/164101",
-      "pillText": "a Free bySurf Original",
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/daths3jhs7z1xxrub2pladwevctr",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/194821",
+      "pillText": "",
       "heroTitle": "SCAMXSEC",
-      "heroDesc": "Taking  down a $100,000 Scam Call Center...",
-      "recommendedOrder": 0
+      "heroDesc": "Confronting & shutting down a $100,000 Scam Operation Live..",
+      "recommendedOrder": 0,
+      "heroShowHasLogo": true,
+      "heroLogoUrl": "",
+      "heroOrder": 0
     },
     {
       "title": "Geraldine's Trail",
@@ -677,7 +682,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
       "recommendedOrder": 4,
-      "heroOrder": 0
+      "heroOrder": 2
     },
     {
       "title": "don't try to please the audience (yt)",
