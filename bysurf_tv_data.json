@@ -634,7 +634,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
       "recommendedOrder": 3,
-      "heroOrder": 1
+      "heroOrder": 2
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -667,8 +667,7 @@
     {
       "title": "How the Royal Family Killed Princess Diana",
       "show": "PRINCESS DIANA",
-      "seasonNumber": "1",
-      "episodeNumber": "",
+      "seasonNumber": 1,
       "description": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
       "url": "https://bysurf.tv/supporters/videos/186378",
       "releaseDate": "2025-11-26",
@@ -676,14 +675,16 @@
       "isRecommended": true,
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/985rc8et45xwzat096vx8hgv2cls",
       "addedToHero": true,
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/192727",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/195253",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4",
       "pillText": "",
       "heroTitle": "How the Royal Family Killed Princess Diana",
       "heroDesc": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mxg5sa5kzusimsvepal62a68y3vt",
+      "heroOrder": 1
     },
     {
       "title": "don't try to please the audience (yt)",
