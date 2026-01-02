@@ -614,7 +614,7 @@
       "recommendedOrder": 0,
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "heroOrder": 0
+      "heroOrder": 1
     },
     {
       "title": "The Frutiger Era",
@@ -626,15 +626,15 @@
       "isFree": false,
       "isRecommended": true,
       "addedToHero": true,
-      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d4nrq3ueix89ml4xmagishgzl6xh",
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/172536",
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/y21emhrkd9c3gpc5js6rz2cpjx16",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/195292",
       "pillText": "",
       "heroTitle": "The Frutiger Era",
       "heroDesc": "A deep dive into the future we were promised...",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
       "recommendedOrder": 3,
-      "heroOrder": 2
+      "heroOrder": 0
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -692,7 +692,8 @@
       "heroTitle": "PRINCESS DIANA",
       "heroDesc": "On August 31st, 1997, Princess Diana died in a car crash. Was it a tragic accident or a calculated event? New evidence suggests Diana feared for her life.",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "heroOrder": 2
     }
   ],
   "categories": [
