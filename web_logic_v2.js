@@ -325,34 +325,61 @@ if (show.bannerVideo) {
           }catch(err){ console.error('openShowModal failed:', err); document.getElementById('episodes').innerHTML = '<div style="opacity:.7">Unable to load episodes.</div>'; showModal.classList.add('open'); document.body.classList.add('no-scroll'); }
         }
 
-        function renderHero(items){
-          const hero=document.getElementById('hero'); 
-          const dotsWrap=document.getElementById('hero-dots');
-          hero.innerHTML = `<button class="nav prev" aria-label="Previous">❮</button> <button class="nav next" aria-label="Next">❯</button>`; // Clear old slides, keep nav
-          dotsWrap.innerHTML = '';
-          
-          // Sort items by heroOrder
-          items.sort((a, b) => (a.heroOrder || 0) - (b.heroOrder || 0));
+function renderHero(items) {
+  const hero = document.getElementById('hero'); 
+  const dotsWrap = document.getElementById('hero-dots');
 
-          items.forEach((v,i)=>{
-            const s=document.createElement('div'); s.className='hero-slide'+(i===0?' active':'');
-            if (v.heroBgVideo) {
-  const video = createBackgroundVideo(v.heroBgVideo);
-  s.prepend(video);
+  hero.innerHTML = `
+    <button class="nav prev" aria-label="Previous">❮</button>
+    <button class="nav next" aria-label="Next">❯</button>
+  `;
+  dotsWrap.innerHTML = '';
 
-  const muteBtn = document.createElement('button');
-  muteBtn.className = 'video-mute-btn';
-  muteBtn.textContent = '🔇';
+  // Sort items by heroOrder
+  items.sort((a, b) => (a.heroOrder || 0) - (b.heroOrder || 0));
 
-  muteBtn.onclick = (e) => {
-    e.stopPropagation();
-    video.muted = !video.muted;
-    muteBtn.textContent = video.muted ? '🔇' : '🔊';
-  };
+  items.forEach((v, i) => {
+    const s = document.createElement('div');
+    s.className = 'hero-slide' + (i === 0 ? ' active' : '');
 
-  s.appendChild(muteBtn);
-  s._bgVideo = video;
+    // 🔹 EXISTING background image logic (KEEP THIS)
+    s.style.backgroundImage = `url(${v.bgUrl || ''})`;
+
+    // ==============================
+    // 🔹 HERO BACKGROUND VIDEO LOGIC
+    // ==============================
+    if (v.heroVideo) {
+      const video = createBackgroundVideo(v.heroVideo);
+      s.prepend(video);
+
+      const muteBtn = document.createElement('button');
+      muteBtn.className = 'video-mute-btn';
+      muteBtn.textContent = '🔇';
+
+      muteBtn.onclick = (e) => {
+        e.stopPropagation();
+        video.muted = !video.muted;
+        muteBtn.textContent = video.muted ? '🔇' : '🔊';
+      };
+
+      s.appendChild(muteBtn);
+      s._bgVideo = video;
+
+      // ▶️ autoplay ONLY if this is the first (active) slide
+      if (i === 0) {
+        requestAnimationFrame(() => video.play().catch(() => {}));
+      }
+    }
+    // ==============================
+
+    hero.appendChild(s);
+
+    // dots logic continues here...
+  });
+
+  // rest of renderHero continues...
 }
+
 
             s.style.backgroundImage = `url(${PLACEHOLDER_IMG})`;
             s.setAttribute('data-bg', v.bgUrl || '');
