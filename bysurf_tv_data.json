@@ -269,12 +269,15 @@
       "releaseDate": "2024-11-20",
       "isFree": true,
       "isRecommended": false,
-      "addedToHero": false,
-      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/qd9zuo8chpqwrlwnjifi9lq3nf9y",
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163363",
-      "pillText": "a bySurf Original",
-      "heroTitle": "North Korea's Digital heist",
-      "heroDesc": "A government-funded hacking group steals $1,000,000,000..."
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/m0ujs0t1bxe6r0qieysnoug1dqqy",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/195820",
+      "pillText": "",
+      "heroTitle": "The Biggest Digital Bank Heist",
+      "heroDesc": "Secretly funded by North Korea, a cyber-crime group goes on a hacking-spree and steals billions of dollars...",
+      "heroShowHasLogo": true,
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
+      "heroOrder": 0
     },
     {
       "title": "Episode 1",
@@ -554,7 +557,7 @@
       "heroDesc": "In an age where people have become wired to their screens, what happened to normality?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
-      "recommendedOrder": 2
+      "recommendedOrder": 1
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -615,10 +618,10 @@
       "pillText": "",
       "heroTitle": "SCAMXSEC",
       "heroDesc": "Confronting & shutting down a $100,000 Scam Operation Live..",
-      "recommendedOrder": 0,
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "heroOrder": 1
+      "recommendedOrder": 0,
+      "heroOrder": 2
     },
     {
       "title": "The Frutiger Era",
@@ -637,8 +640,8 @@
       "heroDesc": "A deep dive into the future we were promised...",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "recommendedOrder": 3,
-      "heroOrder": 0
+      "recommendedOrder": 2,
+      "heroOrder": 1
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -655,7 +658,7 @@
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
       "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
-      "recommendedOrder": 1
+      "recommendedOrder": 3
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
@@ -697,7 +700,7 @@
       "heroDesc": "On August 31st, 1997, Princess Diana died in a car crash. Was it a tragic accident or a calculated event? New evidence suggests Diana feared for her life.",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "heroOrder": 2
+      "heroOrder": 3
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
