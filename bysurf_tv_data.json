@@ -277,7 +277,7 @@
       "heroDesc": "Secretly funded by North Korea, a cyber-crime group goes on a hacking-spree and steals billions of dollars...",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
-      "heroOrder": 1
+      "heroOrder": 2
     },
     {
       "title": "Episode 1",
@@ -352,7 +352,7 @@
       "heroDesc": "Troubled Teens are constantly sent to rehab programs to turn their life around. But these programs harbor some of the darkest secrets hidden in the shadows..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/phb2sernwioe6fvyq8im1niechj8",
-      "heroOrder": 0
+      "heroOrder": 1
     },
     {
       "title": "The Disturbing Side Of Discord",
@@ -632,7 +632,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
       "recommendedOrder": 0,
-      "heroOrder": 3
+      "heroOrder": 4
     },
     {
       "title": "The Frutiger Era",
@@ -652,7 +652,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
       "recommendedOrder": 2,
-      "heroOrder": 2
+      "heroOrder": 3
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -711,7 +711,7 @@
       "heroDesc": "On August 31st, 1997, Princess Diana died in a car crash. Was it a tragic accident or a calculated event? New evidence suggests Diana feared for her life.",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "heroOrder": 4
+      "heroOrder": 5
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
@@ -723,7 +723,15 @@
       "seasonNumber": 3,
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": false
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/exoqi20arrhprrcr9mzl4f9dic4x",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/196895",
+      "pillText": "",
+      "heroTitle": "The Progressbar",
+      "heroDesc": "Catching up every now and then and updating you on what's up next on bySurfTV and the YouTube Channel.",
+      "heroShowHasLogo": false,
+      "heroLogoUrl": "",
+      "heroOrder": 0
     }
   ],
   "categories": [
