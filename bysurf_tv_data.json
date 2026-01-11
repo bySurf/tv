@@ -263,7 +263,8 @@
       "heroTitle": "Geraldine's Trail",
       "heroDesc": "A hiker goes on a trip and is disappears off the grid..",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xboimunfqdo62i9bkkr1z57vnfg9"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xboimunfqdo62i9bkkr1z57vnfg9",
+      "heroOrder": 1
     },
     {
       "title": "LAZARUS.NK",
@@ -290,7 +291,7 @@
       "heroDesc": "North Korea's Secret Hacking Group steals Billions..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
-      "heroOrder": 2
+      "heroOrder": 4
     },
     {
       "title": "Episode 1",
@@ -298,7 +299,18 @@
       "show": "NO WAY BACK",
       "url": "https://bysurf.tv/supporters/videos/92213",
       "releaseDate": "2025-09-01",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/na9hi3bvzkljkwfs5qj59xl987gl"
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/na9hi3bvzkljkwfs5qj59xl987gl",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/syjhyciq9eyfs2pucbrieae6met3",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/197349",
+      "pillText": "",
+      "heroTitle": "NO WAY BACK",
+      "heroDesc": "A test flight goes horribly wrong...",
+      "heroShowHasLogo": false,
+      "heroLogoUrl": "",
+      "heroOrder": 0
     },
     {
       "title": "Episode 2",
@@ -365,7 +377,7 @@
       "heroDesc": "Abusive Cults disguised as Teen Rehab Programs..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/tyt1qcx7fp9tpp8qkafm8m6mduda",
-      "heroOrder": 1
+      "heroOrder": 3
     },
     {
       "title": "The Disturbing Side Of Discord",
@@ -645,7 +657,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
       "recommendedOrder": 0,
-      "heroOrder": 5
+      "heroOrder": 7
     },
     {
       "title": "The Frutiger Era",
@@ -665,7 +677,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
       "recommendedOrder": 2,
-      "heroOrder": 3
+      "heroOrder": 5
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -724,7 +736,7 @@
       "heroDesc": "Was Princess Diana killed by her own Family?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "heroOrder": 4
+      "heroOrder": 6
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
@@ -744,7 +756,7 @@
       "heroDesc": "Catching up every now and then and updating you on what's up next on bySurfTV and the YouTube Channel.",
       "heroShowHasLogo": false,
       "heroLogoUrl": "",
-      "heroOrder": 0
+      "heroOrder": 2
     }
   ],
   "categories": [
