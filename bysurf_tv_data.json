@@ -92,7 +92,7 @@
         "mini-documentary"
       ],
       "presents": "a bySurf Original",
-      "banner": "https://imgproxy.fourthwall.com/bCYq2jq7Xh_YHzuQu0cAReFnZcJ_xAXcYxYq4_fVrRU/el:0/q:90/sm:1/enc/OGNhNmQ1Y2E5OTMz/YzM3MlmF0k_HLbqy/h-c6tEM29lOtGIWZ/IgPhfIThpDUlfGQZ/NRmYHqrebEmKi0xK/xMA7CIxZuFTgqD3q/s_JJr2j28DkjdOkR/WSIS4kE0mG-w_qN9/4vx9Ffe8CJGeMUpC/TvAMJ4CX5ybBWC9J/iTWqKDfb4TQ.webp",
+      "banner": "https://imgproxy.fourthwall.com/d21D2qPq3OO-gYGyT2Lafiy1uFwgvbSn2-mY5aS-f74/el:0/q:90/sm:1/enc/YWJmZDVmZTI5ZWU3/MDgzNWAAHIY2gj6i/fWQwojuxUcZOP-DN/Q2SVAQlN6QiIVJIa/W3FvaUlDZqmjATqa/hX54jgldEGWcozr-/MKSaj5kIaJn2uOFN/zxQcrZxXIbPeGf6u/5c6zfJxbTXjGdV1I/lhNlGmWrOHA8LLDp/HvUL0vrZz7o.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/qo1hhiXFFUT0U4ganU9-meGMWq6pNVPTxh6CDuer2qU/el:0/q:90/sm:1/enc/MjI2MDFmODdhMGZi/YzIyNVVNt6LJnIAo/WNjUOeeNknnq0nso/bCuKmgpkG0wIsFFz/XXA04qusi75hgmek/gF0Y2OifeZ4EMuBx/L5M_woAxn-rMNa4m/5FYS2iCEsuwS5iR-/_kwpKRmXAzn_JKo8/UivxU35owwls-YJJ/TpjgQHjDy_E.webp",
       "category": "Documentaries",
       "creatorLinks": [
@@ -100,7 +100,10 @@
           "title": "Hosted by Barnes",
           "href": "https://x.com/barnical_"
         }
-      ]
+      ],
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": ""
     },
     {
       "title": "Cyber Ninjas",
@@ -250,7 +253,17 @@
       "show": "Geraldine's Trail",
       "url": "https://bysurf.tv/supporters/videos/91039",
       "releaseDate": "2025-09-03",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mnq9id0wtmawio6o7klt42rut49d"
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mnq9id0wtmawio6o7klt42rut49d",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mrek17vbgo24j9vhostkcfptlz48",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/197328",
+      "pillText": "",
+      "heroTitle": "Geraldine's Trail",
+      "heroDesc": "A hiker goes on a trip and is disappears off the grid..",
+      "heroShowHasLogo": true,
+      "heroLogoUrl": ""
     },
     {
       "title": "LAZARUS.NK",
