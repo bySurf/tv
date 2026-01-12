@@ -1,6 +1,24 @@
 {
   "shows": [
     {
+      "title": "MAGNOTTA",
+      "description": "Luka Magnotta, is on a mission to become as famous as possible. But to what lengths does he go to achieve this?",
+      "tags": [
+        "documentary",
+        "serial-killer",
+        "true-crime",
+        "investigation"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/M1VC9gs4HeHBhWUyrv3SBeVN3a7thjZcjPnUO53_KxY/el:0/q:90/sm:1/enc/MTVmNDgzZWE1MzVm/M2JkOJHB7rdUz3B9/MKD7p-XoDVW3xkiX/SCYfDIm0iNyCORyp/S1Prq-NEHoTE38mi/wWzlIK2oFoWwHBBc/YuOrxQwky1c4ZaoV/Z0tk943zHUJCBKkQ/3UrbQUII-UrRBWAL/IKSYCOXAb1ZGRmpy/8GWbdkftv5w.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/kDxH4nGT2TBrXzRwJxE5Oc2IQZKRKPnBvmZjFD8EqaA/el:0/q:90/sm:1/enc/YTIxM2NmNTE2NmIz/YTA2N6Au4Yz8gs1a/MZyxRhGj33gO_6fq/2HfO5NWe4a9IkKTE/B0rWoV551CKbk49s/9x0hBsrtb9A5biVQ/z1BUP-ECHYCVs0lu/9N-Q79WXlpBDNlrq/Z71C-fnFkBHHgrjq/n6X-P_w-5by0yvDC/-L5-_G4j-Ls.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x9l22b36k0rz8d4eeg734wkp7pec"
+    },
+    {
       "title": "SCAMXSEC",
       "description": "Taking down a $100,000 Scam Call Center...",
       "tags": [
@@ -656,8 +674,8 @@
       "heroDesc": "Confronting & shutting down a $100,000 Scam Operation Live..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "recommendedOrder": 0,
-      "heroOrder": 7
+      "heroOrder": 7,
+      "recommendedOrder": 2
     },
     {
       "title": "The Frutiger Era",
@@ -676,8 +694,8 @@
       "heroDesc": "A deep dive into the future we were promised...",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "recommendedOrder": 2,
-      "heroOrder": 5
+      "heroOrder": 5,
+      "recommendedOrder": 3
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -694,7 +712,7 @@
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
       "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
-      "recommendedOrder": 3
+      "recommendedOrder": 4
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
@@ -757,6 +775,18 @@
       "heroShowHasLogo": false,
       "heroLogoUrl": "",
       "heroOrder": 2
+    },
+    {
+      "title": "Magotta: A Disturbed Internet Killer",
+      "description": "A failed Model wants to become famous.. by any means.",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ojbbayok2x2o87tlbqtw87736hph",
+      "show": "MAGNOTTA",
+      "url": "https://bysurf.tv/supporters/videos/197648",
+      "releaseDate": "2024-07-14",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": false,
+      "recommendedOrder": 0
     }
   ],
   "categories": [
