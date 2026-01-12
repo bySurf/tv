@@ -56,18 +56,22 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x9l22b36k0rz8d4eeg734wkp7pec"
     },
     {
-      "title": "Missing Files",
-      "description": "Old bySurf Videos that were either deleted or never published.",
+      "title": ".ORG",
+      "description": "How far would teenagers go to achieve a desired look?",
       "tags": [
-        "Archive",
-        "Old Content",
-        "Documentary"
+        "documentary",
+        "deep-dive",
+        "internet trends",
+        "disturbing beauty trends"
       ],
-      "presents": "a bySurf Archive",
-      "banner": "https://imgproxy.fourthwall.com/c1DbLQEax-EbzthcLkQYGzVBg-pCJ8Yinl_POte9C20/el:0/q:90/sm:1/enc/YmQwZjFlODZhMzk1/MGU2ZH0IegR55hFT/uTNi_Z5ddJKovQUE/sGn86H5-gI8Dmz5-/ddLuU9Vm-2NVaerf/r6Eye5pZQaaAhGxD/4_7Z3ZNvmdCwBWbt/-LAyDz-14yBMige0/_Nk_7dwatXcSIJHe/TP5Yb4zCE4dZSakX/FHw4ubBkWzk.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/7d9YvRasZezW11tU5gK-Bb6D2Kgg1JWEcTrqw5zEZ1A/el:0/q:90/sm:1/enc/MTkxZTlmNzVlNDI0/MTIzZsQUFNQlFsKt/9QL1Y17FMeFpaTJQ/Hq2Fp66u_1SUbIhM/zRA5bK9W22e07ldC/Y-wqrpQWolRNOPzL/7rJ05iNCIZNY5Z18/PPZ-h0hpZV5a9LJW/IcfoRWavoOszh1Yt/p_Rak2fedhFY0aYe/9qvm0t-M6bs.webp",
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/-7x7Kc5AR-jV5COd6CwqzfTc-WLkl2gOQMJxq_ER5vA/el:0/q:90/sm:1/enc/NWU2N2JjMWYzYjNl/MjcwZVy1QZw_P3i8/23024ayxVyZxzbSn/e036K4FqZppsLDi2/mf3CKQ4GxA46GN6r/c8HvikMb9HiL0hFF/w7WDhoWOvdbG4SUW/fLbMukbbVuOP1piJ/9vNeocSaR_ENLj3i/jW5F_ig32GSom_KQ/cMKuIFRcW7s.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/leq83qNgxeWxxVWN-DtzfeVbGMk13k2TkDz7th571uw/el:0/q:90/sm:1/enc/ZDA3YmI5NDMxYTc5/MzM1NzLJ_9WeYxU_/9D1DMLDR_Huq4oTy/_1TRVOYHomp55Qn5/FH19k9SyomP-qXvo/Kt619gvw2U5nUncI/D1p1UdB9vB-ZAEEz/ZrsOsY8AhnBn7wrd/JOOGwkVUG7feeOgg/zY4YW7aHuUBue0On/PkEev-l-FZk.webp",
       "category": "Documentaries",
-      "creatorLinks": []
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vtlha3g9gabwv09xtl79vvd0jlw3"
     },
     {
       "title": "TV Edition",
@@ -80,6 +84,20 @@
       "presents": "For Patrons",
       "banner": "https://imgproxy.fourthwall.com/3UJi9pn_a0hpjZq7XoPZ3lZuvEvjLxyWiGlAYNVX9ns/el:0/q:90/sm:1/enc/NGM0OGMxNTExZjlh/OTAzNxiHOeLeXYKu/4Waemv0T-WwmjOuO/AVPGF_5KeNHZR-V8/2WAPRzmmRw_LR_i1/aPEwq0LCQz5LPJ0p/4LyZw432pL0ft_2_/MDTrMVymV3c6WmtY/3FVxYkgXdKAngEfv/uZxfqZZWDgkbXg6j/iZzh0ZNDg9M.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/M9xekisj6j5IJKz03NyIoDOde3rCTyBtnTdOR8lETPg/el:0/q:90/sm:1/enc/YzQwYzZiYjc3MTgx/MDU2NloefZgnQAHJ/RYMan1ZWAaH96zUh/aYAXB5r3o95yzMIM/61HES3Y3U5xVSTd6/FrZd3hQCe-9s2H-b/pV6VxXYX-Sh6I_KC/ugsqoHLj4QoqLudY/j52ndFSfa3iQX604/zooS6o0i-13zD_wg/rcANRIfnFvQ.webp",
+      "category": "Documentaries",
+      "creatorLinks": []
+    },
+    {
+      "title": "Missing Files",
+      "description": "Old bySurf Videos that were either deleted or never published.",
+      "tags": [
+        "Archive",
+        "Old Content",
+        "Documentary"
+      ],
+      "presents": "a bySurf Archive",
+      "banner": "https://imgproxy.fourthwall.com/c1DbLQEax-EbzthcLkQYGzVBg-pCJ8Yinl_POte9C20/el:0/q:90/sm:1/enc/YmQwZjFlODZhMzk1/MGU2ZH0IegR55hFT/uTNi_Z5ddJKovQUE/sGn86H5-gI8Dmz5-/ddLuU9Vm-2NVaerf/r6Eye5pZQaaAhGxD/4_7Z3ZNvmdCwBWbt/-LAyDz-14yBMige0/_Nk_7dwatXcSIJHe/TP5Yb4zCE4dZSakX/FHw4ubBkWzk.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/7d9YvRasZezW11tU5gK-Bb6D2Kgg1JWEcTrqw5zEZ1A/el:0/q:90/sm:1/enc/MTkxZTlmNzVlNDI0/MTIzZsQUFNQlFsKt/9QL1Y17FMeFpaTJQ/Hq2Fp66u_1SUbIhM/zRA5bK9W22e07ldC/Y-wqrpQWolRNOPzL/7rJ05iNCIZNY5Z18/PPZ-h0hpZV5a9LJW/IcfoRWavoOszh1Yt/p_Rak2fedhFY0aYe/9qvm0t-M6bs.webp",
       "category": "Documentaries",
       "creatorLinks": []
     },
@@ -787,6 +805,17 @@
       "isRecommended": true,
       "addedToHero": false,
       "recommendedOrder": 0
+    },
+    {
+      "title": ".ORG: A Dangerous Online Forum",
+      "description": "How far would teenagers go to achieve a desired look? This video delves deep into a online-forum dedicated to the online trend \"looksmaxxing\".",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/btwegx9uux0b1mqu0aq4woznvmu6",
+      "show": ".ORG",
+      "url": "https://bysurf.tv/supporters/videos/197775",
+      "releaseDate": "2024-08-07",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
     }
   ],
   "categories": [
