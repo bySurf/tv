@@ -462,6 +462,15 @@ linear-gradient(to left, transparent 50%, #0F0F0F 90%);
 
 @media (max-width: 768px) {
 
+
+  .show-banner{
+    height: 50% !important;
+  }
+
+  .show-content{
+    top: 50% !important;
+  }
+
   .show-modal-logo{
     width: 100%;
     max-width: unset;
@@ -653,4 +662,3 @@ linear-gradient(to left, transparent 50%, #0F0F0F 90%);
     align-self: unset;
   }
 }
-
