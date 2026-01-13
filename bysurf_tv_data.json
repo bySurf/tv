@@ -102,6 +102,24 @@
       "creatorLinks": []
     },
     {
+      "title": "ANATAHAN",
+      "description": "A woman is trapped on a island with 11 men.. Will she use herself to gain power amongst the soldiers or live amongst each other as equals?",
+      "tags": [
+        "mini-documentary",
+        "animated documentary",
+        "war story",
+        "japan"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/SIjMoBPERyjl1TbcrBNAkVPdEF5QpUHVJ4Qjab-LEBc/el:0/q:90/sm:1/enc/NDMyNWQzYzMxYzMx/YmY5OZXVO2usqEW8/ZYBB5NTbODyz3pqk/Ed62azaYVDZvSbn6/CWJS35Ao9iNyEjJq/ABRt9VM5EHgRyV4J/EEPW7PLPPFLO4vPw/2N4DS-WbXSubKeEM/blHq75ihfYN9l06J/TaXuwnu3wqSf36xk/nkyrwdw9eBg.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/KBFYbSdEFgRN0Qytzx05SgcQGepk7DzC7VLmFwzrDCU/el:0/q:90/sm:1/enc/NzI3MzQ0YzM3MTNk/MzNlMTFcsjtF4YpO/Su_-mx8Afh_WCp7P/P97nXMYiE7UY6y6v/asxZzSA7SxOKzzC2/28FUcjgFnUwPWadx/3oQWdTorMTjRPDY6/JjqU5YknsgaIpFU_/6gz6L2AnfHu9JLla/NLyP-q16DxaD5dGR/UzwnJrSiu9s.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/e6fps9gopw3fwa1uvd263aqe3zpv"
+    },
+    {
       "title": "The Frutiger Era",
       "description": "A deep dive into the future we were promised...",
       "tags": [
@@ -677,7 +695,7 @@
     },
     {
       "title": "SCAMXSEC",
-      "description": "Originally produced in 2023, we took down a $100,000 Scam Call Center...",
+      "description": "16 Minutes",
       "show": "SCAMXSEC",
       "url": "https://bysurf.tv/supporters/video_embeds/164102",
       "releaseDate": "2024-11-20",
@@ -813,6 +831,17 @@
       "show": ".ORG",
       "url": "https://bysurf.tv/supporters/videos/197775",
       "releaseDate": "2024-08-07",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "ANATAHAN",
+      "description": "7 Minutes",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/zmuk4qxr2xvlhmefkyfa48svwcz0",
+      "show": "ANATAHAN",
+      "url": "https://bysurf.tv/supporters/videos/197999",
+      "releaseDate": "",
       "isFree": false,
       "isRecommended": false,
       "addedToHero": false
