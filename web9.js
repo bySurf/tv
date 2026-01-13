@@ -1,9 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
         const DATA_URL = 'https://bysurf.github.io/tv/bysurf_tv_data.json';
         const PLACEHOLDER_IMG = 'https://imgproxy.fourthwall.com/NGtTO-xePFSZdb5LAhcDCr3XNJqbjfENjyEBhj3iuwg/rt:fill/w:890/el:0/q:90/sm:1/enc/OWI1ZjVmZWY3YzFl/NTU3MhnnXWS1kcOe/jMySDjmqYEIrQsny/BKsT-ZtwEAE_BOqy/SEdbRIPEeHAY5Wc4/Pf6vugezBG5nV_2Q/4pdiBMDSBVWkrmq1/HsM_1Kt1tsThv_Cm/jT5yLyH3U-f_N9L2/3fZfgDs7zHsdRfPi/hCLoWk1VnrE.webp';
+// --- Add this to the top of web-logic.js ---
+
 function getResizedUrl(url, width) {
   if (!url) return '';
+  // If it's a data URL or blob, don't touch it
   if (url.startsWith('data:') || url.startsWith('blob:')) return url;
+  
+  // Wrap the url in wsrv.nl
+  // w = width, q = quality (80 is good balance), output = webp (smaller file size)
   return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&q=80&output=webp`;
 }
 
@@ -182,7 +188,7 @@ div.innerHTML=`<div style="position:relative">${freeTag}<img class="thumb lazy-i
             el.innerHTML = `
                 <div class="ep-thumb-wrap">
                     ${freeTag}
-                    <img class="lazy-img" src="${PLACEHOLDER_IMG}" data-src="${getResizedUrl(v.thumbnail, 300)}" alt='${v.title}'/>
+                    <img class="lazy-img" src="${getResizedUrl(v.thumbnail, 400)}" data-src="${getResizedUrl(v.thumbnail, 400)}" alt='${v.title}'/>
                 </div>
                 <div>
                     <div class='n'>${label||''}</div>
@@ -206,7 +212,7 @@ div.innerHTML=`<div style="position:relative">${freeTag}<img class="thumb lazy-i
             banner.classList.remove('loaded');
             banner.style.backgroundImage = `url(${PLACEHOLDER_IMG})`;
             const bannerUrl = show.banner || show.thumbnail || '';
-banner.setAttribute('data-bg', getResizedUrl(bannerUrl, 800));
+            banner.setAttribute('data-bg', getResizedUrl(bannerUrl, 900));
             
             presents.textContent = show.presents||''; presents.style.display = show.presents? 'inline-block':'none';
             
@@ -562,7 +568,7 @@ videos.forEach(v => {
 
 db.shows.forEach(s => {
     if(s.thumbnail) imageUrls.add(getResizedUrl(s.thumbnail, 400));
-    if(s.banner) imageUrls.add(getResizedUrl(s.banner, 800));
+    if(s.banner) imageUrls.add(getResizedUrl(s.banner, 900));
     if(s.showHasLogo && s.showLogoUrl) imageUrls.add(s.showLogoUrl);
 });
 
