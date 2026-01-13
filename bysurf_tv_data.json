@@ -293,9 +293,43 @@
     }
   ],
   "videos": [
+        {
+      "title": "Magnotta: A Disturbed Internet Killer",
+      "description": "16 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ojbbayok2x2o87tlbqtw87736hph",
+      "show": "MAGNOTTA",
+      "url": "https://bysurf.tv/supporters/videos/197648",
+      "releaseDate": "2024-07-14",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": false,
+      "recommendedOrder": 0
+    },
+    {
+      "title": ".ORG: A Dangerous Online Forum",
+      "description": "13 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/btwegx9uux0b1mqu0aq4woznvmu6",
+      "show": ".ORG",
+      "url": "https://bysurf.tv/supporters/videos/197775",
+      "releaseDate": "2024-08-07",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "ANATAHAN",
+      "description": "7 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/zmuk4qxr2xvlhmefkyfa48svwcz0",
+      "show": "ANATAHAN",
+      "url": "https://bysurf.tv/supporters/videos/197999",
+      "releaseDate": "",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
+    },
     {
       "title": "gl0betr0tter.onion",
-      "description": "How a p*do tried to make money out of his illegal acts..",
+      "description": "6 Min",
       "show": "Missing Files",
       "url": "https://bysurf.tv/supporters/videos/91032",
       "releaseDate": "2025-09-01",
@@ -303,7 +337,7 @@
     },
     {
       "title": "Geraldine's Trail",
-      "description": "Geraldine Largay goes on a hiking trip and never gets found again..",
+      "description": "6 Min",
       "show": "Geraldine's Trail",
       "url": "https://bysurf.tv/supporters/videos/91039",
       "releaseDate": "2025-09-03",
@@ -322,7 +356,7 @@
     },
     {
       "title": "LAZARUS.NK",
-      "description": "North Korea's Hacking Group Steals $60 Million in Crypto..",
+      "description": "5 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/q11wtdki3bshn0g7qb47sdt5fvsm",
       "show": "Cyber Ninjas",
       "url": "https://bysurf.tv/supporters/videos/91028",
@@ -330,7 +364,7 @@
     },
     {
       "title": "The Biggest Digital Bank Heist",
-      "description": "A North-Korean Cybersecurity Group steals over a billion dollars from Bangladesh..",
+      "description": "13 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/klj1are7us6os9fff9fqucgycd9f",
       "show": "Cyber Ninjas",
       "url": "https://bysurf.tv/supporters/video_embeds/163402",
@@ -349,7 +383,7 @@
     },
     {
       "title": "Episode 1",
-      "description": "In 1967, 3 astronauts embark on their final test flight..",
+      "description": "2 Min",
       "show": "NO WAY BACK",
       "url": "https://bysurf.tv/supporters/videos/92213",
       "releaseDate": "2025-09-01",
@@ -368,7 +402,7 @@
     },
     {
       "title": "Episode 2",
-      "description": "Chaos erupts as pure oxygen floods the Apollo 1 Cabin..",
+      "description": "3 Min",
       "show": "NO WAY BACK",
       "url": "https://bysurf.tv/supporters/videos/92360",
       "releaseDate": "2025-09-01",
@@ -376,7 +410,7 @@
     },
     {
       "title": "NO WAY BACK - FINALE",
-      "description": "As the rescue team opens the cabin, they uncover a disturbing scene..",
+      "description": "3 Min",
       "show": "NO WAY BACK",
       "url": "https://bysurf.tv/supporters/videos/92377",
       "releaseDate": "2025-09-01",
@@ -384,7 +418,7 @@
     },
     {
       "title": "The Disapperance Of Ben McDaniel",
-      "description": "On the 20th of August 2010, a man named Ben McDaniel goes missing while diving..",
+      "description": "8 Min",
       "show": "CHILLS",
       "url": "https://bysurf.tv/supporters/videos/101445",
       "releaseDate": "2025-09-01",
@@ -392,7 +426,7 @@
     },
     {
       "title": "Trapped On Sea For 76 Days",
-      "description": "A man named Steve Callahan embarks on a journey with his boat, when things suddenly go wrong..",
+      "description": "6 Min",
       "show": "CHILLS",
       "url": "https://bysurf.tv/supporters/videos/102430",
       "releaseDate": "2025-09-01",
@@ -400,7 +434,7 @@
     },
     {
       "title": "How Paparazzi Killed Princess Diana",
-      "description": "Where does the line between journalism and assault get drawn?",
+      "description": "10 Min",
       "show": "PRINCESS DIANA",
       "url": "https://bysurf.tv/supporters/videos/110749",
       "releaseDate": "2025-09-01",
@@ -408,7 +442,7 @@
     },
     {
       "title": "The Disturbing Rabbit Hole Behind Adult Content",
-      "description": "The existence of Explicit Content goes way deeper than just being on Adult Websites..",
+      "description": "19 Min",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/97372",
       "releaseDate": "2025-09-01",
@@ -416,7 +450,7 @@
     },
     {
       "title": "The Troubled Teen Industry",
-      "description": "A Multi-Billion-Dollar Cult..",
+      "description": "17 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vlsnchrl5ytu25j7ro58ocf315k0",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/158205",
@@ -435,7 +469,7 @@
     },
     {
       "title": "The Disturbing Side Of Discord",
-      "description": "On the surface level, discord seems like a innovative app, but when diving deeper..",
+      "description": "25 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/3h7k7trv3rlv3539qy1moztwhkir",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/158212",
@@ -443,7 +477,7 @@
     },
     {
       "title": "The Disturbing Tea Cult",
-      "description": "On the surface level, the tea dating app seems like a safety tool, made for women who date online. But when looking deeper into the app, we find out it's disturbing tools...",
+      "description": "15 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/if7oz3clnu8e9dtgm6u720sg17zx",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/161213",
@@ -451,7 +485,7 @@
     },
     {
       "title": "d4vd: A Devil With An Angel's Voice",
-      "description": "On the 8th of September, a body was found in the front trunk of d4vd's car.. Did he do it?",
+      "description": "12 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/bp4xsp3x5e2i98yuysopq0swwa8a",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/162489",
@@ -461,7 +495,7 @@
     },
     {
       "title": "ANATAHAN Video 3D Breakdown",
-      "description": "Breaking down some of the CGI from the ANATAHAN Video",
+      "description": "11 Min",
       "show": "Behind The Scene",
       "url": "https://bysurf.tv/supporters/videos/90993",
       "releaseDate": "2025-09-01",
@@ -469,7 +503,7 @@
     },
     {
       "title": "TDRBAC Breakdown",
-      "description": "Breaking down some scenes from the adult content rabbit hole video.",
+      "description": "11 Min",
       "show": "Behind The Scene",
       "url": "https://bysurf.tv/supporters/videos/97461",
       "releaseDate": "2025-09-01",
@@ -477,7 +511,7 @@
     },
     {
       "title": "Discord Documentary Breakdown",
-      "description": "Breaking down some edits and the thumbnail from the Discord Documentary",
+      "description": "21 Min",
       "show": "Behind The Scene",
       "url": "https://bysurf.tv/supporters/videos/156945",
       "releaseDate": "2025-09-02",
@@ -485,7 +519,7 @@
     },
     {
       "title": "Tea App Documentary Breakdown",
-      "description": "Breaking down some animations & the thumbnail from the Tea App Documentary",
+      "description": "19 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/m6drkj4ykqyeo6hokm1ma727055n",
       "show": "Behind The Scene",
       "url": "https://bysurf.tv/supporters/videos/161215",
@@ -493,7 +527,7 @@
     },
     {
       "title": "life update",
-      "description": "what's been going on  -  start of progressbar",
+      "description": "10 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/90990",
       "releaseDate": "2025-09-02",
@@ -501,7 +535,7 @@
     },
     {
       "title": "recoupe at the end of a long week",
-      "description": "its been a long week, so why not talk about what ive been up to and how i have improved my work efficiency",
+      "description": "13 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/91504",
       "releaseDate": "2025-09-02",
@@ -509,7 +543,7 @@
     },
     {
       "title": "yo im tired im ngl",
-      "description": "alll nighter. talking about a idea i had for the bysurf channel in terms of evolving the visual style",
+      "description": "21 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/93019",
       "releaseDate": "2025-09-02",
@@ -517,7 +551,7 @@
     },
     {
       "title": "FINALLY DONE WITH THE VIDEO",
-      "description": "FINALLY DONE WITH THE VIDEO",
+      "description": "10 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/97459",
       "releaseDate": "2025-09-02",
@@ -525,7 +559,7 @@
     },
     {
       "title": "we made it through the year",
-      "description": "sliding into the new year with a lil progressbar ep",
+      "description": "15 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/99181",
       "releaseDate": "2025-09-02",
@@ -533,7 +567,7 @@
     },
     {
       "title": "I PROMISE I AM WORKING ON NEW PATRON DOCS!!",
-      "description": "I PROMISE I AM WORKING ON NEW PATRON DOCS!!",
+      "description": "5 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/100352",
       "releaseDate": "2025-09-02",
@@ -541,7 +575,7 @@
     },
     {
       "title": "New (Anime) In The Works??",
-      "description": "New (Anime) In The Works??",
+      "description": "4 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/101561",
       "releaseDate": "2025-09-02",
@@ -549,7 +583,7 @@
     },
     {
       "title": "Finally slowing down a bit",
-      "description": "Leave comments below on what you want docs you want here and on YouTube!!!",
+      "description": "9 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/103077",
       "releaseDate": "2025-09-01",
@@ -557,7 +591,7 @@
     },
     {
       "title": "everything planned for bySurf & bySurfTV this month and the following..",
-      "description": "everything planned for bySurf & bySurfTV this month and the following..",
+      "description": "6 Min",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/107969",
       "releaseDate": "2025-09-01",
@@ -565,7 +599,7 @@
     },
     {
       "title": "v2 - we are back",
-      "description": "",
+      "description": "10 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/t9zt5u8fzhzbybit7gxh4d3ypfqe",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/156943",
@@ -574,7 +608,7 @@
     },
     {
       "title": "do you really need school?",
-      "description": "",
+      "description": "11 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/prb3aatqqscrpgjojle4h2nmcw95",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/157351",
@@ -583,7 +617,7 @@
     },
     {
       "title": "is gaming dead?",
-      "description": "getting older, companies listening to shareholders and not fans.. is gaming dead?",
+      "description": "12 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/v6gnj46uggxcm5dh9ol8mxf46ddx",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/158240",
@@ -592,7 +626,7 @@
     },
     {
       "title": "MAXIMIZE your productivity",
-      "description": "Some tips I have been applying in my life that helped me a lot.",
+      "description": "8 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ao3mhbpij7gejfnpc6bd8v1qs400",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/158343",
@@ -601,7 +635,7 @@
     },
     {
       "title": "Why bySurfTV?",
-      "description": "Speaking about YouTube's potential downfall + why I made bySurfTV",
+      "description": "15 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x2zwfafk7dbvx073myzz0lnhsryh",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/161829",
@@ -610,7 +644,7 @@
     },
     {
       "title": "What is up next for bySurf TV and YT",
-      "description": "It's been a great week, finally taking it easy + talking about what's up next + some potential shows for the platform",
+      "description": "13 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/byn4ntl3gxefgvyshi4jr8b6b44j",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/162921",
@@ -620,7 +654,7 @@
     },
     {
       "title": "The World Is Ending (Social Media)",
-      "description": "The impact social media used to have has drastically changed, for the worse",
+      "description": "15 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/w3h3y7bpcne7sfcooxd8veg6hy8t",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/video_embeds/163396",
@@ -632,7 +666,7 @@
     },
     {
       "title": "THE DEATH OF NORMALITY (Full Documentary)",
-      "description": "In an age where people have become wired to their screens, what happened to normality?",
+      "description": "13 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
       "show": "THE DEATH OF NORMALITY",
       "url": "https://bysurf.tv/supporters/videos/162585",
@@ -651,7 +685,7 @@
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
-      "description": "My story of becoming a content creator..",
+      "description": "11 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/uvmb7rbjasu1dee2mqs7lzdn7biz",
       "show": "The Pursuit Of The World",
       "url": "https://bysurf.tv/supporters/video_embeds/102795",
@@ -667,7 +701,7 @@
     },
     {
       "title": "topics for bySurf YT",
-      "description": "hopefully ending 2025 with some banger investigations :)",
+      "description": "13 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2vwb10eutf08kr3nm891zofk9t7r",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/167039",
@@ -679,7 +713,7 @@
     },
     {
       "title": "The Social Media Apocalypse",
-      "description": "The Internet is no longer a destination, but a companion to modern life..",
+      "description": "8 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/fg1uadv8kwdpfcjco30qbaw2q6ij",
       "show": "The Social Media Apocalypse",
       "url": "https://bysurf.tv/supporters/videos/168076",
@@ -715,7 +749,7 @@
     },
     {
       "title": "The Frutiger Era",
-      "description": "A deep dive into the future we were promised...",
+      "description": "19 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/kjgz3lk58js3khsxvjzznha5u71u",
       "show": "The Frutiger Era",
       "url": "https://bysurf.tv/supporters/videos/172537",
@@ -735,7 +769,7 @@
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
-      "description": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
+      "description": "14 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/6wd6f0mkh1y8x0pgs5mltb5rbr1x",
       "show": "TV Edition",
       "url": "https://bysurf.tv/supporters/videos/173757",
@@ -752,7 +786,7 @@
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
-      "description": "Challenging myself to use Adobe Alternatives",
+      "description": "18 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ejqsjr7u1s3se5zvho1z1nn4j84z",
       "show": "Behind The Scene",
       "url": "https://bysurf.tv/supporters/videos/173975",
@@ -763,7 +797,7 @@
     },
     {
       "title": "don't try to please the audience (yt)",
-      "description": "",
+      "description": "22 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/4cuzbgz0q51wl2azc5erd52qjl79",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/187654",
@@ -775,7 +809,7 @@
     },
     {
       "title": "How the Royal Family Killed Princess Diana",
-      "description": "Was it actually the Royal Family that was responsible for Princess Diana's Death?",
+      "description": "10 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/985rc8et45xwzat096vx8hgv2cls",
       "show": "PRINCESS DIANA",
       "url": "https://bysurf.tv/supporters/videos/186378",
@@ -794,7 +828,7 @@
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
-      "description": "happy new year :)",
+      "description": "12 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/4tu21ymub9kk4dwjr18xle3oz5ws",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/195543",
@@ -811,40 +845,6 @@
       "heroShowHasLogo": false,
       "heroLogoUrl": "",
       "heroOrder": 2
-    },
-    {
-      "title": "Magotta: A Disturbed Internet Killer",
-      "description": "A failed Model wants to become famous.. by any means.",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ojbbayok2x2o87tlbqtw87736hph",
-      "show": "MAGNOTTA",
-      "url": "https://bysurf.tv/supporters/videos/197648",
-      "releaseDate": "2024-07-14",
-      "isFree": false,
-      "isRecommended": true,
-      "addedToHero": false,
-      "recommendedOrder": 0
-    },
-    {
-      "title": ".ORG: A Dangerous Online Forum",
-      "description": "How far would teenagers go to achieve a desired look? This video delves deep into a online-forum dedicated to the online trend \"looksmaxxing\".",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/btwegx9uux0b1mqu0aq4woznvmu6",
-      "show": ".ORG",
-      "url": "https://bysurf.tv/supporters/videos/197775",
-      "releaseDate": "2024-08-07",
-      "isFree": false,
-      "isRecommended": false,
-      "addedToHero": false
-    },
-    {
-      "title": "ANATAHAN",
-      "description": "7 Minutes",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/zmuk4qxr2xvlhmefkyfa48svwcz0",
-      "show": "ANATAHAN",
-      "url": "https://bysurf.tv/supporters/videos/197999",
-      "releaseDate": "",
-      "isFree": false,
-      "isRecommended": false,
-      "addedToHero": false
     }
   ],
   "categories": [
