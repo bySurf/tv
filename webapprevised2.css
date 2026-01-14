@@ -203,7 +203,7 @@ linear-gradient(to left, transparent 50%, #0F0F0F 90%);
     .sub{ font-size:.8rem; color:var(--muted); margin-top:.25rem }
 
     /* progress (FW) */
-    .progress-bar{ position:absolute; left:0; right:0; bottom:0; height:4px; background:rgba(255,255,255,.15) }
+    .progress-bar{ position:absolute; left:0; right:0; bottom:0; height:6px; background:rgba(255,255,255,.15); backdrop-filter: blur(2px); }
     .progress-bar > span{ display:block; height:100%; width:0; background:#46a0ff }
     
     /* Free Tag */
