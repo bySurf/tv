@@ -50,7 +50,20 @@
       "banner": "https://imgproxy.fourthwall.com/M1VC9gs4HeHBhWUyrv3SBeVN3a7thjZcjPnUO53_KxY/el:0/q:90/sm:1/enc/MTVmNDgzZWE1MzVm/M2JkOJHB7rdUz3B9/MKD7p-XoDVW3xkiX/SCYfDIm0iNyCORyp/S1Prq-NEHoTE38mi/wWzlIK2oFoWwHBBc/YuOrxQwky1c4ZaoV/Z0tk943zHUJCBKkQ/3UrbQUII-UrRBWAL/IKSYCOXAb1ZGRmpy/8GWbdkftv5w.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/kDxH4nGT2TBrXzRwJxE5Oc2IQZKRKPnBvmZjFD8EqaA/el:0/q:90/sm:1/enc/YTIxM2NmNTE2NmIz/YTA2N6Au4Yz8gs1a/MZyxRhGj33gO_6fq/2HfO5NWe4a9IkKTE/B0rWoV551CKbk49s/9x0hBsrtb9A5biVQ/z1BUP-ECHYCVs0lu/9N-Q79WXlpBDNlrq/Z71C-fnFkBHHgrjq/n6X-P_w-5by0yvDC/-L5-_G4j-Ls.webp",
       "category": "Documentaries",
-      "creatorLinks": [],
+      "creatorLinks": [
+        {
+          "title": "Voice by BrandonFM",
+          "href": "https://www.youtube.com/@BrandonFM"
+        },
+        {
+          "title": "Voice by Barnes",
+          "href": "https://www.youtube.com/@barnesreal"
+        },
+        {
+          "title": "Anime Illustrations by Léo Bontoux",
+          "href": "https://www.instagram.com/leo_bntx2/"
+        }
+      ],
       "isFree": false,
       "showHasLogo": true,
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/x9l22b36k0rz8d4eeg734wkp7pec"
@@ -293,7 +306,7 @@
     }
   ],
   "videos": [
-        {
+    {
       "title": "Magnotta: A Disturbed Internet Killer",
       "description": "16 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ojbbayok2x2o87tlbqtw87736hph",
