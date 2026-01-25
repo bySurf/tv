@@ -87,6 +87,26 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vtlha3g9gabwv09xtl79vvd0jlw3"
     },
     {
+      "title": "The Internet's First Serial Killer",
+      "description": "A young man is hungry for power and control... How far will he go?",
+      "tags": [
+        "documentary",
+        "docudrama",
+        "horror",
+        "disturbing",
+        "serial killer",
+        "internet killers"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/YzkFb63-VBMqlJzVkaZiw_wpI22LW_eYQ5getidlu4w/el:0/q:90/sm:1/enc/OTdlMzVhOTBmN2Y3/NmRmOb5CINMexofC/xc1sOvEOug4DCdZr/ROL4kBwBf6-wOwJL/yh0wwofRdkBUWpuM/_hue3iInI11Jc5Tu/sye0iNXtMwrezC5j/NF4h5i2ozt4CffD2/jZqvLRL8bOWHEanN/oYeIJaTiraOqgBTh/v2sl2NjAX2E.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/lTPyrodsv4Usr_MOeixm3RFK8GOFLWgTdenwJj4Tu_U/el:0/q:90/sm:1/enc/NmY1MmIzZmZiYjky/NzhmYYdqDsqEKEvX/oiRApZmBMY4XfYOV/33Q6B1NQiNZkfkLN/0v4CCNKl0vTY1T69/YnCiZlWyCBLbWUQZ/UhWDAkTVzS5-ymJH/U20BMK9WnueLkAOr/Pgw19nWHuzIWk8-G/SwzyRH8uQ_8zalzJ/P3XICR3X-d0.webp",
+      "category": "Documentaries",
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8"
+    },
+    {
       "title": "TV Edition",
       "description": "Supporters get early-access to upcoming documentaries, ad-free.",
       "tags": [
@@ -871,6 +891,17 @@
       "heroShowHasLogo": false,
       "heroLogoUrl": "",
       "heroOrder": 2
+    },
+    {
+      "title": "The Internet's First Serial Killer",
+      "description": "22 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ph4zgwzticljgao4vub36q6h7say",
+      "show": "The Internet's First Serial Killer",
+      "url": "https://bysurf.tv/supporters/videos/200949",
+      "releaseDate": "2026-01-25",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": false
     }
   ],
   "categories": [
