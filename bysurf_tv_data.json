@@ -398,7 +398,7 @@
       "heroDesc": "A hiker goes on a trip and is disappears off the grid..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xboimunfqdo62i9bkkr1z57vnfg9",
-      "heroOrder": 1
+      "heroOrder": 2
     },
     {
       "title": "LAZARUS.NK",
@@ -425,7 +425,7 @@
       "heroDesc": "North Korea's Secret Hacking Group steals Billions..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
-      "heroOrder": 4
+      "heroOrder": 5
     },
     {
       "title": "Episode 1",
@@ -444,7 +444,7 @@
       "heroDesc": "A test flight goes horribly wrong...",
       "heroShowHasLogo": false,
       "heroLogoUrl": "",
-      "heroOrder": 0
+      "heroOrder": 1
     },
     {
       "title": "Episode 2",
@@ -511,7 +511,7 @@
       "heroDesc": "Abusive Cults disguised as Teen Rehab Programs..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/tyt1qcx7fp9tpp8qkafm8m6mduda",
-      "heroOrder": 3
+      "heroOrder": 4
     },
     {
       "title": "The Disturbing Side Of Discord",
@@ -790,8 +790,8 @@
       "heroDesc": "Confronting & shutting down a $100,000 Scam Operation Live..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "heroOrder": 7,
-      "recommendedOrder": 2
+      "recommendedOrder": 2,
+      "heroOrder": 8
     },
     {
       "title": "The Frutiger Era",
@@ -810,8 +810,8 @@
       "heroDesc": "A deep dive into the future we were promised...",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "heroOrder": 5,
-      "recommendedOrder": 3
+      "recommendedOrder": 3,
+      "heroOrder": 6
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -870,7 +870,7 @@
       "heroDesc": "Was Princess Diana killed by her own Family?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "heroOrder": 6
+      "heroOrder": 7
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
@@ -890,7 +890,7 @@
       "heroDesc": "Catching up every now and then and updating you on what's up next on bySurfTV and the YouTube Channel.",
       "heroShowHasLogo": false,
       "heroLogoUrl": "",
-      "heroOrder": 2
+      "heroOrder": 3
     },
     {
       "title": "The Internet's First Serial Killer",
@@ -901,7 +901,15 @@
       "releaseDate": "2026-01-25",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": false
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/pujvswmq3y7l7zwg45scj8p78abi",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/193454",
+      "pillText": "",
+      "heroTitle": "The Internet's First Serial Killer",
+      "heroDesc": "A young man is hungry for control and power...",
+      "heroShowHasLogo": true,
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8",
+      "heroOrder": 0
     }
   ],
   "categories": [
