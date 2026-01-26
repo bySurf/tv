@@ -718,7 +718,7 @@
       "url": "https://bysurf.tv/supporters/videos/162585",
       "releaseDate": "2025-09-23",
       "isFree": false,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
@@ -726,8 +726,7 @@
       "heroTitle": "THE DEATH OF NORMALITY (Full Documentary)",
       "heroDesc": "In an age where people have become wired to their screens, what happened to normality?",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
-      "recommendedOrder": 1
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe"
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -821,14 +820,13 @@
       "url": "https://bysurf.tv/supporters/videos/173757",
       "releaseDate": "2025-11-07",
       "isFree": false,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/jmtzxpnewf2b8uqwvgbsk3yx09oj",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/173768",
       "pillText": "a web of lies and cults..",
       "heroTitle": "Jakub Jahl's Curse",
-      "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole...",
-      "recommendedOrder": 4
+      "heroDesc": "After discovering a exposé video on Instagram about Jakub Jahl, I decided to dive deeper into the situation and ended up falling into a deep and disturbing rabbit hole..."
     },
     {
       "title": "Jakub Jahl Documentary Breakdown",
