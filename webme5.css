@@ -336,6 +336,7 @@ linear-gradient(to left, transparent 50%, #0F0F0F 90%);
 .episodes {
   display: flex;
   gap: clamp(14px, 2.5vw, 28px);
+ flex-direction: column;
 }
 
 
