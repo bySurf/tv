@@ -334,11 +334,7 @@ linear-gradient(to left, transparent 50%, #0F0F0F 90%);
     .show-controls select{ background:#12131a; color:#fff; border:1px solid #272b38; border-radius:8px; padding:.35rem .5rem; font-size:.85rem }
 
 .episodes {
-  display: grid;
-  grid-template-columns: repeat(5, 18%);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 26px;
+  display: flex;
   gap: clamp(14px, 2.5vw, 28px);
 }
 
@@ -350,7 +346,6 @@ linear-gradient(to left, transparent 50%, #0F0F0F 90%);
   border-radius: 12px;
   cursor: pointer;
   transition: .2s ease;
-  flex-direction: column;
 }
 
 .ep .t {
