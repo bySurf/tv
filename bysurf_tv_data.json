@@ -12,7 +12,7 @@
       "presents": "",
       "banner": "https://imgproxy.fourthwall.com/PUVqUi4oHzeiX-WVVSNIvddfxCIo4cpEvXlHA4gHh_I/el:0/q:90/sm:1/enc/OGQ3ZjFjNmQ5Mjc0/MzE5OYbHHV2p3phC/hFl-4XJatI0Hut4M/UAl7p47_KF-U6NY6/aWpJrLtel5d5GhgY/z0eY7UGNMLml02d8/529jpNK-DsLawfek/CPZD_olO1qeJK1R6/XzhKTOhKoP6sEQNq/ntq8oCt8wgtvfNwk/BKzjUCl62-g.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/6U-0QFQc2dnzRaYMfxjO7X4A5oLnF-7l86KKcb483rY/el:0/q:90/sm:1/enc/ZjMyNDQwYzM3OGJl/ZjBlZAXOPA_5Kjri/0bINUoWJHvg03uGX/XGNGriiEwAE4Xq4y/j3NDrSaRiFNfj3TA/cDiqV4EXfb8oQXDQ/EXCufbmy-ew2RcyF/dHFESGLsOzl9tgWJ/TI7ucktIL2MJTzBz/7NPk2N5uSXbybD72/o_mJLY2nYBE.webp",
-      "category": "Documentaries",
+      "category": "Hacking",
       "creatorLinks": [],
       "isFree": true,
       "showHasLogo": true,
@@ -117,8 +117,11 @@
       "presents": "For Patrons",
       "banner": "https://imgproxy.fourthwall.com/3UJi9pn_a0hpjZq7XoPZ3lZuvEvjLxyWiGlAYNVX9ns/el:0/q:90/sm:1/enc/NGM0OGMxNTExZjlh/OTAzNxiHOeLeXYKu/4Waemv0T-WwmjOuO/AVPGF_5KeNHZR-V8/2WAPRzmmRw_LR_i1/aPEwq0LCQz5LPJ0p/4LyZw432pL0ft_2_/MDTrMVymV3c6WmtY/3FVxYkgXdKAngEfv/uZxfqZZWDgkbXg6j/iZzh0ZNDg9M.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/M9xekisj6j5IJKz03NyIoDOde3rCTyBtnTdOR8lETPg/el:0/q:90/sm:1/enc/YzQwYzZiYjc3MTgx/MDU2NloefZgnQAHJ/RYMan1ZWAaH96zUh/aYAXB5r3o95yzMIM/61HES3Y3U5xVSTd6/FrZd3hQCe-9s2H-b/pV6VxXYX-Sh6I_KC/ugsqoHLj4QoqLudY/j52ndFSfa3iQX604/zooS6o0i-13zD_wg/rcANRIfnFvQ.webp",
-      "category": "Documentaries",
-      "creatorLinks": []
+      "category": "Early Access",
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": false,
+      "showLogoUrl": ""
     },
     {
       "title": "Missing Files",
@@ -216,7 +219,7 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://imgproxy.fourthwall.com/Dh13FTwHBXCfYBezJsgas2rNPEaGflWoC82g1Aw-E50/el:0/q:90/sm:1/enc/ODFlNWRkYTgyY2U2/ODYzZtsFCClAk3rR/bdtXgIfts_MUu4y1/C5iC-C0rby_OXzei/JSVhYAIq5Md2mptD/AcEgj1BHOfcmpfZF/GqXhSiUtnnahUeDX/dycRRbSIZt9DFnv-/67FwA0FCQe8HrnF1/xj-1oao4ysgwAYKi/T8S1QLC8TcQ.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/SaQlhXHf6aozZ4-JwZoUeT4r5wUxSDuoQ-FLSQkD0Vk/el:0/q:90/sm:1/enc/MDVjMzU5ZDRiNjk0/OWI0Y-eiVYuHBAjK/G1F5la6Ma1bbbaKK/oID-108JI4PR3EJr/rKl3g8vVNrEcqBD_/yRrwigTSqhWf44Rg/ea1x-3dJqrNry_oi/SKxqS3yJxYYHibmF/PUJp3p5kUsXkqUVR/tF9EgZnbWxS-JPAE/ThD20EbYCes.webp",
-      "category": "Documentaries",
+      "category": "Hacking",
       "creatorLinks": [],
       "isFree": false,
       "showHasLogo": true,
@@ -918,7 +921,9 @@
     }
   ],
   "categories": [
+    "Early Access",
     "Documentaries",
+    "Hacking",
     "Philosophy",
     "Commentary",
     "Behind The Scenes"
