@@ -116,7 +116,7 @@
       "presents": "bySurfTV presents",
       "banner": "https://imgproxy.fourthwall.com/ymow8p5eCRQqI52mNSCP1f88CWu07sm-9dhfbhe6D_E/el:0/q:90/sm:1/enc/MzAzNjdlZWJmODQ3/YTk5MM7YFlw3J-ot/GpP19n7QX8zdgfZg/bx1V5zGF5w2E7loy/KZnpXfSY7zz_21ta/OXtJJ_zZYBavUF9S/6qzI534kp80mlVRq/oXTOplI-d0pC_oS0/JOZElZfD-5vW001M/yInGNV26IfHvijP8/7hTyT5GyLNA.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/Supx2ghBX1anBEa813E9nvWUOkfCEAvOAh-Yt2dB4zc/el:0/q:90/sm:1/enc/OWY3MjcwMjU0ZDc5/YzJlYVnO1JH2yZbA/BOdK9XH5s0NcZXgS/-A9C02RoNXsGxVMG/vNzMz_pOg7EPRQX4/Bb50EhsEUaekH-OJ/WVfrA1UmpM9FKDZw/-UZ7Z6rGs8SSa8TU/sA_LcGKR7mQn75oW/cd79xpr326QtZ054/H3y93gLVnoA.webp",
-      "category": "Documentaries",
+      "category": "Docuseries",
       "creatorLinks": [
         {
           "title": "Hosted by Barnes",
@@ -259,8 +259,11 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://imgproxy.fourthwall.com/VMvxbZMHroxyCAzft0oN1fbEPKEbBttFFqMlHWSFQeI/el:0/q:90/sm:1/enc/NTRjNTA5OWNlNzA1/MzU0ZgXHPVw9qRYj/BR_lmy6jf3l5AV1s/tSsCY3NcW-kBepRv/gZjVXqh58EQJJFFr/Z0WyCzFEqiFdaAYB/LBtUBFHPDp_8YDla/kssgkNy5dJ_MSbf5/jODUdxVsBGhBAEOU/6CJLU-J0e5Q4yy7y/U5SDYQajumk.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/s22zA792h-XhhN92LJmjPOkwBNb4Ga_SyFBi_CiN1W4/el:0/q:90/sm:1/enc/YTA0ZmZkN2ZhZGEy/ZGNhMNNhXqHoYaRo/MtkWxAANRVehmtK_/KXI9t7Jivd0jYg31/HBNQlzs3sytM14sz/sbJ2vd6clOxa3CEO/-CT0AhvJG_iSNR2-/npii6Rhd_i04CoO4/u5nvwllCvBK4ak6L/BFRWBENrMLxVAifZ/DT30x9FhQbk.webp",
-      "category": "Documentaries",
-      "creatorLinks": []
+      "category": "Docuseries",
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": false,
+      "showLogoUrl": ""
     },
     {
       "title": "CHILLS",
@@ -273,8 +276,11 @@
       "presents": "a bySurfTV Exclusive",
       "banner": "https://imgproxy.fourthwall.com/MSrS-hwIjWbMt_MHb9x8d1DlR19rls-babUhnenFZ-o/el:0/q:90/sm:1/enc/MWUwMjYzNDllNWFl/YTk2OSCQ6lOR7bg8/5u04X6CF0lpo-i2c/-V1c0QhvSVgbapXL/bWMc_XUXfOZl3pD4/0fL0_j4IPbN9Jh5Y/Ay2mZn8MNn0UMk5L/VnMWxhicHq8-dHZH/O56NU-dLY8uAVs3R/E2gmYLE2OVZGNr4F/k9BnlJAwuNA.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/qzSaKFtTBAZeKgjAauDAHjcNkrjIaTUAtyOzjtlQhfE/el:0/q:90/sm:1/enc/Njk3ZWU3NDljOThi/NjlkM4Z_lEUua8FP/Jk-8iqKG9Duhotrb/WcPmuRONGnozZvhX/ZrLwVnWsNHugnBRc/ajBGATcrsLDO8J5T/Er5zg3HyDke2R8PM/FqMa5zqLNWetSGb6/Eoyb539Q2pszHQoc/pTSOh_0YFdgO0RFj/_xabJJmKd5g.webp",
-      "category": "Documentaries",
-      "creatorLinks": []
+      "category": "Docuseries",
+      "creatorLinks": [],
+      "isFree": false,
+      "showHasLogo": false,
+      "showLogoUrl": ""
     },
     {
       "title": "Behind The Scene",
@@ -923,6 +929,7 @@
   "categories": [
     "Early Access",
     "Documentaries",
+    "Docuseries",
     "Hacking",
     "Philosophy",
     "Commentary",
