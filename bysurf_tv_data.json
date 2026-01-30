@@ -390,15 +390,14 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mnq9id0wtmawio6o7klt42rut49d",
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mrek17vbgo24j9vhostkcfptlz48",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197328",
       "pillText": "",
       "heroTitle": "Geraldine's Trail",
       "heroDesc": "A hiker goes on a trip and is disappears off the grid..",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xboimunfqdo62i9bkkr1z57vnfg9",
-      "heroOrder": 2
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xboimunfqdo62i9bkkr1z57vnfg9"
     },
     {
       "title": "LAZARUS.NK",
@@ -436,15 +435,14 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/na9hi3bvzkljkwfs5qj59xl987gl",
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/syjhyciq9eyfs2pucbrieae6met3",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197349",
       "pillText": "",
       "heroTitle": "NO WAY BACK",
       "heroDesc": "A test flight goes horribly wrong...",
       "heroShowHasLogo": false,
-      "heroLogoUrl": "",
-      "heroOrder": 1
+      "heroLogoUrl": ""
     },
     {
       "title": "Episode 2",
@@ -503,15 +501,14 @@
       "releaseDate": "",
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/yvsa0pgs2xa1bb2qgjcqbpbobt7e",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197322",
       "pillText": "",
       "heroTitle": "The $1,000,000,000 Cult",
       "heroDesc": "Abusive Cults disguised as Teen Rehab Programs..",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/tyt1qcx7fp9tpp8qkafm8m6mduda",
-      "heroOrder": 4
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/tyt1qcx7fp9tpp8qkafm8m6mduda"
     },
     {
       "title": "The Disturbing Side Of Discord",
@@ -781,7 +778,7 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/s1nhmqgv3q00n540fryubjkfjmck",
       "isFree": true,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/zj1nzxdjfobmrh79fnqzk3td6aee",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197316",
       "pillText": "",
@@ -789,8 +786,7 @@
       "heroDesc": "Confronting & shutting down a $100,000 Scam Operation Live..",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "recommendedOrder": 2,
-      "heroOrder": 8
+      "recommendedOrder": 2
     },
     {
       "title": "The Frutiger Era",
@@ -880,15 +876,14 @@
       "seasonNumber": 3,
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/exoqi20arrhprrcr9mzl4f9dic4x",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/196895",
       "pillText": "",
       "heroTitle": "The Progressbar",
       "heroDesc": "Catching up every now and then and updating you on what's up next on bySurfTV and the YouTube Channel.",
       "heroShowHasLogo": false,
-      "heroLogoUrl": "",
-      "heroOrder": 3
+      "heroLogoUrl": ""
     },
     {
       "title": "The Internet's First Serial Killer",
@@ -908,6 +903,18 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8",
       "heroOrder": 0
+    },
+    {
+      "title": "roadblock",
+      "description": "15 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/uek2rlxca7ctmidrmf2kgfdanep4",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/videos/202731",
+      "releaseDate": "2026-01-30",
+      "seasonNumber": 3,
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
     }
   ],
   "categories": [
