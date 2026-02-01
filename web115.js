@@ -1,0 +1,1196 @@
+document.addEventListener('DOMContentLoaded', () => {
+      
+['click', 'touchstart', 'keydown'].forEach(evt => {
+  document.addEventListener(evt, () => {
+    userHasInteracted = true;
+  }, { once: true });
+});
+        const DATA_URL = 'https://bysurf.github.io/tv/bysurf_tv_data.json';
+        const PLACEHOLDER_IMG = 'https://imgproxy.fourthwall.com/NGtTO-xePFSZdb5LAhcDCr3XNJqbjfENjyEBhj3iuwg/rt:fill/w:890/el:0/q:90/sm:1/enc/OWI1ZjVmZWY3YzFl/NTU3MhnnXWS1kcOe/jMySDjmqYEIrQsny/BKsT-ZtwEAE_BOqy/SEdbRIPEeHAY5Wc4/Pf6vugezBG5nV_2Q/4pdiBMDSBVWkrmq1/HsM_1Kt1tsThv_Cm/jT5yLyH3U-f_N9L2/3fZfgDs7zHsdRfPi/hCLoWk1VnrE.webp';
+function getResizedUrl(url, width) {
+  if (!url) return '';
+  if (url.startsWith('data:') || url.startsWith('blob:')) return url;
+  return `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=${width}&q=80&output=webp`;
+}
+
+
+const LOCK_ICON_HTML = `
+  <div class="lock-tag">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 0a4 4 0 0 1 4 4v2.05a2.5 2.5 0 0 1 2 2.45v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4m0 1a3 3 0 0 0-3 3v2h6V4a3 3 0 0 0-3-3"/>
+</svg>
+  </div>
+`;
+
+        const CLEARED_KEY = 'bysurf_cleared_v1';
+        const DEBUG = localStorage.getItem('bysurf_debug') === '1';
+        const dbg = (...a)=>{ if(DEBUG) console.log('[bysurf]', ...a); };
+let showBannerVideoTimeout = null;
+let userPrefersMuted = true;
+async function isPaidMember() {
+  try {
+    const res = await fetch('https://bysurf.tv/supporters/perks', {
+      credentials: 'include'
+    });
+    if (res.redirected) return false;
+
+    const html = await res.text();
+    return html.includes('Your perks');
+  } catch {
+    return false;
+  }
+}
+let IS_PAID_MEMBER = false;
+isPaidMember().then(v => IS_PAID_MEMBER = v);
+
+async function loadAndPlayBannerVideo(videoEl, url) {
+  if (!videoEl || !url) return;
+let userHasInteracted = false;
+  try {
+    // Fetch as blob
+    const res = await fetch(url);
+    const blob = await res.blob();
+    const blobUrl = URL.createObjectURL(blob);
+
+    // Reset state
+    videoEl.pause();
+    videoEl.src = blobUrl;
+    videoEl.currentTime = 0;
+    videoEl.muted = !userHasInteracted;
+    videoEl.volume = 0;
+    videoEl.style.opacity = 0;
+videoEl.muted = userPrefersMuted && !userHasInteracted;
+
+    await videoEl.play();
+
+    // Fade in (to 0.3 volume)
+    let v = 0;
+    const fadeIn = setInterval(() => {
+      v += 0.03;
+      videoEl.volume = Math.min(v, 0.3);
+      videoEl.style.opacity = Math.min(v * 4, 1);
+      if (v >= 0.3) clearInterval(fadeIn);
+    }, 50);
+
+    // Fade out when finished
+    videoEl.onended = () => {
+      const fadeOut = setInterval(() => {
+        v -= 0.03;
+        videoEl.volume = Math.max(v, 0);
+        videoEl.style.opacity = Math.max(v * 3, 0);
+        if (v <= 0) {
+          clearInterval(fadeOut);
+          videoEl.pause();
+        }
+      }, 50);
+    };
+  } catch (err) {
+    console.warn('Banner video failed to load:', err);
+  }
+}
+
+        const slug = (s='')=> s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+        const pad = n => { n = parseInt(n,10); if(isNaN(n)||n<0) return '00'; return n<10 ? `0${n}` : String(n); };
+        const getEpisodeLabel = (v) => {
+            const ep = v.episodeNumber ?? v.episode;
+            const sn = v.seasonNumber ?? v.season ?? 1;
+            if (ep == null) return '';
+            return `S${pad(sn)}E${pad(ep)}`;
+        };
+        const episodeLabelStrict = getEpisodeLabel;
+        const showVideoMuteBtn = document.getElementById('showVideoMute');
+function addRippleEffect(button, event) {
+  if (!button) return;
+
+  const rect = button.getBoundingClientRect();
+  const ripple = document.createElement('span');
+
+  const size = Math.max(rect.width, rect.height);
+
+  const clientX = event?.clientX ?? (rect.left + rect.width / 2);
+  const clientY = event?.clientY ?? (rect.top + rect.height / 2);
+
+  const x = clientX - rect.left - size / 2;
+  const y = clientY - rect.top - size / 2;
+
+  ripple.className = 'ripple';
+  ripple.style.width = ripple.style.height = `${size}px`;
+  ripple.style.left = `${x}px`;
+  ripple.style.top = `${y}px`;
+
+  button.appendChild(ripple);
+
+  ripple.addEventListener('animationend', () => ripple.remove());
+}
+
+showVideoMuteBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  const v = document.getElementById('showBannerVideo');
+  if (!v) return;
+
+  v.muted = !v.muted;
+userPrefersMuted = v.muted;
+
+  const iconOn = showVideoMuteBtn.querySelector('.icon-on');
+  const iconOn2 = showVideoMuteBtn.querySelector('.icon-on2');
+  const iconOff = showVideoMuteBtn.querySelector('.icon-off');
+
+  if (v.muted) {
+    iconOn2.style.display = 'none';
+    iconOff.style.display = 'block';
+  } else {
+    iconOn2.style.display = 'block';
+    iconOff.style.display = 'none';
+  }
+});
+
+        function renderDescription(el, text='', creatorLinks){
+          const md = (text||'').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, (m,t,u)=>`<a href="${u}" target="_blank" rel="noopener noreferrer">${t}</a>`);
+          const container = document.createElement('div');
+          container.innerHTML = md;
+          container.querySelectorAll('*').forEach(n=>{
+            [...n.attributes].forEach(a=>{ if(/^on/i.test(a.name)) n.removeAttribute(a.name); });
+            if(n.tagName.toLowerCase()==='a'){
+              const href = n.getAttribute('href')||''; if(!/^https?:\/\//i.test(href)) n.removeAttribute('href');
+              n.setAttribute('target','_blank'); n.setAttribute('rel','noopener noreferrer');
+            }
+          });
+          el.innerHTML = container.innerHTML;
+          if(Array.isArray(creatorLinks) && creatorLinks.length){
+            const wrap = document.createElement('div'); wrap.style.marginTop = '8px'; wrap.style.display='flex'; wrap.style.gap='8px'; wrap.style.flexWrap='wrap';
+            creatorLinks.forEach(l=>{
+              if(!l || !/^https?:\/\//i.test(l.href||'')) return;
+              const a = document.createElement('a'); a.href=l.href; a.textContent=l.title||l.href; a.target='_blank'; a.rel='noopener noreferrer';
+              a.className='creatorLink';
+              wrap.appendChild(a);
+            });
+            el.appendChild(document.createElement('br'));
+            el.appendChild(wrap);
+          }
+        }
+
+        const playerModal = document.getElementById('playerModal');
+        const wrap  = document.getElementById('playerWrap');
+        const closePlayerBtn = document.getElementById('closeModal');
+        let isModalOpen = false;
+
+        function lockPage(){ document.body.classList.add('no-scroll'); }
+        function unlockPage(){ document.body.classList.remove('no-scroll'); }
+        
+        closePlayerBtn.onclick = closePlayer;
+        playerModal.addEventListener('click', (e)=>{ if(e.target===playerModal) closePlayer(); });
+        document.addEventListener('keydown', (e)=>{ if(e.key==='Escape'){ closePlayer(); closeShow(); } });
+
+        function openIframe(v) {
+            if (!v || !v.url) { return; }
+            const videoId = v.__id;
+            if (videoId) {
+                const cleared = getCleared();
+                if (cleared.has(videoId)) {
+                    cleared.delete(videoId);
+                    putCleared(cleared);
+                    const isAlreadyInHistory = FW_HISTORY.some(item => item.id === videoId);
+                    if (!isAlreadyInHistory) {
+                        FW_HISTORY.unshift({ id: v.__id, title: v.title, thumbnail: v.thumbnail, url: v.url, show: v.show || '', progressPct: 0 });
+                        loadCW();
+                    }
+                }
+            }
+            isModalOpen = true;
+            wrap.innerHTML = `<iframe src="${v.url}" class="player-frame" allow="autoplay; fullscreen; picture-in-picture; encrypted-media"></iframe>`;
+            playerModal.classList.add('open');
+            lockPage();
+        }
+
+        function closePlayer() {
+            if (!isModalOpen) return;
+            wrap.innerHTML = '';
+            playerModal.classList.remove('open');
+            unlockPage();
+            isModalOpen = false;
+            fetchFourthwallHistory().then(({history}) => {
+                FW_HISTORY = history;
+                loadCW();
+            });
+        }
+        
+        function openPlayer(v) {
+            closeShow();
+            openIframe(v);
+        }
+
+        function closeAllSelects(elmnt) {
+            const selectItems = document.getElementsByClassName("select-items");
+            const selectSelected = document.getElementsByClassName("select-selected");
+            for (let i = 0; i < selectSelected.length; i++) {
+                if (elmnt == selectSelected[i]) continue;
+                selectSelected[i].classList.remove("select-arrow-active");
+            }
+            for (let i = 0; i < selectItems.length; i++) {
+                if (elmnt == selectItems[i].previousElementSibling) continue;
+                selectItems[i].classList.add("select-hide");
+            }
+        }
+        document.addEventListener("click", () => closeAllSelects(null));
+
+function videoCard(v){
+  const div = document.createElement('div');
+  div.className = 'card';
+
+  const label = episodeLabelStrict(v);
+  const sub = [label, v.show].filter(Boolean).join(' · ');
+
+  const freeTag = v.isFree ? '<div class="free-tag">Free</div>' : '';
+  const lockTag = (!v.isFree && !IS_PAID_MEMBER) ? LOCK_ICON_HTML : '';
+
+  div.innerHTML = `
+    <div style="position:relative">
+      ${freeTag}
+      ${lockTag}
+      <img class="thumb lazy-img"
+           src="${PLACEHOLDER_IMG}"
+           data-src="${getResizedUrl(v.thumbnail, 600)}"
+           alt="${v.title}">
+      <div class="progress-bar" style="display:none"><span></span></div>
+    </div>
+    <div class="meta">
+      <div class="name">${v.title}</div>
+      ${sub ? `<div class="sub">${sub}</div>` : ''}
+    </div>
+  `;
+  div.onclick = () => openPlayer(v);
+  return div;
+}
+
+
+        function cwCard(v, options={}){
+          const pct = Math.max(0, Math.min(100, options.progressPct || 0));
+          const div=document.createElement('div');
+          div.className='card';
+          const sub = v.show ? v.show : '';
+          div.innerHTML=`<div style="position:relative">
+                           <img class="thumb lazy-img" src="${getResizedUrl(v.thumbnail, 600)}" data-src="${getResizedUrl(v.thumbnail, 600)}" alt="${v.title}">
+                           <button class="remove-from-cw" title="Remove from queue">&times;</button>
+                           <div class="progress-bar"><span style="width:${pct}%"></span></div>
+                         </div>
+                         <div class="meta">
+                           <div class="name">${v.title}</div>
+                           ${sub?`<div class="sub">${sub}</div>`:''}
+                         </div>`;
+          div.onclick=()=> openPlayer(v);
+          const removeBtn = div.querySelector('.remove-from-cw');
+          removeBtn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const videoId = v.__id;
+              const cleared = getCleared();
+              cleared.add(videoId);
+              putCleared(cleared);
+              FW_HISTORY = FW_HISTORY.filter(item => item.id !== videoId);
+              loadCW();
+          });
+          return div;
+        }
+
+        function adjustShowMobileSpacing() {
+  if (window.innerWidth > 768) return;
+
+  const desc = document.getElementById('showDesc');
+  const spacer = document.getElementById('showMobileSpacer');
+  const banner = document.getElementById('showBanner');
+
+  if (!desc || !spacer || !banner) return;
+
+  const descRect = desc.getBoundingClientRect();
+  const bannerRect = banner.getBoundingClientRect();
+
+  const overlap = descRect.bottom - bannerRect.bottom;
+
+  spacer.style.display = 'block';
+  spacer.style.height = overlap > 0 ? `${overlap + 12}px` : '0px';
+}
+
+
+function showCard(s){ 
+  const div=document.createElement('div'); 
+  div.className='card'; 
+
+  const freeTag = s.isFree ? '<div class="free-tag">Free</div>' : '';
+  const lockTag = (!s.isFree && !IS_PAID_MEMBER) ? LOCK_ICON_HTML : '';
+
+  div.innerHTML = `
+    <div style="position:relative">
+      ${freeTag}
+      ${lockTag}
+      <img class="thumb lazy-img"
+           src="${PLACEHOLDER_IMG}"
+           data-src="${getResizedUrl(s.thumbnail, 600)}"
+           alt="${s.title}">
+      <div class="progress-bar" style="display:none"><span></span></div>
+    </div>
+  `;
+
+
+
+ div.onclick = () => {
+                openShowModal(s);
+                const url = new URL(window.location);
+                url.searchParams.set('show', slug(s.title));
+                window.history.pushState({}, "", url);
+            };
+            return div;
+}
+
+
+        const showModal=document.getElementById('showModal');
+        document.getElementById('closeShow').onclick=()=> closeShow();
+        showModal.addEventListener('click',e=>{ if(e.target===showModal) closeShow(); });
+function closeShow(){
+  const spacer = document.getElementById('showMobileSpacer');
+if (spacer) spacer.style.height = '0px';
+  // hide modal
+  showModal.classList.remove('open');
+  showModal.style.display = 'none';
+
+  // clear URL param
+  const url = new URL(window.location);
+  url.searchParams.delete("show");
+  window.history.pushState({}, "", url);
+
+  document.body.classList.remove('no-scroll');
+
+  // === HARD STOP SHOW BANNER VIDEO ===
+  if (showBannerVideoTimeout) {
+    clearTimeout(showBannerVideoTimeout);
+    showBannerVideoTimeout = null;
+  }
+
+  const bannerVideo = document.getElementById('showBannerVideo');
+  if (bannerVideo) {
+    bannerVideo.pause();
+    bannerVideo.src = '';
+    bannerVideo.load();
+    bannerVideo.style.opacity = 0;
+  }
+
+  const muteBtn = document.getElementById('showVideoMute');
+  if (muteBtn) muteBtn.style.display = 'none';
+}
+
+
+        function getEpisodesForShow(title){ return (window.__ALL_VIDEOS__||[]).filter(v=> v.show===title); }
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+const searchResults = document.getElementById('searchResults');
+const searchRail = document.getElementById('searchRail');
+const searchTitle = document.getElementById('searchTitle');
+
+if (searchInput) {
+  searchInput.addEventListener('input', () => {
+    searchInput.parentElement.classList.toggle(
+  'has-value',
+  !!searchInput.value
+);
+    const q = searchInput.value.trim().toLowerCase();
+
+    // Reset search rail
+    searchRail.innerHTML = '';
+    searchResults.classList.remove('hidden');
+
+    // Empty query → restore normal view
+if (!q) {
+  searchRail.innerHTML = '';
+  searchTitle.textContent = '';
+  searchResults.classList.add('hidden');
+
+  document.querySelectorAll('.section').forEach(sec => {
+    sec.classList.remove('hidden');
+  });
+
+  return;
+}
+
+
+    // Hide ALL other sections including Continue Watching
+    document.querySelectorAll('.section').forEach(sec => {
+      if (sec.id !== 'searchResults') {
+        sec.classList.add('hidden');
+      }
+    });
+
+    // Find matching shows via episodes + tags
+    const matchedShows = new Map();
+
+    (window.__ALL_VIDEOS__ || []).forEach(v => {
+      const haystack = [
+        v.title,
+        v.description,
+        ...(v.tags || []),
+        v.show
+      ]
+        .join(' ')
+        .toLowerCase();
+
+      if (haystack.includes(q)) {
+        matchedShows.set(v.show, v.show);
+      }
+    });
+(window.__ALL_SHOWS__ || []).forEach(s => {
+  const haystack = [
+    s.title,
+    s.description,
+    ...(s.tags || []),
+    s.category
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  if (haystack.includes(q)) {
+    matchedShows.set(s.title, s.title);
+  }
+});
+    if (!matchedShows.size) {
+      searchTitle.textContent = `No results found`;
+      return;
+    }
+
+    searchTitle.textContent = `Results for "${q}"`;
+
+    matchedShows.forEach(showTitle => {
+      const showObj = (window.__ALL_SHOWS__ || []).find(
+        s => s.title === showTitle
+      );
+      if (showObj) {
+        searchRail.appendChild(showCard(showObj));
+      }
+    });
+    revealLoadedImages(searchRail);
+  });
+}
+
+
+        function renderEpisodesList(epsEl, list){
+          epsEl.innerHTML='';
+          list.forEach((v,idx)=>{
+            const el=document.createElement('div'); el.className='ep'; 
+            const label=getEpisodeLabel(v);
+            const freeTag = v.isFree ? `<div class="free-tag">Free</div>` : '';
+const lockTag = (!v.isFree && !IS_PAID_MEMBER) ? LOCK_ICON_HTML : '';
+
+
+            el.innerHTML = `
+                <div class="ep-thumb-wrap">
+                    ${freeTag}
+                        ${lockTag}
+                    <img class="lazy-img" src="${getResizedUrl(v.thumbnail, 600)}" data-src="${getResizedUrl(v.thumbnail, 600)}" alt='${v.title}'/>
+                </div>
+                <div>
+                    <div class='n'>${label||''}</div>
+                    <div class='t'>${v.title}</div>
+                    <div class='d'>${v.description||''}</div>
+                </div>`;
+el.onclick=()=> openPlayer(v); epsEl.appendChild(el);
+          });
+        }
+
+        function openShowModal(show){
+          try{
+            const banner=document.getElementById('showBanner');
+            const presents=document.getElementById('showPresents');
+            const title=document.getElementById('showTitle');
+            const logo=document.getElementById('showLogo');
+            const tagsWrap=document.getElementById('showTags');
+            const desc=document.getElementById('showDesc');
+            const epsEl=document.getElementById('episodes');
+            
+            banner.classList.remove('loaded');
+            banner.style.backgroundImage = `url(${PLACEHOLDER_IMG})`;
+            const bannerUrl = show.banner || show.thumbnail || '';
+            banner.setAttribute('data-bg', getResizedUrl(bannerUrl, 1400));
+            const bannerVideo = document.getElementById('showBannerVideo');
+const muteBtn = document.getElementById('showVideoMute');
+
+// reset any previous video state
+if (bannerVideo) {
+  bannerVideo.pause();
+  bannerVideo.src = '';
+  bannerVideo.style.opacity = 0;
+}
+if (muteBtn) muteBtn.style.display = 'none';
+
+if (show.showModalHasVideo && show.showModalVideoURL) {
+  showBannerVideoTimeout = setTimeout(() => {
+    loadAndPlayBannerVideo(bannerVideo, show.showModalVideoURL);
+    if (muteBtn) muteBtn.style.display = 'block';
+  }, 350);
+}
+
+            presents.textContent = show.presents||''; presents.style.display = show.presents? 'inline-block':'none';
+            
+            // Logic for Show Logo vs Title
+            if (show.showHasLogo && show.showLogoUrl) {
+              title.textContent = show.title||'';
+                logo.src = show.showLogoUrl;
+                logo.style.display = 'block';
+                title.style.visibility = 'collapse';
+                title.style.display = 'none';
+                
+            } else {
+                logo.style.display = 'none';
+                title.style.display = 'block';
+                title.style.visibility = 'visible';
+                title.textContent = show.title||'';
+            }
+
+            tagsWrap.innerHTML = (show.tags||[]).map(t=>`<span class='tag'>${t}</span>`).join('');
+            renderDescription(desc, show.description||'', show.creatorLinks);
+// === Start / Continue Watching button ===
+const btn = document.createElement('button');
+btn.className = 'start-watching-btn';
+
+const historyMatch = (FW_HISTORY || []).find(
+  h => h.show === show.title
+);
+
+if (historyMatch) {
+  btn.innerHTML = `
+    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    Continue Watching
+  `;
+  btn.onclick = () => openPlayer(historyMatch);
+} else {
+  btn.innerHTML = `
+    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    Start Watching
+  `;
+const startPlayback = () => {
+  const episodes = (window.__ALL_VIDEOS__ || []).filter(
+    v => v.show === show.title && v.url
+  );
+  if (!episodes.length) return;
+
+  setTimeout(() => {
+    openPlayer(episodes[0]);
+  }, 140); // allow ripple to render
+};
+
+btn.addEventListener('mousedown', (e) => addRippleEffect(btn, e));
+btn.addEventListener('touchstart', (e) => addRippleEffect(btn, e));
+btn.addEventListener('click', startPlayback);
+
+}
+
+
+
+desc.appendChild(document.createElement('br'));
+desc.appendChild(btn);
+
+
+            const all = getEpisodesForShow(show.title);
+            const seasons = new Map();
+            all.forEach((v,idx)=>{ const s = Number(v.seasonNumber ?? v.season ?? 1); if(!seasons.has(s)) seasons.set(s, []); seasons.get(s).push({v, idx}); });
+            
+            const seasonControls = document.getElementById('seasonControls');
+            const seasonContainer = document.getElementById('customSeasonSelect');
+            seasonContainer.innerHTML = '';
+
+            const keys = [...seasons.keys()].sort((a, b) => a - b);
+
+            const renderSeason = (seasonNum) => {
+                const list = (seasons.get(Number(seasonNum)) || []).map(x => x.v);
+                renderEpisodesList(epsEl, list);
+                revealLoadedImages(epsEl);
+            };
+
+            if (keys.length <= 1) {
+                seasonControls.style.display = 'none';
+                const seasonNum = keys[0] || 1;
+                renderSeason(seasonNum);
+            } else {
+                seasonControls.style.display = 'flex';
+                const selectedEl = document.createElement('div');
+                selectedEl.className = 'select-selected';
+                const itemsEl = document.createElement('div');
+                itemsEl.className = 'select-items select-hide';
+                seasonContainer.appendChild(selectedEl);
+                seasonContainer.appendChild(itemsEl);
+                const closeDropdown = () => {
+                    itemsEl.classList.add('select-hide');
+                    selectedEl.classList.remove('select-arrow-active');
+                };
+                const updateSelection = (seasonKey) => {
+                    selectedEl.textContent = `Season ${seasonKey}`;
+                    itemsEl.innerHTML = '';
+                    keys.forEach(k => {
+                        const optionEl = document.createElement('div');
+                        optionEl.textContent = `Season ${k}`;
+                        if (k === seasonKey) {
+                            optionEl.classList.add('same-as-selected');
+                        }
+                        optionEl.addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            if (k === seasonKey) { closeDropdown(); return; }
+                            updateSelection(k);
+                            renderSeason(k);
+                            closeDropdown();
+                        });
+                        itemsEl.appendChild(optionEl);
+                    });
+                };
+                selectedEl.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    closeAllSelects(e.target);
+                    itemsEl.classList.toggle('select-hide');
+                    e.target.classList.toggle('select-arrow-active');
+                });
+                const defaultSeason = keys[0];
+                updateSelection(defaultSeason);
+                renderSeason(defaultSeason);
+            }
+            showModal.classList.add('open'); 
+            document.body.classList.add('no-scroll');
+            showModal.style.display = 'flex';
+            setTimeout(adjustShowMobileSpacing, 0);
+window.addEventListener('resize', adjustShowMobileSpacing);
+            revealLoadedImages(showModal);
+          }catch(err){ console.error('openShowModal failed:', err); document.getElementById('episodes').innerHTML = '<div style="opacity:.7">Unable to load episodes.</div>'; showModal.classList.add('open'); document.body.classList.add('no-scroll'); }
+        }
+
+        function renderHero(items){
+          const hero=document.getElementById('hero'); 
+          const dotsWrap=document.getElementById('hero-dots');
+          hero.innerHTML = `<button class="nav prev" aria-label="Previous">❮</button> <button class="nav next" aria-label="Next">❯</button>`; // Clear old slides, keep nav
+          dotsWrap.innerHTML = '';
+          
+          // Sort items by heroOrder
+          items.sort((a, b) => (a.heroOrder || 0) - (b.heroOrder || 0));
+
+         items.forEach((v, i) => {
+  const s = document.createElement('div');
+  s.className = 'hero-slide' + (i === 0 ? ' active' : '');
+  s.style.backgroundImage = `url(${PLACEHOLDER_IMG})`;
+  s.setAttribute('data-bg', getResizedUrl(v.bgUrl, 1400));
+
+  // --- Hero title / logo (DECLARE ONCE) ---
+  let titleContent = `<div class="title">${v.heroTitle}</div>`;
+  if (v.heroShowHasLogo && v.heroLogoUrl) {
+    titleContent = `<img src="${v.heroLogoUrl}" class="hero-logo" alt="${v.heroTitle}">`;
+  }
+s.__episodeRef = v;
+
+  // --- Set innerHTML ONCE ---
+  s.innerHTML = `
+    <div class="hero-content">
+      ${v.pillText ? `<span class="presents-text">${v.pillText}</span>` : ''}
+      ${titleContent}
+      <div class="desc">${v.heroDesc || ''}</div>
+      <button class="cta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+</svg> Play</button>
+    </div>
+  `;
+
+  // --- CTA click ---
+s.querySelector('.cta').onclick = (e) => {
+  e.stopPropagation();
+
+  const ep = s.__episodeRef;
+  if (!ep || !ep.url) {
+    console.warn('Hero CTA: episode URL missing');
+    return;
+  }
+
+  openPlayer(ep);
+};
+
+
+
+  // --- HERO VIDEO SUPPORT (append AFTER innerHTML) ---
+  if (v.heroHasVideo && v.heroVideoURL) {
+    const heroVideo = document.createElement('video');
+    heroVideo.className = 'bg-video';
+    heroVideo.playsInline = true;
+    heroVideo.preload = 'none';
+    heroVideo.dataset.src = v.heroVideoURL;
+
+    s.appendChild(heroVideo);
+
+    const heroMuteBtn = document.createElement('button');
+    heroMuteBtn.className = 'video-mute-btn';
+    heroMuteBtn.innerHTML = document.getElementById('showVideoMute').innerHTML;
+    heroMuteBtn.style.display = 'none';
+
+heroMuteBtn.onclick = (e) => {
+  e.stopPropagation();
+
+  heroVideo.muted = !heroVideo.muted;
+  userPrefersMuted = heroVideo.muted;
+
+  const iconOn = heroMuteBtn.querySelector('.icon-on');
+  const iconOn2 = heroMuteBtn.querySelector('.icon-on2');
+  const iconOff = heroMuteBtn.querySelector('.icon-off');
+
+  if (heroVideo.muted) {
+    if (iconOn2) iconOn2.style.display = 'none';
+    if (iconOff) iconOff.style.display = 'block';
+  } else {
+    if (iconOn2) iconOn2.style.display = 'block';
+    if (iconOff) iconOff.style.display = 'none';
+  }
+};
+
+
+    s.appendChild(heroMuteBtn);
+  }
+
+  hero.appendChild(s);
+
+  const d = document.createElement('div');
+  d.className = 'dot' + (i === 0 ? ' active' : '');
+  d.dataset.index = i;
+  dotsWrap.appendChild(d);
+});
+          let idx=0; setTimeout(() => show(0), 1200);
+ const slides=()=>Array.from(document.querySelectorAll('.hero-slide')); const dots=()=>Array.from(document.querySelectorAll('.dot'));
+          function show(i){
+  idx = (i + items.length) % items.length;
+
+  slides().forEach((el, j) => {
+    const isActive = j === idx;
+    el.classList.toggle('active', isActive);
+    const vid = el.querySelector('video');
+    const muteBtn = el.querySelector('.video-mute-btn');
+
+    if (vid) {
+      if (isActive) {
+if (!vid.src) {
+  loadAndPlayBannerVideo(vid, vid.dataset.src);
+} else {
+  vid.style.opacity = 1;
+  vid.play().catch(()=>{});
+}
+        if (muteBtn) muteBtn.style.display = 'block';
+      } else {
+        vid.pause();
+        vid.currentTime = 0;
+        vid.style.opacity = 0;
+        if (muteBtn) muteBtn.style.display = 'none';
+      }
+    }
+  });
+
+  dots().forEach((el,j)=>el.classList.toggle('active',j===idx));
+}
+
+          document.querySelector('.nav.prev').onclick=()=>show(idx-1); document.querySelector('.nav.next').onclick=()=>show(idx+1); dotsWrap.addEventListener('click',e=>{ if(e.target.classList.contains('dot')) show(+e.target.dataset.index); });
+        }
+
+        function attachCarouselIfOverflow(sectionEl){
+          const rail = sectionEl.querySelector('.rail'); if(!rail) return; if(rail.parentElement && rail.parentElement.classList.contains('carousel')) return;
+          requestAnimationFrame(()=>{
+            if(rail.scrollWidth <= rail.clientWidth + 1) return;
+            const wrapper = document.createElement('div'); wrapper.className='carousel'; rail.parentNode.insertBefore(wrapper, rail); wrapper.appendChild(rail);
+            const left = document.createElement('button'); left.className='caro-btn left'; left.innerHTML='❮';
+            const right= document.createElement('button'); right.className='caro-btn right'; right.innerHTML='❯';
+            const fadeL= document.createElement('div'); fadeL.className='fade left'; const fadeR= document.createElement('div'); fadeR.className='fade right';
+            wrapper.appendChild(left); wrapper.appendChild(right); wrapper.appendChild(fadeL); wrapper.appendChild(fadeR);
+            const step = rail.firstElementChild?.getBoundingClientRect().width || 280; left.onclick = ()=> rail.scrollBy({ left: -step, behavior:'smooth' }); right.onclick= ()=> rail.scrollBy({ left:  step, behavior:'smooth' });
+          });
+        }
+
+        function ensureCategorySection(name){ const wrap=document.getElementById('category-sections'); let sec=document.querySelector(`[data-cat="${CSS.escape(name)}"]`); if(sec) return sec.querySelector('.rail'); sec=document.createElement('section'); sec.className='section'; sec.dataset.cat=name; sec.innerHTML=`<div class="row-head"><h2 class="row-title">${name}</h2></div><div class="rail"></div>`; wrap.appendChild(sec); return sec.querySelector('.rail'); }
+
+        let FW_HISTORY = [];
+
+        const getCleared = () => { try{return new Set(JSON.parse(localStorage.getItem(CLEARED_KEY)||'[]'))}catch{return new Set()} };
+        const putCleared = (set) => { try{localStorage.setItem(CLEARED_KEY, JSON.stringify(Array.from(set)))}catch{} };
+        
+        function updateNav(isLoggedIn) {
+          setupMobileNav(isLoggedIn);
+function setupMobileNav(isLoggedIn) {
+  const nav = document.getElementById('mobileBottomNav');
+  const rewards = document.getElementById('mobileRewardsBtn');
+  const accountBtn = document.getElementById('mobileAccountBtn');
+  const pfpWrap = accountBtn.querySelector('.pfp-wrap');
+let IS_PAID_MEMBER = false;
+
+fetch('https://bysurf.tv/supporters/perks', { credentials: 'include' })
+  .then(res => {
+    if (res.redirected) return false;
+    return res.text();
+  })
+  .then(html => {
+    IS_PAID_MEMBER = html && html.includes('Your perks');
+  })
+  .catch(() => {
+    IS_PAID_MEMBER = false;
+  });
+
+  nav.addEventListener('click', e => {
+    const btn = e.target.closest('.nav-btn');
+    if (!btn) return;
+
+    // Remove highlight from all
+    nav.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+
+    const action = btn.dataset.action;
+    btn.classList.add('active'); // accent color highlight
+
+    switch (action) {
+      case 'home':
+        window.location.href = isLoggedIn
+          ? 'https://bysurf.tv/videos'
+          : 'https://bysurf.tv/join';
+        break;
+
+      case 'blog':
+        window.location.href = 'https://studiobysurf.com/blog';
+        break;
+
+      case 'rewards':
+        window.location.href = 'https://bysurf.tv/rewards';
+        break;
+
+      case 'account':
+        window.location.href = isLoggedIn
+          ? 'https://bysurf.tv/supporters/users/supporters/profile/edit'
+          : 'https://bysurf.tv/supporters/sign_in';
+        break;
+    }
+  });
+
+  // Logged-in visual logic
+  if (isLoggedIn) {
+
+    // show rewards icon
+    rewards.classList.remove('hidden');
+
+    // fetch user avatar
+    fetch('https://bysurf.tv/supporters/users/supporters/profile/edit', {
+      credentials: 'include'
+    })
+      .then(res => res.text())
+.then(html => {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const img = doc.querySelector('img.avatar[src]');
+  pfpWrap.innerHTML = '';
+
+  if (img && img.src) {
+    const avatar = document.createElement('img');
+    avatar.src = img.src;
+    pfpWrap.appendChild(avatar);
+  } else {
+    // fallback avatar SVG
+    pfpWrap.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+</svg>
+    `;
+  }
+})
+
+
+  } else {
+    // hide rewards
+    rewards.classList.add('hidden');
+
+    // show login icon only
+    pfpWrap.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+  <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+</svg>
+    `;
+  }
+}
+
+        
+            const loginBtn = document.getElementById('login-button');
+            const joinBtn = document.getElementById('join-button');
+            const accountLink = document.getElementById('your-account-link');
+            const notificationLink = document.getElementById('your-notifications');
+
+            if (isLoggedIn) {
+                loginBtn.classList.add('hidden');
+                joinBtn.classList.add('hidden');
+                accountLink.classList.remove('hidden');
+                notificationLink.classList.remove('hidden');
+            } else {
+                loginBtn.classList.remove('hidden');
+                joinBtn.classList.remove('hidden');
+                accountLink.classList.add('hidden');
+                notificationLink.classList.add('hidden');
+            }
+        }
+
+        async function fetchFourthwallHistory(){
+          try{
+            const res = await fetch('/supporters/history', { credentials:'include' });
+             if (!res.ok || res.redirected) {
+                return { history: [], isLoggedIn: false };
+            }
+            const html = await res.text();
+            const isLoggedIn = html.includes('history_posts_list');
+            if (!isLoggedIn) return { history: [], isLoggedIn: false };
+
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            const container = doc.querySelector('#history_posts_list');
+            if(!container) {
+                return { history: [], isLoggedIn: true };
+            }
+            const items = [];
+            container.querySelectorAll('a.video').forEach(a=>{
+              const href = a.getAttribute('href')||'';
+              const idMatch = href.match(/\/videos\/(\d+)/);
+              const id = idMatch ? `fw:${idMatch[1]}` : `fw:${href}`;
+              const title = a.querySelector('.video__title')?.textContent?.trim()||'Episode';
+              const thumb = a.querySelector('.video__image')?.getAttribute('src')||'';
+              const bar = a.querySelector('.video__progress-bar');
+              let pct = 0; if(bar){ const w = bar.style.width||''; const m=w.match(/([\d.]+)%/); if(m) pct = Math.max(0, Math.min(100, parseFloat(m[1]))); }
+              items.push({ id, title, thumbnail: thumb, url: href, show: '', progressPct: pct });
+            });
+            
+            const clearedIds = getCleared();
+            const finalItems = clearedIds.size === 0 ? items : items.filter(item => !clearedIds.has(item.id));
+            return { history: finalItems, isLoggedIn: true };
+
+          }catch(err){ 
+            dbg('FW history fetch failed, assuming logged out.', err); 
+            return { history: [], isLoggedIn: false }; 
+          }
+        }
+
+        function loadCW(){
+          const rail=document.getElementById('cw-rail'); const sec=document.getElementById('cw-section');
+          rail.innerHTML='';
+          if (!FW_HISTORY || FW_HISTORY.length === 0) {
+            sec.style.display = 'none';
+            return;
+          }
+          sec.style.display = 'block';
+          FW_HISTORY.forEach(item => {
+            const v = window.__ALL_VIDEOS__.find(vid => vid.__id === item.id) || { __id: item.id, title: item.title, thumbnail: item.thumbnail, url: item.url, show: item.show };
+            const options = { resumeSec: 0, progressPct: item.progressPct };
+            rail.appendChild(cwCard(v, options));
+          });
+          attachCarouselIfOverflow(sec);
+        }
+
+        function renderNewRail(videos){ const newRail=document.getElementById('new-rail'); newRail.innerHTML=''; const pick = videos.slice(-5).reverse(); pick.forEach(v=> newRail.appendChild(videoCard(v))); attachCarouselIfOverflow(newRail.closest('.section')); }
+
+        function renderRecommendedRail(videos) {
+            const recRail = document.getElementById('recommended-rail');
+            const recSection = document.getElementById('recommended-section');
+            const recommendedVideos = videos.filter(v => v.isRecommended);
+
+            if (recommendedVideos.length > 0) {
+                recSection.style.display = 'block';
+                recRail.innerHTML = '';
+                recommendedVideos.forEach(v => recRail.appendChild(videoCard(v)));
+                attachCarouselIfOverflow(recSection);
+            } else {
+                recSection.style.display = 'none';
+            }
+        }
+
+        const loadedImageUrls = new Set();
+
+        function preloadImages(urls) {
+            const promises = urls.map(url => {
+                if (!url || loadedImageUrls.has(url)) {
+                    return Promise.resolve();
+                }
+                return new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        loadedImageUrls.add(url);
+                        resolve();
+                    };
+                    img.onerror = resolve; 
+                    img.src = url;
+                });
+            });
+            return Promise.all(promises);
+        }
+
+        function revealLoadedImages(container = document) {
+            container.querySelectorAll('.lazy-img:not(.loaded)').forEach(img => {
+                const realSrc = img.dataset.src;
+                if (realSrc && loadedImageUrls.has(realSrc)) {
+                    img.src = realSrc;
+                    img.classList.add('loaded');
+                }
+            });
+            container.querySelectorAll('[data-bg]:not(.loaded)').forEach(el => {
+                const realBg = el.getAttribute('data-bg');
+                if (realBg && loadedImageUrls.has(realBg)) {
+                    el.style.backgroundImage = `url(${realBg})`;
+                    el.classList.add('loaded');
+                }
+            });
+        }
+        
+        /* ========= Init ========= */
+        (async function(){
+          const res=await fetch(DATA_URL,{cache:'no-store'}); const db=await res.json();
+          window.__ALL_SHOWS__ = db.shows || [];
+          const showMap=new Map((db.shows||[]).map(s=>[s.title,s]));
+          const videos=(db.videos||[]).map((v,idx)=>{ 
+            const s=showMap.get(v.show)||{}; 
+            let videoId = v.id || slug(`${v.show||''}-${v.title||''}`);
+            if (v.url) {
+                const urlMatch = v.url.match(/\/videos\/(\d+)/);
+                if (urlMatch && urlMatch[1]) {
+                    videoId = `fw:${urlMatch[1]}`;
+                }
+            }
+            return { ...v, __idx:idx, __id: videoId, __banner:s.banner, __thumbnail:s.thumbnail, __presents:s.presents||'', __tags:s.tags||[], __category:s.category||'Uncategorized', showHasLogo: s.showHasLogo, showLogoUrl: s.showLogoUrl }; 
+          });
+          
+          const videosByShow = videos.reduce((acc, video) => {
+              if (!acc[video.show]) acc[video.show] = [];
+              acc[video.show].push(video);
+              return acc;
+          }, {});
+
+          for (const showTitle in videosByShow) {
+              const episodesForShow = videosByShow[showTitle];
+              const episodesBySeason = episodesForShow.reduce((acc, video) => {
+                  const seasonNum = video.seasonNumber || video.season || 1;
+                  if (!acc[seasonNum]) acc[seasonNum] = [];
+                  acc[seasonNum].push(video);
+                  return acc;
+              }, {});
+              
+              for (const seasonNum in episodesBySeason) {
+                  episodesBySeason[seasonNum].forEach((video, index) => {
+                      if (video.episodeNumber == null && video.episode == null) {
+                          video.episodeNumber = index + 1;
+                      }
+                  });
+              }
+          }
+          window.__ALL_VIDEOS__=videos;
+
+          const { history, isLoggedIn } = await fetchFourthwallHistory();
+          FW_HISTORY = history;
+          updateNav(isLoggedIn);
+          
+          const heroItems = videos.filter(v => v.addedToHero && v.bgUrl);
+          if (heroItems.length > 0) {
+            document.getElementById('hero').style.display = 'block';
+            renderHero(heroItems);
+          } else {
+            document.getElementById('hero').style.display = 'none';
+          }
+          
+          renderNewRail(videos);
+          renderRecommendedRail(videos);
+
+          const categories=(db.categories&&db.categories.length)?db.categories:Array.from(new Set((db.shows||[]).map(s=>s.category||'Uncategorized')));
+          categories.forEach(cat=>{ const showsInCat=(db.shows||[]).filter(s=>(s.category||'Uncategorized')===cat); if(showsInCat.length===0) return; const rail=ensureCategorySection(cat); showsInCat.forEach(s=> rail.appendChild(showCard(s)) ); attachCarouselIfOverflow(rail.closest('.section')); });
+
+                  // After shows are loaded
+const slugToShow = new Map((db.shows||[]).map(s => [slug(s.title), s]));
+
+// Open modal if ?show= is present
+const params = new URLSearchParams(window.location.search);
+const showSlug = params.get("show");
+if (showSlug && slugToShow.has(showSlug)) {
+  openShowModal(slugToShow.get(showSlug));
+}
+
+// Handle back/forward navigation
+window.addEventListener("popstate", () => {
+  const params = new URLSearchParams(window.location.search);
+  const slugVal = params.get("show");
+  closeShow();
+  if (slugVal && slugToShow.has(slugVal)) {
+    openShowModal(slugToShow.get(slugVal));
+  }
+
+  // === Stop show banner video ===
+if (showBannerVideoTimeout) {
+  clearTimeout(showBannerVideoTimeout);
+  showBannerVideoTimeout = null;
+}
+
+const bannerVideo = document.getElementById('showBannerVideo');
+if (bannerVideo) {
+  bannerVideo.pause();
+  bannerVideo.src = '';
+  bannerVideo.load();
+  bannerVideo.style.opacity = 0;
+}
+
+const muteBtn = document.getElementById('showVideoMute');
+if (muteBtn) muteBtn.style.display = 'none';
+
+});
+
+          dbg('FW history count', FW_HISTORY.length);
+          loadCW();
+
+const imageUrls = new Set();
+videos.forEach(v => {
+    if(v.thumbnail) imageUrls.add(getResizedUrl(v.thumbnail, 600));
+    if(v.addedToHero && v.bgUrl) imageUrls.add(getResizedUrl(v.bgUrl, 1400));
+    if(v.heroShowHasLogo && v.heroLogoUrl) imageUrls.add(v.heroLogoUrl); 
+});
+
+db.shows.forEach(s => {
+    if(s.thumbnail) imageUrls.add(getResizedUrl(s.thumbnail, 600));
+    if(s.banner) imageUrls.add(getResizedUrl(s.banner, 1400));
+    if(s.showHasLogo && s.showLogoUrl) imageUrls.add(s.showLogoUrl);
+});
+
+          await preloadImages([...imageUrls]);
+
+          revealLoadedImages(document);
+
+          const loadingScreen = document.getElementById('loading-screen');
+          loadingScreen.classList.add('fade-out');
+          setTimeout(() => {
+              loadingScreen.style.display = 'none';
+              document.body.classList.remove('no-scroll');
+          }, 500);
+
+
+        })().catch(err=>{ 
+            console.error('Failed to load data', err); 
+            updateNav(false);
+             const loadingScreen = document.getElementById('loading-screen');
+             loadingScreen.classList.add('fade-out');
+        });
+
+        document.getElementById('clearQueue').onclick=()=>{
+          if(!confirm('Clear all items from your Continue Watching list? This will hide them until you watch them again.')) return;
+          
+          const currentIds = FW_HISTORY.map(item => item.id);
+          const cleared = getCleared();
+          currentIds.forEach(id => cleared.add(id));
+          putCleared(cleared);
+
+          FW_HISTORY = [];
+          loadCW();
+        };
+        window.addEventListener('focus', async ()=>{ 
+          const { history, isLoggedIn } = await fetchFourthwallHistory();
+          FW_HISTORY = history;
+          updateNav(isLoggedIn);
+          loadCW(); 
+        });
+
+
+
+        // --- Mobile Nav Toggle Script ---
+        const mobileNavToggle = document.getElementById('mobileNavToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileNavToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const isNavActive = navMenu.classList.contains('active');
+            mobileNavToggle.innerHTML = isNavActive ? '&times;' : '&#9776;';
+            document.body.classList.toggle('no-scroll', isNavActive);
+        });
+    });
