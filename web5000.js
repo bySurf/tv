@@ -340,7 +340,7 @@ function getSimilarShows(currentShow, allShows) {
     })
     .filter(x => x.score > 0)
     .sort((a, b) => b.score - a.score)
-    .slice(0, 2)
+    .slice(0, 3)
     .map(x => x.show);
 }
 
@@ -367,6 +367,7 @@ function showCard(s) {
           class="hover-video"
           playsinline
           muted
+          disablepictureinpicture="true"
           preload="metadata"
           data-src="${s.showModalHasVideo ? s.showModalVideoURL : ''}">
         </video>
@@ -377,7 +378,6 @@ function showCard(s) {
 <div class="hover-gradient"></div>
         <div class="hover-content">
           <div class="hp-title">${s.title}</div>
-          <div class="hp-desc">${s.description || ''}</div>
           <div class="hp-tags">
             ${(s.tags || []).slice(0, 3).map(t => `<span>${t}</span>`).join('')}
             </div>
@@ -386,7 +386,17 @@ function showCard(s) {
       </div>
     </div>
   `;
+div.addEventListener('click', (e) => {
 
+  if (e.target.closest('.hover-mute-btn')) return;
+
+  openShowModal(s);
+
+  const url = new URL(window.location);
+  url.searchParams.set('show', slug(s.title));
+  window.history.pushState({}, "", url);
+});
+        
   /* ---------- HOVER VIDEO ---------- */
   const hover = div.querySelector('.hover-preview');
   const video = div.querySelector('.hover-video');
@@ -462,10 +472,13 @@ if (spacer) spacer.style.height = '0px';
   showModal.classList.remove('open');
   showModal.style.display = 'none';
 
+
   // clear URL param
   const url = new URL(window.location);
+  
   url.searchParams.delete("show");
   window.history.pushState({}, "", url);
+
 
   document.body.classList.remove('no-scroll');
 
@@ -489,7 +502,12 @@ if (spacer) spacer.style.height = '0px';
 
 
         function getEpisodesForShow(title){ return (window.__ALL_VIDEOS__||[]).filter(v=> v.show===title); }
-        
+        function getEpisodeProgress(video) {
+  if (!FW_HISTORY || !video.__id) return 0;
+  const match = FW_HISTORY.find(h => h.id === video.__id);
+  return match ? Math.max(0, Math.min(100, match.progressPct || 0)) : 0;
+}
+
 const searchInput = document.getElementById('searchInput');
 const searchClear = document.getElementById('searchClear');
 const searchResults = document.getElementById('searchResults');
@@ -623,13 +641,18 @@ if (mobileSearchBtn && searchBar) {
             const label=getEpisodeLabel(v);
             const freeTag = v.isFree ? `<div class="free-tag">Free</div>` : '';
 const lockTag = (!v.isFree && !IS_PAID_MEMBER) ? LOCK_ICON_HTML : '';
-
+const progress = getEpisodeProgress(v);
 
             el.innerHTML = `
                 <div class="ep-thumb-wrap">
                     ${freeTag}
                         ${lockTag}
                     <img class="lazy-img" src="${getResizedUrl(v.thumbnail, 600)}" data-src="${getResizedUrl(v.thumbnail, 600)}" alt='${v.title}'/>
+                    ${progress > 0 ? `
+      <div class="progress-bar" style="position: unset;">
+        <span style="width:${progress}%"></span>
+      </div>
+    ` : ''}
                 </div>
                 <div>
                     <div class='n'>${label||''}</div>
@@ -861,9 +884,21 @@ s.__episodeRef = v;
       ${v.pillText ? `<span class="presents-text">${v.pillText}</span>` : ''}
       ${titleContent}
       <div class="desc">${v.heroDesc || ''}</div>
-      <button class="cta"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
-  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"></path>
-</svg> Play</button>
+      <div class="hero-actions">
+  <button class="cta">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+    </svg>
+    Play
+  </button>
+
+  <button class="hero-info-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+      <path d="M64 6C32 6 6 32 6 64s26 58 58 58 58-26 58-58S96 6 64 6zm0 6c28.7 0 52 23.3 52 52s-23.3 52-52 52S12 92.7 12 64 35.3 12 64 12zm0 26c-1.7 0-3 1.3-3 3v5c0 1.7 1.3 3 3 3s3-1.3 3-3v-5c0-1.7-1.3-3-3-3zm0 20c-1.7 0-3 1.3-3 3v26c0 1.7 1.3 3 3 3s3-1.3 3-3V61c0-1.7-1.3-3-3-3z"/>
+    </svg>
+    More info
+  </button>
+</div>
     </div>
   `;
 
@@ -878,6 +913,26 @@ s.querySelector('.cta').onclick = (e) => {
   }
 
   openPlayer(ep);
+};
+const infoBtn = s.querySelector('.hero-info-btn');
+
+infoBtn.onclick = (e) => {
+  e.stopPropagation();
+
+  const ep = s.__episodeRef;
+  if (!ep || !ep.show) return;
+
+  const showObj = (window.__ALL_SHOWS__ || []).find(
+    s => s.title === ep.show
+  );
+
+  if (showObj) {
+    openShowModal(showObj);
+
+    const url = new URL(window.location);
+    url.searchParams.set('show', slug(showObj.title));
+    window.history.pushState({}, "", url);
+  }
 };
 
 
@@ -931,7 +986,7 @@ heroMuteBtn.onclick = (e) => {
 let endX = 0;
 
 hero.addEventListener('touchstart', e => {
-    if (e.target.closest('.cta, .video-mute-btn, .modal-close, .playlist-toggle')) {
+    if (e.target.closest('.cta, .hero-info-btn, .video-mute-btn, .modal-close, .playlist-toggle')) {
     startX = null;
     return;
   }
@@ -1183,8 +1238,14 @@ fetch('https://bysurf.tv/supporters/perks', { credentials: 'include' })
             });
             
             const clearedIds = getCleared();
-            const finalItems = clearedIds.size === 0 ? items : items.filter(item => !clearedIds.has(item.id));
-            return { history: finalItems, isLoggedIn: true };
+const completed = items.filter(item => item.progressPct >= 100);
+completed.forEach(item => clearedIds.add(item.id));
+putCleared(clearedIds);
+const finalItems = items.filter(
+  item => item.progressPct < 100 && !clearedIds.has(item.id)
+);
+
+return { history: finalItems, isLoggedIn: true };
 
           }catch(err){ 
             dbg('FW history fetch failed, assuming logged out.', err); 
@@ -1207,6 +1268,83 @@ fetch('https://bysurf.tv/supporters/perks', { credentials: 'include' })
           });
           attachCarouselIfOverflow(sec);
         }
+        
+fetchFourthwallHistory().then(({ history }) => {
+  FW_HISTORY = history;
+  loadCW();
+  renderBecauseYouWatchedRail();
+});
+
+        function getWatchedEpisodesForShow(showTitle) {
+  return FW_HISTORY.filter(
+    h => h.show === showTitle && (h.progressPct || 0) >= 100
+  );
+}
+function isShowWatchedEnough(showTitle) {
+  const allEpisodes = (window.__ALL_VIDEOS__ || [])
+    .filter(v => v.show === showTitle);
+
+  const watched = getWatchedEpisodesForShow(showTitle);
+
+  if (allEpisodes.length <= 1) {
+    return watched.length >= 1;
+  }
+
+  // Multi-episode logic
+  if (watched.length >= allEpisodes.length) return true;
+  if (watched.length >= 2) return true;
+
+  return false;
+}
+function getFirstCompletedShow() {
+  for (const h of FW_HISTORY) {
+    if ((h.progressPct || 0) >= 100 && h.show) {
+      if (isShowWatchedEnough(h.show)) {
+        return h.show;
+      }
+    }
+  }
+  return null;
+}
+function getBecauseYouWatchedRecommendations(sourceShowTitle) {
+  const sourceShow = window.__ALL_SHOWS__
+    .find(s => s.title === sourceShowTitle);
+
+  if (!sourceShow) return [];
+
+  return getSimilarShows(sourceShow, window.__ALL_SHOWS__)
+    .filter(s => s.title !== sourceShowTitle)
+    .slice(0, 5);
+}
+function renderBecauseYouWatchedRail() {
+  if (!FW_HISTORY || !FW_HISTORY.length) return;
+
+  const showTitle = getFirstCompletedShow();
+  if (!showTitle) return;
+
+  const recs = getBecauseYouWatchedRecommendations(showTitle);
+  if (recs.length < 2) return;
+
+  const section = document.createElement('section');
+  section.className = 'section';
+
+  section.innerHTML = `
+    <h2>Because you watched ${showTitle}</h2>
+    <div class="rail"></div>
+  `;
+
+  const rail = section.querySelector('.rail');
+  recs.forEach(s => rail.appendChild(showCard(s)));
+
+  // Insert under the "New" rail
+  const newSection = document.getElementById('newRail')?.closest('.section');
+  if (newSection) {
+    newSection.after(section);
+  }
+
+  revealLoadedImages(rail);
+}
+
 
         function renderNewRail(videos){ const newRail=document.getElementById('new-rail'); newRail.innerHTML=''; const pick = videos.slice(-5).reverse(); pick.forEach(v=> newRail.appendChild(videoCard(v))); attachCarouselIfOverflow(newRail.closest('.section')); }
 
