@@ -13,3 +13,4 @@ jobs:
       - name: Purge jsDelivr
         run: |
           curl -X POST https://purge.jsdelivr.net/gh/bysurf/tv@main/bysurf_tv_data.json
+          curl -X POST https://purge.jsdelivr.net/gh/bysurf/tv/bysurf_tv_data.json
