@@ -904,8 +904,8 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
       "heroOrder": 7,
-      "heroHasVideo": false,
-      "heroVideoURL": ""
+      "heroHasVideo": true,
+      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4"
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
