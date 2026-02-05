@@ -898,7 +898,7 @@
       "releaseDate": "2025-11-25",
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/elbozwgw8dkw6uah3uah96zymp00",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197317",
       "pillText": "",
@@ -907,8 +907,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
       "heroHasVideo": true,
-      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4",
-      "heroOrder": 3
+      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4"
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
