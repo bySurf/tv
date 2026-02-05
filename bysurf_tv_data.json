@@ -758,11 +758,11 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/204614",
       "pillText": "",
       "heroTitle": "THE DEATH OF NORMALITY",
-      "heroDesc": "In an age where people are glued to their screens, what happened to normality?",
+      "heroDesc": "In an age where people are stuck to their screens, what happened to normality?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
-      "heroHasVideo": true,
-      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1f936f291eec3fd6cf461db2e181cb82_c94da8eac832.mp4",
+      "heroHasVideo": false,
+      "heroVideoURL": "",
       "heroOrder": 1
     },
     {
