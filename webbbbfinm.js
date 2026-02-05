@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     userHasInteracted = true;
   }, { once: true });
 });
-const DATA_URL = `https://bysurf.github.io/tv/bysurf_tv_data.json`;
+const DATA_URL = `https://lively-river-42ea.ktrocityy.workers.dev/`;
         const PLACEHOLDER_IMG = 'https://imgproxy.fourthwall.com/NGtTO-xePFSZdb5LAhcDCr3XNJqbjfENjyEBhj3iuwg/rt:fill/w:890/el:0/q:90/sm:1/enc/OWI1ZjVmZWY3YzFl/NTU3MhnnXWS1kcOe/jMySDjmqYEIrQsny/BKsT-ZtwEAE_BOqy/SEdbRIPEeHAY5Wc4/Pf6vugezBG5nV_2Q/4pdiBMDSBVWkrmq1/HsM_1Kt1tsThv_Cm/jT5yLyH3U-f_N9L2/3fZfgDs7zHsdRfPi/hCLoWk1VnrE.webp';
 function getResizedUrl(url, width) {
   if (!url) return '';
