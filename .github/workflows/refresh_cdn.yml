@@ -1,0 +1,15 @@
+name: Refresh jsDelivr Cache
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'bysurf_tv_data.json'
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr
+        run: |
+          curl -i https://purge.jsdelivr.net/gh/bysurf/tv@main/bysurf_tv_data.json
