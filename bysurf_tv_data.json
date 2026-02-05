@@ -461,7 +461,7 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/eea554425ef77bf5dacea9b5818e573a_7d068568e2c1.mp4",
-      "heroOrder": 3
+      "heroOrder": 4
     },
     {
       "title": "Episode 1",
@@ -746,21 +746,24 @@
     },
     {
       "title": "THE DEATH OF NORMALITY (Full Documentary)",
-      "description": "13 Min",
+      "description": "14 Min",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/gt6xbda1swzbbkwblv7an3wldfh2",
       "show": "THE DEATH OF NORMALITY",
       "url": "https://bysurf.tv/supporters/videos/162585",
       "releaseDate": "2025-09-23",
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": false,
-      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/2ow6gjwhmyca3ecxt4o11ns22cea",
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/163362",
-      "pillText": "a stance on the screen",
-      "heroTitle": "THE DEATH OF NORMALITY (Full Documentary)",
-      "heroDesc": "In an age where people have become wired to their screens, what happened to normality?",
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/l0dmg5s0h6t662qogplkabrwjv66",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/204614",
+      "pillText": "",
+      "heroTitle": "THE DEATH OF NORMALITY",
+      "heroDesc": "In an age where people are glued to their screens, what happened to normality?",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe"
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
+      "heroHasVideo": true,
+      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1f936f291eec3fd6cf461db2e181cb82_c94da8eac832.mp4",
+      "heroOrder": 1
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -845,7 +848,7 @@
       "recommendedOrder": 3,
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/3dec0f8c82aff4083c8297a3757c460c_ebac4e4a818a.mp4",
-      "heroOrder": 1
+      "heroOrder": 2
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -905,7 +908,7 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4",
-      "heroOrder": 2
+      "heroOrder": 3
     },
     {
       "title": "I'm making a BTS Documentary / 2-min teaser of next members-doc",
