@@ -289,8 +289,8 @@
       "category": "Docuseries",
       "creatorLinks": [],
       "isFree": false,
-      "showHasLogo": false,
-      "showLogoUrl": "",
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/claja3wyrt1z4e77vvcwkaxj1t35",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/894437cef7db25983ff63253202a2ca0_92aa2b5925ac.mp4"
     },
