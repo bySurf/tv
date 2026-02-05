@@ -10,7 +10,10 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Purge jsDelivr
+      - name: Wait for GitHub File Servers
+        run: sleep 45
+
+      - name: Force Purge jsDelivr
         run: |
           curl -X POST https://purge.jsdelivr.net/gh/bysurf/tv@main/bysurf_tv_data.json
           curl -X POST https://purge.jsdelivr.net/gh/bysurf/tv/bysurf_tv_data.json
