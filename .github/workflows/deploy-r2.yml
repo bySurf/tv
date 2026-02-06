@@ -1,0 +1,25 @@
+name: Sync JSON to R2
+on:
+  push:
+    paths:
+      - 'bysurf_tv_data.json'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload to R2
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.R2_ACCOUNT_ID }}
+          command: r2 object put vod-data/bysurf_tv_data.json --file=./bysurf_tv_data.json
+
+      - name: Purge Cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.ZONE_ID }}/purge_cache" \
+          -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          --data '{"files":["https://server.bysurf.tv/bysurf_tv_data.json"]}'
