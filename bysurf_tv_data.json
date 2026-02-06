@@ -451,7 +451,7 @@
       "releaseDate": "2024-11-20",
       "isFree": true,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ultd47be87u5w9931248mwhwf8if",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197323",
       "pillText": "",
@@ -460,8 +460,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
       "heroHasVideo": true,
-      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/eea554425ef77bf5dacea9b5818e573a_7d068568e2c1.mp4",
-      "heroOrder": 4
+      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/eea554425ef77bf5dacea9b5818e573a_7d068568e2c1.mp4"
     },
     {
       "title": "Episode 1",
@@ -758,11 +757,11 @@
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/204614",
       "pillText": "",
       "heroTitle": "THE DEATH OF NORMALITY",
-      "heroDesc": "In an age where people are stuck to their screens, what happened to normality?",
+      "heroDesc": "In an age where people are glued to their screens, what happened to normality?",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
-      "heroHasVideo": true,
-      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1f936f291eec3fd6cf461db2e181cb82_c94da8eac832.mp4",
+      "heroHasVideo": false,
+      "heroVideoURL": "",
       "heroOrder": 1
     },
     {
