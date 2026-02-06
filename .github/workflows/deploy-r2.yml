@@ -15,7 +15,8 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.R2_ACCOUNT_ID }}
-          command: r2 object put vod-data/bysurf_tv_data.json --file=./bysurf_tv_data.json
+          # Updated bucket name to tv-data
+          command: r2 object put tv-data/bysurf_tv_data.json --file=./bysurf_tv_data.json
 
       - name: Purge Cache
         run: |
