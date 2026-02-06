@@ -357,6 +357,11 @@
         } else {
           if (mobileLounge) mobileLounge.classList.remove('hidden');
         }
+        var mobileBugsBtn = document.getElementById('mobileBugsBtn');
+        if (mobileBugsBtn) {
+          if (IS_PAID_MEMBER) mobileBugsBtn.classList.add('hidden');
+          else mobileBugsBtn.classList.remove('hidden');
+        }
         if (mobileJoin) {
           var jIcon = mobileJoin.querySelector('.nav-btn-icon');
           if (jIcon) {
