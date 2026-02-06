@@ -762,7 +762,7 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
       "heroHasVideo": false,
       "heroVideoURL": "",
-      "heroOrder": 1
+      "heroOrder": 2
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -847,7 +847,7 @@
       "recommendedOrder": 3,
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/3dec0f8c82aff4083c8297a3757c460c_ebac4e4a818a.mp4",
-      "heroOrder": 2
+      "heroOrder": 0
     },
     {
       "title": "Jakub Jahl: A Disturbing Internet Rabbit Hole",
@@ -946,7 +946,7 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8d87ff058a0fe67bc333901624cc04a5_7c581db4e4fc.mp4",
-      "heroOrder": 0
+      "heroOrder": 1
     },
     {
       "title": "roadblock",
