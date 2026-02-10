@@ -302,8 +302,12 @@
       "banner": "https://imgproxy.fourthwall.com/MSrS-hwIjWbMt_MHb9x8d1DlR19rls-babUhnenFZ-o/el:0/q:90/sm:1/enc/MWUwMjYzNDllNWFl/YTk2OSCQ6lOR7bg8/5u04X6CF0lpo-i2c/-V1c0QhvSVgbapXL/bWMc_XUXfOZl3pD4/0fL0_j4IPbN9Jh5Y/Ay2mZn8MNn0UMk5L/VnMWxhicHq8-dHZH/O56NU-dLY8uAVs3R/E2gmYLE2OVZGNr4F/k9BnlJAwuNA.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/qzSaKFtTBAZeKgjAauDAHjcNkrjIaTUAtyOzjtlQhfE/el:0/q:90/sm:1/enc/Njk3ZWU3NDljOThi/NjlkM4Z_lEUua8FP/Jk-8iqKG9Duhotrb/WcPmuRONGnozZvhX/ZrLwVnWsNHugnBRc/ajBGATcrsLDO8J5T/Er5zg3HyDke2R8PM/FqMa5zqLNWetSGb6/Eoyb539Q2pszHQoc/pTSOh_0YFdgO0RFj/_xabJJmKd5g.webp",
       "category": "Docuseries",
+      "categories": [
+        "Docuseries"
+      ],
       "creatorLinks": [],
       "isFree": false,
+      "isTVOriginal": true,
       "showHasLogo": true,
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/claja3wyrt1z4e77vvcwkaxj1t35",
       "showModalHasVideo": true,
