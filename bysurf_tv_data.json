@@ -207,6 +207,10 @@
       "banner": "https://imgproxy.fourthwall.com/GCDD1T6UjJICF309J9LLgF6hRsaNppBd8Gf48i6RZzc/el:0/q:90/sm:1/enc/Zjc2ZGJkZWJjYTUw/MTFjMZJU_ews7nE1/gU1Bq6fIEr6E_SBo/s6BoFtWrK7xoEypa/O6-LTjiQToCnMVy-/33sHDxUpz5Bfbxyo/gO2cNFSTuqHWZ0rh/YMSQVZSBiInJSID3/eOOcyNCj8LweYS-W/RXJ_EMnBXpcCNEXY/oPUvRRmGD8g.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/nyaGE9tC_I1w8-aKmOYfI3YLJzsesV3WIlcPYoG1OaU/el:0/q:90/sm:1/enc/YTFlY2RhZjE4MjRi/MDQ3NnGEnqFeJPvO/c6638S_I1kxP8qMR/GDCoN1NDcWPRGHNn/o5WitPeBTZ6WxXr4/8P2dV2IDivLFb-Ux/AkNjQQbVCytQWyaV/Et8_DJ2tpKhZuxYB/mdFGpdLUb3_YMNm_/nfvgh15ZI_VAiLiS/sx1yHbd3nqM.webp",
       "category": "Philosophy",
+      "categories": [
+        "Philosophy",
+        "Documentaries"
+      ],
       "creatorLinks": [],
       "isFree": false,
       "isTVOriginal": true,
@@ -459,7 +463,8 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8d87ff058a0fe67bc333901624cc04a5_7c581db4e4fc.mp4",
-      "heroOrder": 1
+      "heroOrder": 1,
+      "recommendedOrder": 3
     },
     {
       "title": "How Paparazzi Killed Princess Diana",
@@ -605,10 +610,10 @@
       "heroDesc": "A deep dive into the future we were promised...",
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "recommendedOrder": 3,
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/3dec0f8c82aff4083c8297a3757c460c_ebac4e4a818a.mp4",
-      "heroOrder": 0
+      "heroOrder": 0,
+      "recommendedOrder": 1
     },
     {
       "title": "Geraldine's Trail",
