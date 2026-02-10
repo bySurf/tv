@@ -707,17 +707,6 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/vwzrh6ua94u66aptsgi8a4l6798d"
     },
     {
-      "title": "Jakub Jahl Documentary Breakdown",
-      "description": "18 Min",
-      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ejqsjr7u1s3se5zvho1z1nn4j84z",
-      "show": "Behind The Scene",
-      "url": "https://bysurf.tv/supporters/videos/173975",
-      "releaseDate": "2025-11-09",
-      "isFree": false,
-      "isRecommended": false,
-      "addedToHero": false
-    },
-    {
       "title": "ANATAHAN Video 3D Breakdown",
       "description": "11 Min",
       "show": "Behind The Scene",
@@ -748,6 +737,17 @@
       "show": "Behind The Scene",
       "url": "https://bysurf.tv/supporters/videos/161215",
       "releaseDate": "2025-09-20"
+    },
+    {
+      "title": "Jakub Jahl Documentary Breakdown",
+      "description": "18 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/ejqsjr7u1s3se5zvho1z1nn4j84z",
+      "show": "Behind The Scene",
+      "url": "https://bysurf.tv/supporters/videos/173975",
+      "releaseDate": "2025-11-09",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
     },
     {
       "title": "life update",
