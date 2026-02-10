@@ -267,8 +267,13 @@
       "banner": "https://imgproxy.fourthwall.com/Dh13FTwHBXCfYBezJsgas2rNPEaGflWoC82g1Aw-E50/el:0/q:90/sm:1/enc/ODFlNWRkYTgyY2U2/ODYzZtsFCClAk3rR/bdtXgIfts_MUu4y1/C5iC-C0rby_OXzei/JSVhYAIq5Md2mptD/AcEgj1BHOfcmpfZF/GqXhSiUtnnahUeDX/dycRRbSIZt9DFnv-/67FwA0FCQe8HrnF1/xj-1oao4ysgwAYKi/T8S1QLC8TcQ.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/SaQlhXHf6aozZ4-JwZoUeT4r5wUxSDuoQ-FLSQkD0Vk/el:0/q:90/sm:1/enc/MDVjMzU5ZDRiNjk0/OWI0Y-eiVYuHBAjK/G1F5la6Ma1bbbaKK/oID-108JI4PR3EJr/rKl3g8vVNrEcqBD_/yRrwigTSqhWf44Rg/ea1x-3dJqrNry_oi/SKxqS3yJxYYHibmF/PUJp3p5kUsXkqUVR/tF9EgZnbWxS-JPAE/ThD20EbYCes.webp",
       "category": "Hacking",
+      "categories": [
+        "Hacking",
+        "Docuseries"
+      ],
       "creatorLinks": [],
       "isFree": false,
+      "isTVOriginal": true,
       "showHasLogo": true,
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
       "showModalHasVideo": true,
