@@ -331,16 +331,21 @@
         "BTS",
         "Video Breakdown",
         "How It's Made",
-        "Editing Tutorial"
+        "Editing Tutorial",
+        "Commentary"
       ],
       "presents": "a bySurf Breakdown",
       "banner": "https://imgproxy.fourthwall.com/KlXtKgkAi22wetVVXFPYgidhloDANXTNCdjouVZ8R5o/el:0/q:90/sm:1/enc/NDg2NjFkZDVmZDlh/ZTZiYVX1CyGkHnTU/qtO44-jjTtYqCBbI/ZYQuPd308vMHFyGx/QQ8rXAQHwgeO9c1R/ht-p1w1DcQUCvbZF/cEDQiPbzuIM1jSjO/6051ca8dKQpgsXoF/wW4tfwbXuG2-2pge/6UrhltyuFGPhMXxU/xMq4QjLq9No.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/MmC1_QnlXYZ1k2xoFU9_VFD7IiuUoqMJWNdELNESnBI/el:0/q:90/sm:1/enc/YTljYjFmNTExZDhj/MTEyZLpBI2YThuod/FLudiRDURPXiAhzq/mfUbf2FsRtx4aHDs/J7M08FjrlvRouGiI/WQnpWgyzZEMzS9Bn/E3TTljR6JUmxsJGQ/G172SXeCtUnY1Jjy/a7jL-m8GCRFmVRxy/mqBk4AtAI_r_0B0h/_N3tYb-XVmo.webp",
       "category": "Behind The Scenes",
+      "categories": [
+        "Behind The Scenes"
+      ],
       "creatorLinks": [],
       "isFree": false,
-      "showHasLogo": false,
-      "showLogoUrl": "",
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d6d9op782ae1cwvimgjfmkokk5ur",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8141d36de3e2bc58aebcfcffe4292543_de6ed85edc7c.mp4"
     },
@@ -357,10 +362,14 @@
       "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
       "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp",
       "category": "Commentary",
+      "categories": [
+        "Commentary"
+      ],
       "creatorLinks": [],
       "isFree": false,
-      "showHasLogo": false,
-      "showLogoUrl": "",
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/hah4iqoec70v2314fjfq7uxtsoaq",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/b074ba6e0444643fc4e9703b17dea783_e09724a0ce4e.mp4"
     },
