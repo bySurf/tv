@@ -1,0 +1,42 @@
+# Notify Discord Members Lounge when a new members video is available.
+# Reads videos.json, finds the video with latest releaseDate, extracts episode ID,
+# and POSTs to a Discord webhook with @Supporters and share link.
+#
+# Required repo secrets: DISCORD_WEBHOOK_URL, DISCORD_SUPPORTERS_ROLE_ID
+
+name: Notify Members Video
+
+on:
+  push:
+    branches: [main]
+    paths: ['bysurf_tv_data.json']
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get latest episode ID
+        id: episode
+        run: |
+          EPID=$(node -e '
+          const fs = require("fs");
+          const data = JSON.parse(fs.readFileSync("bysurf_tv_data.json", "utf8"));
+          const videos = (data.videos || []).filter(v => v.releaseDate && String(v.releaseDate).trim());
+          videos.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
+          const latest = videos[0];
+          if (!latest || !latest.url) process.exit(0);
+          const m = latest.url.match(/\/(?:videos|video_embeds)\/(\d+)/);
+          if (m) console.log(m[1]);
+          ')
+          echo "episode_id=$EPID" >> $GITHUB_OUTPUT
+          echo "has_episode=$([ -n "$EPID" ] && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+
+      - name: Notify Discord
+        if: steps.episode.outputs.has_episode == 'true'
+        run: |
+          curl -s -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d '{"content":"New Members Video is up now!\n<@&${{ secrets.DISCORD_SUPPORTERS_ROLE_ID }}>\nhttps://share.bysurf.tv/${{ steps.episode.outputs.episode_id }}","allowed_mentions":{"roles":["${{ secrets.DISCORD_SUPPORTERS_ROLE_ID }}"]}}'
