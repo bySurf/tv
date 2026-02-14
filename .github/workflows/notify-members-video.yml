@@ -34,6 +34,34 @@ jobs:
           echo "episode_id=$EPID" >> $GITHUB_OUTPUT
           echo "has_episode=$([ -n "$EPID" ] && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
 
+      # Wait until server.bysurf.tv has the new episode so share link meta tags work when Discord crawls
+      - name: Wait for episode in server JSON
+        if: steps.episode.outputs.has_episode == 'true'
+        run: |
+          EPID="${{ steps.episode.outputs.episode_id }}"
+          MAX_ATTEMPTS=20
+          INTERVAL=15
+          for i in $(seq 1 $MAX_ATTEMPTS); do
+            echo "Attempt $i/$MAX_ATTEMPTS: checking server.bysurf.tv for episode $EPID..."
+            FOUND=$(curl -sL "https://server.bysurf.tv/bysurf_tv_data.json?nocache=${{ github.run_id }}_$i" | node -e "
+              const id = process.argv[1];
+              let data; try { data = JSON.parse(require('fs').readFileSync(0, 'utf8')); } catch(e) { process.exit(1); }
+              const videos = data.videos || [];
+              const found = videos.some(v => v && v.url && new RegExp('/(?:videos|video_embeds)/' + id).test(v.url));
+              console.log(found ? 'yes' : 'no');
+            " "$EPID" 2>/dev/null || echo "no")
+            if [ "$FOUND" = "yes" ]; then
+              echo "Episode $EPID is live on server.bysurf.tv."
+              exit 0
+            fi
+            if [ $i -lt $MAX_ATTEMPTS ]; then
+              echo "Not yet. Waiting ${INTERVAL}s..."
+              sleep $INTERVAL
+            fi
+          done
+          echo "::warning::Episode $EPID not found on server.bysurf.tv after ${MAX_ATTEMPTS} attempts. Discord preview may show default meta until server updates."
+          exit 0
+
       - name: Notify Discord
         if: steps.episode.outputs.has_episode == 'true'
         run: |
