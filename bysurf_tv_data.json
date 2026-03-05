@@ -415,6 +415,32 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/o0mbgamyy7xjz8w1nnc71uqkv3yg",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/cdb2097d0467c2ad8c7dc7693b20c3df_8bbeeb368d55.mp4"
+    },
+    {
+      "title": "Behind The Video",
+      "description": "Over the past month and a half, I documented the process of making my lates",
+      "tags": [
+        "behind the scenes",
+        "bts",
+        "documentary",
+        "commentary"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/yM_-UAMmsHeWhWJZZLQtXjiqw8jXJEnxd2Z4Dgh9_7Q/el:0/q:90/sm:1/enc/Y2EwZmNiNzAxMDY2/MjQ2ZNSeb6iYjQPc/YkyTDbln4Gj7XKRL/tyZH-AqB6mZw0NQM/rlhbAeDxzExqei7A/sP_iYPYuzE2Sd2kF/kqvYOKRgCZ3Qte2O/PhEQ15XkhuPudqb_/5f8o3jpFxA2FCxP9/ZGLqMo1AfWhec-j0/qOWil4Gq_rU.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/Mei4DLts6U3U3wx1h0pgd6cNcBxm3Q9RvhnC4NAvh64/el:0/q:90/sm:1/enc/NjE4YTNhNGI0NGVj/ODgxM4ziYcrIkhkF/fjqA1cHTMTIjuY3W/f4JMW6OXkMOXAebh/HX1C3oYctRfUGImr/4Qq6uyFN-NrGFw1R/vbsHk0Ihpn5X4GKm/tBz6YT_1qkC_rPGP/e6cqtitVD-5y0mzN/2f8H1BQUybGdQe13/LIiMz2EH6bY.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries",
+        "Commentary",
+        "Behind The Scenes"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5xgaysvnvyimrlxk4qkc84ko9jao",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
     }
   ],
   "videos": [
@@ -1038,6 +1064,17 @@
       "releaseDate": "2026-02-14",
       "isFree": false,
       "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "Behind The Video | Making A Documentary",
+      "description": "21 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/fmiuxqzoyyh8qkbi873vegjmmvi3",
+      "show": "Behind The Video",
+      "url": "https://bysurf.tv/supporters/videos/213367",
+      "releaseDate": "",
+      "isFree": false,
+      "isRecommended": true,
       "addedToHero": false
     }
   ],
