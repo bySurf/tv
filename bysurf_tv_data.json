@@ -441,6 +441,29 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5xgaysvnvyimrlxk4qkc84ko9jao",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
+    },
+    {
+      "title": "Astral Mysteries",
+      "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
+      "tags": [
+        "documentary",
+        "disturbing",
+        "space"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.dev/WCONwZsDEuhCNhS-7VcfOX9aDmKB1mo0CsFOPWJFhio/el:0/q:90/sm:1/enc/MDkzYWEyZjkxZTA4/YThhMcV4ZGloaXyg/KW3WtuPCIg2G0Uo1/mnJa7ga7NibgT5up/m9c-MK6V9oWOy-VB/e7TjrFRnlQNK3kzi/K-APc9oyg91APyOk/FAHzT7SCtu7GfR2h/nvp13sOE7405nF8D/IvPFKuP2ZzGVbfJ4/G2U-_m0rb1U.webp",
+      "thumbnail": "https://imgproxy.fourthwall.dev/dXvF48k9-RAFw5Fv-FJI2Il5lqtFKC4KCykCDZoUUu0/el:0/q:90/sm:1/enc/MzMzY2YxMDk3N2Ni/Mzc2YsGu9TyR_B81/JRVT-kRbu6jZ-ofE/YUIpoX3e83ED3itX/4fBCwKZj02P5mXly/yybPmC4dya5PUfAd/h1ZQ7dQTlJRHMzxH/rM0yfwh9A1vXk0GX/VfCpQQlD0Ey0EOE0/RJwEhRRhnBndm1_D/sUp2me2Xs98.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
     }
   ],
   "videos": [
@@ -1112,6 +1135,17 @@
       "seasonNumber": 2,
       "isFree": false,
       "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "Astral Mysteries",
+      "description": "12 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1uo2o96nl2ebl26vqlh8nkp21zk0",
+      "show": "Astral Mysteries",
+      "url": "https://bysurf.tv/supporters/videos/229624",
+      "releaseDate": "2026-04-30",
+      "isFree": false,
+      "isRecommended": true,
       "addedToHero": false
     }
   ],
