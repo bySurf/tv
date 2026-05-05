@@ -1146,6 +1146,27 @@
       "releaseDate": "2026-04-30",
       "isFree": false,
       "isRecommended": true,
+      "addedToHero": true,
+      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xnvtpn7gqqtem6op6f54zlw5skkl",
+      "heroSourceUrl": "https://bysurf.tv/supporters/posts/229594",
+      "pillText": "",
+      "heroTitle": "Astral Mysteries",
+      "heroDesc": "The Universe is one of the biggest, darkest and emptiest mysteries in the world today.",
+      "heroShowHasLogo": true,
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
+      "heroHasVideo": true,
+      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
+    },
+    {
+      "title": "The YouTube Algorithm",
+      "description": "10 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1koc94ynttpm53td11ktfdc41wz3",
+      "show": "The Progressbar",
+      "url": "https://bysurf.tv/supporters/videos/231046",
+      "releaseDate": "2026-05-05",
+      "seasonNumber": 3,
+      "isFree": false,
+      "isRecommended": false,
       "addedToHero": false
     }
   ],
