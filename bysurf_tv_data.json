@@ -544,8 +544,8 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8d87ff058a0fe67bc333901624cc04a5_7c581db4e4fc.mp4",
-      "heroOrder": 1,
-      "recommendedOrder": 3
+      "recommendedOrder": 3,
+      "heroOrder": 2
     },
     {
       "title": "How Paparazzi Killed Princess Diana",
@@ -683,7 +683,7 @@
       "releaseDate": "2025-11-02",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g3cvwpt9tns6cv444aic5ff7dmo2",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197315",
       "pillText": "",
@@ -693,7 +693,6 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/3dec0f8c82aff4083c8297a3757c460c_ebac4e4a818a.mp4",
-      "heroOrder": 0,
       "recommendedOrder": 1
     },
     {
@@ -1038,7 +1037,7 @@
       "releaseDate": "2025-09-23",
       "isFree": false,
       "isRecommended": false,
-      "addedToHero": true,
+      "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/l0dmg5s0h6t662qogplkabrwjv66",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/204614",
       "pillText": "",
@@ -1047,8 +1046,7 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/rrojotrmxufyw6t56pmdjrp6rdhe",
       "heroHasVideo": false,
-      "heroVideoURL": "",
-      "heroOrder": 2
+      "heroVideoURL": ""
     },
     {
       "title": "The Pursuit Of The World (Full Documentary)",
@@ -1155,7 +1153,8 @@
       "heroShowHasLogo": true,
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
       "heroHasVideo": true,
-      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
+      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4",
+      "heroOrder": 0
     },
     {
       "title": "The YouTube Algorithm",
