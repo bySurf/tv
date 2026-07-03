@@ -1,28 +1,47 @@
 {
   "shows": [
     {
-      "title": "TV Edition",
-      "description": "Supporters get early-access to upcoming documentaries, ad-free.",
+      "title": "SCAMXSEC",
+      "description": "Taking down a $100,000 Scam Call Center...",
       "tags": [
-        "Early-Access",
-        "Ad-Free",
-        "Documentary"
+        "scambaiting",
+        "hacking"
       ],
-      "presents": "For Patrons",
-      "banner": "https://imgproxy.fourthwall.com/3UJi9pn_a0hpjZq7XoPZ3lZuvEvjLxyWiGlAYNVX9ns/el:0/q:90/sm:1/enc/NGM0OGMxNTExZjlh/OTAzNxiHOeLeXYKu/4Waemv0T-WwmjOuO/AVPGF_5KeNHZR-V8/2WAPRzmmRw_LR_i1/aPEwq0LCQz5LPJ0p/4LyZw432pL0ft_2_/MDTrMVymV3c6WmtY/3FVxYkgXdKAngEfv/uZxfqZZWDgkbXg6j/iZzh0ZNDg9M.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/M9xekisj6j5IJKz03NyIoDOde3rCTyBtnTdOR8lETPg/el:0/q:90/sm:1/enc/YzQwYzZiYjc3MTgx/MDU2NloefZgnQAHJ/RYMan1ZWAaH96zUh/aYAXB5r3o95yzMIM/61HES3Y3U5xVSTd6/FrZd3hQCe-9s2H-b/pV6VxXYX-Sh6I_KC/ugsqoHLj4QoqLudY/j52ndFSfa3iQX604/zooS6o0i-13zD_wg/rcANRIfnFvQ.webp",
-      "category": "Early Access",
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/PUVqUi4oHzeiX-WVVSNIvddfxCIo4cpEvXlHA4gHh_I/el:0/q:90/sm:1/enc/OGQ3ZjFjNmQ5Mjc0/MzE5OYbHHV2p3phC/hFl-4XJatI0Hut4M/UAl7p47_KF-U6NY6/aWpJrLtel5d5GhgY/z0eY7UGNMLml02d8/529jpNK-DsLawfek/CPZD_olO1qeJK1R6/XzhKTOhKoP6sEQNq/ntq8oCt8wgtvfNwk/BKzjUCl62-g.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/6U-0QFQc2dnzRaYMfxjO7X4A5oLnF-7l86KKcb483rY/el:0/q:90/sm:1/enc/ZjMyNDQwYzM3OGJl/ZjBlZAXOPA_5Kjri/0bINUoWJHvg03uGX/XGNGriiEwAE4Xq4y/j3NDrSaRiFNfj3TA/cDiqV4EXfb8oQXDQ/EXCufbmy-ew2RcyF/dHFESGLsOzl9tgWJ/TI7ucktIL2MJTzBz/7NPk2N5uSXbybD72/o_mJLY2nYBE.webp",
+      "category": "Hacking",
+      "creatorLinks": [],
+      "isFree": true,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/50c7d5a795e431171956ae47bda59a2d_6b2e9ca1d7f6.mp4"
+    },
+    {
+      "title": "The Social Media Apocalypse",
+      "description": "The Internet is no longer a destination, but a companion to modern life..",
+      "tags": [
+        "mini-documentary",
+        "philosophy",
+        "deep",
+        "social media",
+        "reality"
+      ],
+      "presents": "a bySurfTV Exclusive",
+      "banner": "https://imgproxy.fourthwall.com/XedVJIeBXaUb_zqipplbJIvQNP6zKZj3uCcZSyqUQKc/el:0/q:90/sm:1/enc/NzQ4MWU1ZDc5N2Rl/Nzg4YsfbudZH8EHT/vUf-5gE-MLh6qwO4/zDHJTlMTaE5wZ2iJ/xDQsTY130Z_cYPZ6/qO6-L3LeOcnsUxVb/jMjDfhDwrRj-_T48/MjDjy6otmFjIDDe2/z4MOR0N4pvXVsWVi/WXnK0ulHm4VLvtRI/JM0SriQC8cs.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/5vAZ161LdsGSws7KxNmDbKQxHK71_fkVMI4LJJhPvDo/el:0/q:90/sm:1/enc/NjZkNThiYzYzZWNj/Y2M4NMDNqKBsHyB0/MEqcvliDDrC-fK7P/fZEsjAfLXSh9Xk9j/SUHWMv2wSruvU3bZ/LnOh0A6fKR5XnCom/dhdd3cR_ViZs0ZXv/9e1L-Mb7_-RuYvDK/xGilcuM4C0CTp-kX/F-PUYm3WQAFCCb61/k96RCIjYgVw.webp",
+      "category": "Philosophy",
       "categories": [
-        "Early Access",
-        "Documentaries"
+        "Philosophy"
       ],
       "creatorLinks": [],
       "isFree": false,
-      "isTVOriginal": false,
+      "isTVOriginal": true,
       "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/qxnhaxxwzaywykfh5w2l9myskpgs",
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0ppehfloanajhtx98k9v3qc36e2i",
       "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/280898ad7ddc341f8dc8152275ebc61c_adbeb7e87e7d.mp4"
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/bfbda50ca4c1850f874595a7b0547346_0d92f370f16d.mp4"
     },
     {
       "title": "MAGNOTTA",
@@ -94,6 +113,30 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/uz1g6ixr1idijvs9wsvi2q88td6a",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8d87ff058a0fe67bc333901624cc04a5_7c581db4e4fc.mp4"
+    },
+    {
+      "title": "PRINCESS DIANA",
+      "description": "A two sided mystery...",
+      "tags": [
+        "docuseries",
+        "mind-bending"
+      ],
+      "presents": "bySurfTV presents",
+      "banner": "https://imgproxy.fourthwall.com/ymow8p5eCRQqI52mNSCP1f88CWu07sm-9dhfbhe6D_E/el:0/q:90/sm:1/enc/MzAzNjdlZWJmODQ3/YTk5MM7YFlw3J-ot/GpP19n7QX8zdgfZg/bx1V5zGF5w2E7loy/KZnpXfSY7zz_21ta/OXtJJ_zZYBavUF9S/6qzI534kp80mlVRq/oXTOplI-d0pC_oS0/JOZElZfD-5vW001M/yInGNV26IfHvijP8/7hTyT5GyLNA.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/Supx2ghBX1anBEa813E9nvWUOkfCEAvOAh-Yt2dB4zc/el:0/q:90/sm:1/enc/OWY3MjcwMjU0ZDc5/YzJlYVnO1JH2yZbA/BOdK9XH5s0NcZXgS/-A9C02RoNXsGxVMG/vNzMz_pOg7EPRQX4/Bb50EhsEUaekH-OJ/WVfrA1UmpM9FKDZw/-UZ7Z6rGs8SSa8TU/sA_LcGKR7mQn75oW/cd79xpr326QtZ054/H3y93gLVnoA.webp",
+      "category": "Docuseries",
+      "creatorLinks": [
+        {
+          "title": "Hosted by Barnes",
+          "href": "https://x.com/Barnical_"
+        }
+      ],
+      "isFree": false,
+      "isTVOriginal": true,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4"
     },
     {
       "title": "TV Edition",
@@ -212,80 +255,6 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/9b92a3193352d46e0e4579e3c0796d3e_7f7e31f18a44.mp4"
     },
     {
-      "title": "Behind The Video",
-      "description": "Over the past month and a half, I documented the process of making my lates",
-      "tags": [
-        "behind the scenes",
-        "bts",
-        "documentary",
-        "commentary"
-      ],
-      "presents": "",
-      "banner": "https://imgproxy.fourthwall.com/yM_-UAMmsHeWhWJZZLQtXjiqw8jXJEnxd2Z4Dgh9_7Q/el:0/q:90/sm:1/enc/Y2EwZmNiNzAxMDY2/MjQ2ZNSeb6iYjQPc/YkyTDbln4Gj7XKRL/tyZH-AqB6mZw0NQM/rlhbAeDxzExqei7A/sP_iYPYuzE2Sd2kF/kqvYOKRgCZ3Qte2O/PhEQ15XkhuPudqb_/5f8o3jpFxA2FCxP9/ZGLqMo1AfWhec-j0/qOWil4Gq_rU.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/Mei4DLts6U3U3wx1h0pgd6cNcBxm3Q9RvhnC4NAvh64/el:0/q:90/sm:1/enc/NjE4YTNhNGI0NGVj/ODgxM4ziYcrIkhkF/fjqA1cHTMTIjuY3W/f4JMW6OXkMOXAebh/HX1C3oYctRfUGImr/4Qq6uyFN-NrGFw1R/vbsHk0Ihpn5X4GKm/tBz6YT_1qkC_rPGP/e6cqtitVD-5y0mzN/2f8H1BQUybGdQe13/LIiMz2EH6bY.webp",
-      "category": "Documentaries",
-      "categories": [
-        "Documentaries",
-        "Commentary",
-        "Behind The Scenes"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": false,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5xgaysvnvyimrlxk4qkc84ko9jao",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
-    },
-    {
-      "title": "Astral Mysteries",
-      "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
-      "tags": [
-        "documentary",
-        "disturbing",
-        "space"
-      ],
-      "presents": "",
-      "banner": "https://imgproxy.fourthwall.dev/WCONwZsDEuhCNhS-7VcfOX9aDmKB1mo0CsFOPWJFhio/el:0/q:90/sm:1/enc/MDkzYWEyZjkxZTA4/YThhMcV4ZGloaXyg/KW3WtuPCIg2G0Uo1/mnJa7ga7NibgT5up/m9c-MK6V9oWOy-VB/e7TjrFRnlQNK3kzi/K-APc9oyg91APyOk/FAHzT7SCtu7GfR2h/nvp13sOE7405nF8D/IvPFKuP2ZzGVbfJ4/G2U-_m0rb1U.webp",
-      "thumbnail": "https://imgproxy.fourthwall.dev/dXvF48k9-RAFw5Fv-FJI2Il5lqtFKC4KCykCDZoUUu0/el:0/q:90/sm:1/enc/MzMzY2YxMDk3N2Ni/Mzc2YsGu9TyR_B81/JRVT-kRbu6jZ-ofE/YUIpoX3e83ED3itX/4fBCwKZj02P5mXly/yybPmC4dya5PUfAd/h1ZQ7dQTlJRHMzxH/rM0yfwh9A1vXk0GX/VfCpQQlD0Ey0EOE0/RJwEhRRhnBndm1_D/sUp2me2Xs98.webp",
-      "category": "Documentaries",
-      "categories": [
-        "Documentaries",
-        "Space"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": false,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
-    },
-    {
-      "title": "PRINCESS DIANA",
-      "description": "A two sided mystery...",
-      "tags": [
-        "docuseries",
-        "mind-bending"
-      ],
-      "presents": "bySurfTV presents",
-      "banner": "https://imgproxy.fourthwall.com/ymow8p5eCRQqI52mNSCP1f88CWu07sm-9dhfbhe6D_E/el:0/q:90/sm:1/enc/MzAzNjdlZWJmODQ3/YTk5MM7YFlw3J-ot/GpP19n7QX8zdgfZg/bx1V5zGF5w2E7loy/KZnpXfSY7zz_21ta/OXtJJ_zZYBavUF9S/6qzI534kp80mlVRq/oXTOplI-d0pC_oS0/JOZElZfD-5vW001M/yInGNV26IfHvijP8/7hTyT5GyLNA.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/Supx2ghBX1anBEa813E9nvWUOkfCEAvOAh-Yt2dB4zc/el:0/q:90/sm:1/enc/OWY3MjcwMjU0ZDc5/YzJlYVnO1JH2yZbA/BOdK9XH5s0NcZXgS/-A9C02RoNXsGxVMG/vNzMz_pOg7EPRQX4/Bb50EhsEUaekH-OJ/WVfrA1UmpM9FKDZw/-UZ7Z6rGs8SSa8TU/sA_LcGKR7mQn75oW/cd79xpr326QtZ054/H3y93gLVnoA.webp",
-      "category": "Docuseries",
-      "creatorLinks": [
-        {
-          "title": "Hosted by Barnes",
-          "href": "https://x.com/Barnical_"
-        }
-      ],
-      "isFree": false,
-      "isTVOriginal": true,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4"
-    },
-    {
       "title": "Cyber Ninjas",
       "description": "A hacker group emerges and steals billions..",
       "tags": [
@@ -360,148 +329,53 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/894437cef7db25983ff63253202a2ca0_92aa2b5925ac.mp4"
     },
     {
-      "title": "SCAMXSEC",
-      "description": "Taking down a $100,000 Scam Call Center...",
+      "title": "Behind The Scene",
+      "description": "Breaking down certain scenes from recent videos :)",
       "tags": [
-        "scambaiting",
-        "hacking"
+        "BTS",
+        "Video Breakdown",
+        "How It's Made",
+        "Editing Tutorial",
+        "Commentary"
       ],
-      "presents": "",
-      "banner": "https://imgproxy.fourthwall.com/PUVqUi4oHzeiX-WVVSNIvddfxCIo4cpEvXlHA4gHh_I/el:0/q:90/sm:1/enc/OGQ3ZjFjNmQ5Mjc0/MzE5OYbHHV2p3phC/hFl-4XJatI0Hut4M/UAl7p47_KF-U6NY6/aWpJrLtel5d5GhgY/z0eY7UGNMLml02d8/529jpNK-DsLawfek/CPZD_olO1qeJK1R6/XzhKTOhKoP6sEQNq/ntq8oCt8wgtvfNwk/BKzjUCl62-g.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/6U-0QFQc2dnzRaYMfxjO7X4A5oLnF-7l86KKcb483rY/el:0/q:90/sm:1/enc/ZjMyNDQwYzM3OGJl/ZjBlZAXOPA_5Kjri/0bINUoWJHvg03uGX/XGNGriiEwAE4Xq4y/j3NDrSaRiFNfj3TA/cDiqV4EXfb8oQXDQ/EXCufbmy-ew2RcyF/dHFESGLsOzl9tgWJ/TI7ucktIL2MJTzBz/7NPk2N5uSXbybD72/o_mJLY2nYBE.webp",
-      "category": "Hacking",
-      "creatorLinks": [],
-      "isFree": true,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/50c7d5a795e431171956ae47bda59a2d_6b2e9ca1d7f6.mp4"
-    },
-    {
-      "title": "Cyber Ninjas",
-      "description": "A hacker group emerges and steals billions..",
-      "tags": [
-        "documentary",
-        "docuseries",
-        "hacking",
-        "cybercrime"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/Dh13FTwHBXCfYBezJsgas2rNPEaGflWoC82g1Aw-E50/el:0/q:90/sm:1/enc/ODFlNWRkYTgyY2U2/ODYzZtsFCClAk3rR/bdtXgIfts_MUu4y1/C5iC-C0rby_OXzei/JSVhYAIq5Md2mptD/AcEgj1BHOfcmpfZF/GqXhSiUtnnahUeDX/dycRRbSIZt9DFnv-/67FwA0FCQe8HrnF1/xj-1oao4ysgwAYKi/T8S1QLC8TcQ.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/SaQlhXHf6aozZ4-JwZoUeT4r5wUxSDuoQ-FLSQkD0Vk/el:0/q:90/sm:1/enc/MDVjMzU5ZDRiNjk0/OWI0Y-eiVYuHBAjK/G1F5la6Ma1bbbaKK/oID-108JI4PR3EJr/rKl3g8vVNrEcqBD_/yRrwigTSqhWf44Rg/ea1x-3dJqrNry_oi/SKxqS3yJxYYHibmF/PUJp3p5kUsXkqUVR/tF9EgZnbWxS-JPAE/ThD20EbYCes.webp",
-      "category": "Hacking",
+      "presents": "a bySurf Breakdown",
+      "banner": "https://imgproxy.fourthwall.com/KlXtKgkAi22wetVVXFPYgidhloDANXTNCdjouVZ8R5o/el:0/q:90/sm:1/enc/NDg2NjFkZDVmZDlh/ZTZiYVX1CyGkHnTU/qtO44-jjTtYqCBbI/ZYQuPd308vMHFyGx/QQ8rXAQHwgeO9c1R/ht-p1w1DcQUCvbZF/cEDQiPbzuIM1jSjO/6051ca8dKQpgsXoF/wW4tfwbXuG2-2pge/6UrhltyuFGPhMXxU/xMq4QjLq9No.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/MmC1_QnlXYZ1k2xoFU9_VFD7IiuUoqMJWNdELNESnBI/el:0/q:90/sm:1/enc/YTljYjFmNTExZDhj/MTEyZLpBI2YThuod/FLudiRDURPXiAhzq/mfUbf2FsRtx4aHDs/J7M08FjrlvRouGiI/WQnpWgyzZEMzS9Bn/E3TTljR6JUmxsJGQ/G172SXeCtUnY1Jjy/a7jL-m8GCRFmVRxy/mqBk4AtAI_r_0B0h/_N3tYb-XVmo.webp",
+      "category": "Behind The Scenes",
       "categories": [
-        "Hacking",
-        "Docuseries"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": true,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/wxjuaz5g4i09x2xhedhtq51z3f9e",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/eea554425ef77bf5dacea9b5818e573a_7d068568e2c1.mp4"
-    },
-    {
-      "title": "Astral Mysteries",
-      "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
-      "tags": [
-        "documentary",
-        "disturbing",
-        "space"
-      ],
-      "presents": "",
-      "banner": "https://imgproxy.fourthwall.dev/WCONwZsDEuhCNhS-7VcfOX9aDmKB1mo0CsFOPWJFhio/el:0/q:90/sm:1/enc/MDkzYWEyZjkxZTA4/YThhMcV4ZGloaXyg/KW3WtuPCIg2G0Uo1/mnJa7ga7NibgT5up/m9c-MK6V9oWOy-VB/e7TjrFRnlQNK3kzi/K-APc9oyg91APyOk/FAHzT7SCtu7GfR2h/nvp13sOE7405nF8D/IvPFKuP2ZzGVbfJ4/G2U-_m0rb1U.webp",
-      "thumbnail": "https://imgproxy.fourthwall.dev/dXvF48k9-RAFw5Fv-FJI2Il5lqtFKC4KCykCDZoUUu0/el:0/q:90/sm:1/enc/MzMzY2YxMDk3N2Ni/Mzc2YsGu9TyR_B81/JRVT-kRbu6jZ-ofE/YUIpoX3e83ED3itX/4fBCwKZj02P5mXly/yybPmC4dya5PUfAd/h1ZQ7dQTlJRHMzxH/rM0yfwh9A1vXk0GX/VfCpQQlD0Ey0EOE0/RJwEhRRhnBndm1_D/sUp2me2Xs98.webp",
-      "category": "Documentaries",
-      "categories": [
-        "Documentaries",
-        "Space"
+        "Behind The Scenes"
       ],
       "creatorLinks": [],
       "isFree": false,
       "isTVOriginal": false,
       "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d6d9op782ae1cwvimgjfmkokk5ur",
       "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8141d36de3e2bc58aebcfcffe4292543_de6ed85edc7c.mp4"
     },
     {
-      "title": "NO WAY BACK",
-      "description": "NASA launches a flight test that ends chaotic..",
+      "title": "The Progressbar",
+      "description": "Catching up every now and then on what's been going on in life and YouTube.",
       "tags": [
-        "Space",
-        "Disturbing",
-        "Docudrama",
-        "Mini-Docs",
-        "Docuseries"
+        "Catch Up",
+        "Commentary",
+        "Gameplay",
+        "Podcast"
       ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/VMvxbZMHroxyCAzft0oN1fbEPKEbBttFFqMlHWSFQeI/el:0/q:90/sm:1/enc/NTRjNTA5OWNlNzA1/MzU0ZgXHPVw9qRYj/BR_lmy6jf3l5AV1s/tSsCY3NcW-kBepRv/gZjVXqh58EQJJFFr/Z0WyCzFEqiFdaAYB/LBtUBFHPDp_8YDla/kssgkNy5dJ_MSbf5/jODUdxVsBGhBAEOU/6CJLU-J0e5Q4yy7y/U5SDYQajumk.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/s22zA792h-XhhN92LJmjPOkwBNb4Ga_SyFBi_CiN1W4/el:0/q:90/sm:1/enc/YTA0ZmZkN2ZhZGEy/ZGNhMNNhXqHoYaRo/MtkWxAANRVehmtK_/KXI9t7Jivd0jYg31/HBNQlzs3sytM14sz/sbJ2vd6clOxa3CEO/-CT0AhvJG_iSNR2-/npii6Rhd_i04CoO4/u5nvwllCvBK4ak6L/BFRWBENrMLxVAifZ/DT30x9FhQbk.webp",
-      "category": "Docuseries",
+      "presents": "a Commentary Series",
+      "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp",
+      "category": "Commentary",
       "categories": [
-        "Docuseries",
-        "Space"
+        "Commentary"
       ],
       "creatorLinks": [],
       "isFree": false,
-      "isTVOriginal": true,
+      "isTVOriginal": false,
       "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/jbddm2k7wyf3kqpuq35neeiue5hm",
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/hah4iqoec70v2314fjfq7uxtsoaq",
       "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/ef3c87d51f3702e0e9b5e693ae54e302_799baf1a4ad8.mp4"
-    },
-    {
-      "title": "The Social Media Apocalypse",
-      "description": "The Internet is no longer a destination, but a companion to modern life..",
-      "tags": [
-        "mini-documentary",
-        "philosophy",
-        "deep",
-        "social media",
-        "reality"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/XedVJIeBXaUb_zqipplbJIvQNP6zKZj3uCcZSyqUQKc/el:0/q:90/sm:1/enc/NzQ4MWU1ZDc5N2Rl/Nzg4YsfbudZH8EHT/vUf-5gE-MLh6qwO4/zDHJTlMTaE5wZ2iJ/xDQsTY130Z_cYPZ6/qO6-L3LeOcnsUxVb/jMjDfhDwrRj-_T48/MjDjy6otmFjIDDe2/z4MOR0N4pvXVsWVi/WXnK0ulHm4VLvtRI/JM0SriQC8cs.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/5vAZ161LdsGSws7KxNmDbKQxHK71_fkVMI4LJJhPvDo/el:0/q:90/sm:1/enc/NjZkNThiYzYzZWNj/Y2M4NMDNqKBsHyB0/MEqcvliDDrC-fK7P/fZEsjAfLXSh9Xk9j/SUHWMv2wSruvU3bZ/LnOh0A6fKR5XnCom/dhdd3cR_ViZs0ZXv/9e1L-Mb7_-RuYvDK/xGilcuM4C0CTp-kX/F-PUYm3WQAFCCb61/k96RCIjYgVw.webp",
-      "category": "Philosophy",
-      "categories": [
-        "Philosophy"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": true,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0ppehfloanajhtx98k9v3qc36e2i",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/bfbda50ca4c1850f874595a7b0547346_0d92f370f16d.mp4"
-    },
-    {
-      "title": "The Frutiger Era",
-      "description": "A deep dive into the future we were promised...",
-      "tags": [
-        "documentary",
-        "deep-dive",
-        "nostalgia",
-        "frutiger aero",
-        "philosophy"
-      ],
-      "presents": "a bySurfTV Exclusive",
-      "banner": "https://imgproxy.fourthwall.com/GCDD1T6UjJICF309J9LLgF6hRsaNppBd8Gf48i6RZzc/el:0/q:90/sm:1/enc/Zjc2ZGJkZWJjYTUw/MTFjMZJU_ews7nE1/gU1Bq6fIEr6E_SBo/s6BoFtWrK7xoEypa/O6-LTjiQToCnMVy-/33sHDxUpz5Bfbxyo/gO2cNFSTuqHWZ0rh/YMSQVZSBiInJSID3/eOOcyNCj8LweYS-W/RXJ_EMnBXpcCNEXY/oPUvRRmGD8g.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/nyaGE9tC_I1w8-aKmOYfI3YLJzsesV3WIlcPYoG1OaU/el:0/q:90/sm:1/enc/YTFlY2RhZjE4MjRi/MDQ3NnGEnqFeJPvO/c6638S_I1kxP8qMR/GDCoN1NDcWPRGHNn/o5WitPeBTZ6WxXr4/8P2dV2IDivLFb-Ux/AkNjQQbVCytQWyaV/Et8_DJ2tpKhZuxYB/mdFGpdLUb3_YMNm_/nfvgh15ZI_VAiLiS/sx1yHbd3nqM.webp",
-      "category": "Philosophy",
-      "categories": [
-        "Philosophy",
-        "Documentaries"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": true,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/3dec0f8c82aff4083c8297a3757c460c_ebac4e4a818a.mp4"
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/b074ba6e0444643fc4e9703b17dea783_e09724a0ce4e.mp4"
     },
     {
       "title": "THE DEATH OF NORMALITY",
@@ -547,30 +421,6 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/cdb2097d0467c2ad8c7dc7693b20c3df_8bbeeb368d55.mp4"
     },
     {
-      "title": "The Progressbar",
-      "description": "Catching up every now and then on what's been going on in life and YouTube.",
-      "tags": [
-        "Catch Up",
-        "Commentary",
-        "Gameplay",
-        "Podcast"
-      ],
-      "presents": "a Commentary Series",
-      "banner": "https://imgproxy.fourthwall.com/jWKCVkWTerxKIhlSuQiLswBCgflYW1_67-nNzUYrQgA/el:0/q:90/sm:1/enc/Y2NlZTI4ZGRmMTJm/MmVjZSx9Fi6fqygs/EXxORgQc9C-YriV_/_O4i-VNNC9fBaHb4/C43qgJ0VqP6zAEMu/vsViS1WkuArFsRD3/x_9bYYUyOoAVSRwU/nGHzMoZp2Kqk5HXD/m1PYAO-GdcZJu798/xQPqOmSSmDKo67X3/pQZPOBbZteI.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/W1fN757L5zcWQxP9LFY6UDDGDbA_smSqMFAYoBzieAs/el:0/q:90/sm:1/enc/ZGM0MzUwNGY2YzA4/MGI3Yk65uJR-42Qg/djwYNblQVYL8Syjf/qkp3FXuXgFCuZ823/n6RExwpoID-VWDX6/gBE2wcYG7Dpii8UV/G6j6HFuuZn1Wnmmm/KJtuvE7hUjwvbawI/0JTid8Dy5HdkuJCG/y3LUYU0cycVr_u1K/wq1ZPOf_rFk.webp",
-      "category": "Commentary",
-      "categories": [
-        "Commentary"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": false,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/hah4iqoec70v2314fjfq7uxtsoaq",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/b074ba6e0444643fc4e9703b17dea783_e09724a0ce4e.mp4"
-    },
-    {
       "title": "Behind The Video",
       "description": "Over the past month and a half, I documented the process of making my lates",
       "tags": [
@@ -597,55 +447,28 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
     },
     {
-      "title": "Behind The Scene",
-      "description": "Breaking down certain scenes from recent videos :)",
+      "title": "Astral Mysteries",
+      "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
       "tags": [
-        "BTS",
-        "Video Breakdown",
-        "How It's Made",
-        "Editing Tutorial",
-        "Commentary"
-      ],
-      "presents": "a bySurf Breakdown",
-      "banner": "https://imgproxy.fourthwall.com/KlXtKgkAi22wetVVXFPYgidhloDANXTNCdjouVZ8R5o/el:0/q:90/sm:1/enc/NDg2NjFkZDVmZDlh/ZTZiYVX1CyGkHnTU/qtO44-jjTtYqCBbI/ZYQuPd308vMHFyGx/QQ8rXAQHwgeO9c1R/ht-p1w1DcQUCvbZF/cEDQiPbzuIM1jSjO/6051ca8dKQpgsXoF/wW4tfwbXuG2-2pge/6UrhltyuFGPhMXxU/xMq4QjLq9No.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/MmC1_QnlXYZ1k2xoFU9_VFD7IiuUoqMJWNdELNESnBI/el:0/q:90/sm:1/enc/YTljYjFmNTExZDhj/MTEyZLpBI2YThuod/FLudiRDURPXiAhzq/mfUbf2FsRtx4aHDs/J7M08FjrlvRouGiI/WQnpWgyzZEMzS9Bn/E3TTljR6JUmxsJGQ/G172SXeCtUnY1Jjy/a7jL-m8GCRFmVRxy/mqBk4AtAI_r_0B0h/_N3tYb-XVmo.webp",
-      "category": "Behind The Scenes",
-      "categories": [
-        "Behind The Scenes"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": false,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/d6d9op782ae1cwvimgjfmkokk5ur",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8141d36de3e2bc58aebcfcffe4292543_de6ed85edc7c.mp4"
-    },
-    {
-      "title": "Behind The Video",
-      "description": "Over the past month and a half, I documented the process of making my lates",
-      "tags": [
-        "behind the scenes",
-        "bts",
         "documentary",
-        "commentary"
+        "disturbing",
+        "space"
       ],
       "presents": "",
-      "banner": "https://imgproxy.fourthwall.com/yM_-UAMmsHeWhWJZZLQtXjiqw8jXJEnxd2Z4Dgh9_7Q/el:0/q:90/sm:1/enc/Y2EwZmNiNzAxMDY2/MjQ2ZNSeb6iYjQPc/YkyTDbln4Gj7XKRL/tyZH-AqB6mZw0NQM/rlhbAeDxzExqei7A/sP_iYPYuzE2Sd2kF/kqvYOKRgCZ3Qte2O/PhEQ15XkhuPudqb_/5f8o3jpFxA2FCxP9/ZGLqMo1AfWhec-j0/qOWil4Gq_rU.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/Mei4DLts6U3U3wx1h0pgd6cNcBxm3Q9RvhnC4NAvh64/el:0/q:90/sm:1/enc/NjE4YTNhNGI0NGVj/ODgxM4ziYcrIkhkF/fjqA1cHTMTIjuY3W/f4JMW6OXkMOXAebh/HX1C3oYctRfUGImr/4Qq6uyFN-NrGFw1R/vbsHk0Ihpn5X4GKm/tBz6YT_1qkC_rPGP/e6cqtitVD-5y0mzN/2f8H1BQUybGdQe13/LIiMz2EH6bY.webp",
+      "banner": "https://imgproxy.fourthwall.dev/WCONwZsDEuhCNhS-7VcfOX9aDmKB1mo0CsFOPWJFhio/el:0/q:90/sm:1/enc/MDkzYWEyZjkxZTA4/YThhMcV4ZGloaXyg/KW3WtuPCIg2G0Uo1/mnJa7ga7NibgT5up/m9c-MK6V9oWOy-VB/e7TjrFRnlQNK3kzi/K-APc9oyg91APyOk/FAHzT7SCtu7GfR2h/nvp13sOE7405nF8D/IvPFKuP2ZzGVbfJ4/G2U-_m0rb1U.webp",
+      "thumbnail": "https://imgproxy.fourthwall.dev/dXvF48k9-RAFw5Fv-FJI2Il5lqtFKC4KCykCDZoUUu0/el:0/q:90/sm:1/enc/MzMzY2YxMDk3N2Ni/Mzc2YsGu9TyR_B81/JRVT-kRbu6jZ-ofE/YUIpoX3e83ED3itX/4fBCwKZj02P5mXly/yybPmC4dya5PUfAd/h1ZQ7dQTlJRHMzxH/rM0yfwh9A1vXk0GX/VfCpQQlD0Ey0EOE0/RJwEhRRhnBndm1_D/sUp2me2Xs98.webp",
       "category": "Documentaries",
       "categories": [
         "Documentaries",
-        "Commentary",
-        "Behind The Scenes"
+        "Space"
       ],
       "creatorLinks": [],
       "isFree": false,
       "isTVOriginal": false,
       "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5xgaysvnvyimrlxk4qkc84ko9jao",
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
       "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
     }
   ],
   "videos": [
@@ -657,7 +480,7 @@
       "releaseDate": "2024-11-20",
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/s1nhmqgv3q00n540fryubjkfjmck",
       "isFree": true,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/zj1nzxdjfobmrh79fnqzk3td6aee",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197316",
@@ -665,8 +488,7 @@
       "heroTitle": "SCAMXSEC",
       "heroDesc": "Confronting & shutting down a $100,000 Scam Operation Live..",
       "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7",
-      "recommendedOrder": 2
+      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/77v220fl4aosk98ej7emdjief5g7"
     },
     {
       "title": "The Social Media Apocalypse",
@@ -694,7 +516,7 @@
       "isFree": false,
       "isRecommended": true,
       "addedToHero": false,
-      "recommendedOrder": 0
+      "recommendedOrder": 3
     },
     {
       "title": ".ORG: A Dangerous Online Forum",
@@ -726,8 +548,8 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1nmktgvklq4rj34zi0u016x0k1g8",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8d87ff058a0fe67bc333901624cc04a5_7c581db4e4fc.mp4",
-      "recommendedOrder": 3,
-      "heroOrder": 2
+      "heroOrder": 1,
+      "recommendedOrder": 1
     },
     {
       "title": "How Paparazzi Killed Princess Diana",
@@ -865,7 +687,7 @@
       "releaseDate": "2025-11-02",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": false,
+      "addedToHero": true,
       "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g3cvwpt9tns6cv444aic5ff7dmo2",
       "heroSourceUrl": "https://bysurf.tv/supporters/posts/197315",
       "pillText": "",
@@ -875,7 +697,8 @@
       "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/9y9jdhx0gnw3cpiy8nzn10qm8u3y",
       "heroHasVideo": true,
       "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/3dec0f8c82aff4083c8297a3757c460c_ebac4e4a818a.mp4",
-      "recommendedOrder": 1
+      "heroOrder": 0,
+      "recommendedOrder": 2
     },
     {
       "title": "Geraldine's Trail",
@@ -1277,7 +1100,7 @@
       "url": "https://bysurf.tv/supporters/videos/213367",
       "releaseDate": "2026-03-05",
       "isFree": false,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false,
       "episodeNumber": 1
     },
@@ -1290,7 +1113,7 @@
       "releaseDate": "2026-03-06",
       "seasonNumber": 2,
       "isFree": false,
-      "isRecommended": true,
+      "isRecommended": false,
       "addedToHero": false
     },
     {
@@ -1326,17 +1149,8 @@
       "releaseDate": "2026-04-30",
       "isFree": false,
       "isRecommended": true,
-      "addedToHero": true,
-      "bgUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xnvtpn7gqqtem6op6f54zlw5skkl",
-      "heroSourceUrl": "https://bysurf.tv/supporters/posts/229594",
-      "pillText": "",
-      "heroTitle": "Astral Mysteries",
-      "heroDesc": "The Universe is one of the biggest, darkest and emptiest mysteries in the world today.",
-      "heroShowHasLogo": true,
-      "heroLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
-      "heroHasVideo": true,
-      "heroVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4",
-      "heroOrder": 0
+      "addedToHero": false,
+      "recommendedOrder": 0
     },
     {
       "title": "The YouTube Algorithm",
@@ -1344,7 +1158,7 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/1koc94ynttpm53td11ktfdc41wz3",
       "show": "The Progressbar",
       "url": "https://bysurf.tv/supporters/videos/231046",
-      "releaseDate": "2026-05-05",
+      "releaseDate": "2026-05-04",
       "seasonNumber": 3,
       "isFree": false,
       "isRecommended": false,
@@ -1355,8 +1169,8 @@
     "Early Access",
     "Documentaries",
     "Docuseries",
-    "Hacking",
     "Space",
+    "Hacking",
     "Philosophy",
     "Commentary",
     "Behind The Scenes"
