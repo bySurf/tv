@@ -44,6 +44,30 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/bfbda50ca4c1850f874595a7b0547346_0d92f370f16d.mp4"
     },
     {
+      "title": "Astral Mysteries",
+      "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
+      "tags": [
+        "documentary",
+        "disturbing",
+        "space"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.dev/WCONwZsDEuhCNhS-7VcfOX9aDmKB1mo0CsFOPWJFhio/el:0/q:90/sm:1/enc/MDkzYWEyZjkxZTA4/YThhMcV4ZGloaXyg/KW3WtuPCIg2G0Uo1/mnJa7ga7NibgT5up/m9c-MK6V9oWOy-VB/e7TjrFRnlQNK3kzi/K-APc9oyg91APyOk/FAHzT7SCtu7GfR2h/nvp13sOE7405nF8D/IvPFKuP2ZzGVbfJ4/G2U-_m0rb1U.webp",
+      "thumbnail": "https://imgproxy.fourthwall.dev/dXvF48k9-RAFw5Fv-FJI2Il5lqtFKC4KCykCDZoUUu0/el:0/q:90/sm:1/enc/MzMzY2YxMDk3N2Ni/Mzc2YsGu9TyR_B81/JRVT-kRbu6jZ-ofE/YUIpoX3e83ED3itX/4fBCwKZj02P5mXly/yybPmC4dya5PUfAd/h1ZQ7dQTlJRHMzxH/rM0yfwh9A1vXk0GX/VfCpQQlD0Ey0EOE0/RJwEhRRhnBndm1_D/sUp2me2Xs98.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries",
+        "Space"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
+    },
+    {
       "title": "MAGNOTTA",
       "description": "Luka Magnotta, a failed model wants to become as famous as possible..",
       "tags": [
@@ -113,30 +137,6 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/uz1g6ixr1idijvs9wsvi2q88td6a",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/8d87ff058a0fe67bc333901624cc04a5_7c581db4e4fc.mp4"
-    },
-    {
-      "title": "PRINCESS DIANA",
-      "description": "A two sided mystery...",
-      "tags": [
-        "docuseries",
-        "mind-bending"
-      ],
-      "presents": "bySurfTV presents",
-      "banner": "https://imgproxy.fourthwall.com/ymow8p5eCRQqI52mNSCP1f88CWu07sm-9dhfbhe6D_E/el:0/q:90/sm:1/enc/MzAzNjdlZWJmODQ3/YTk5MM7YFlw3J-ot/GpP19n7QX8zdgfZg/bx1V5zGF5w2E7loy/KZnpXfSY7zz_21ta/OXtJJ_zZYBavUF9S/6qzI534kp80mlVRq/oXTOplI-d0pC_oS0/JOZElZfD-5vW001M/yInGNV26IfHvijP8/7hTyT5GyLNA.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/Supx2ghBX1anBEa813E9nvWUOkfCEAvOAh-Yt2dB4zc/el:0/q:90/sm:1/enc/OWY3MjcwMjU0ZDc5/YzJlYVnO1JH2yZbA/BOdK9XH5s0NcZXgS/-A9C02RoNXsGxVMG/vNzMz_pOg7EPRQX4/Bb50EhsEUaekH-OJ/WVfrA1UmpM9FKDZw/-UZ7Z6rGs8SSa8TU/sA_LcGKR7mQn75oW/cd79xpr326QtZ054/H3y93gLVnoA.webp",
-      "category": "Docuseries",
-      "creatorLinks": [
-        {
-          "title": "Hosted by Barnes",
-          "href": "https://x.com/Barnical_"
-        }
-      ],
-      "isFree": false,
-      "isTVOriginal": true,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4"
     },
     {
       "title": "TV Edition",
@@ -253,6 +253,56 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/xboimunfqdo62i9bkkr1z57vnfg9",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/9b92a3193352d46e0e4579e3c0796d3e_7f7e31f18a44.mp4"
+    },
+    {
+      "title": "Behind The Video",
+      "description": "Over the past month and a half, I documented the process of making my lates",
+      "tags": [
+        "behind the scenes",
+        "bts",
+        "documentary",
+        "commentary"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.com/yM_-UAMmsHeWhWJZZLQtXjiqw8jXJEnxd2Z4Dgh9_7Q/el:0/q:90/sm:1/enc/Y2EwZmNiNzAxMDY2/MjQ2ZNSeb6iYjQPc/YkyTDbln4Gj7XKRL/tyZH-AqB6mZw0NQM/rlhbAeDxzExqei7A/sP_iYPYuzE2Sd2kF/kqvYOKRgCZ3Qte2O/PhEQ15XkhuPudqb_/5f8o3jpFxA2FCxP9/ZGLqMo1AfWhec-j0/qOWil4Gq_rU.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/Mei4DLts6U3U3wx1h0pgd6cNcBxm3Q9RvhnC4NAvh64/el:0/q:90/sm:1/enc/NjE4YTNhNGI0NGVj/ODgxM4ziYcrIkhkF/fjqA1cHTMTIjuY3W/f4JMW6OXkMOXAebh/HX1C3oYctRfUGImr/4Qq6uyFN-NrGFw1R/vbsHk0Ihpn5X4GKm/tBz6YT_1qkC_rPGP/e6cqtitVD-5y0mzN/2f8H1BQUybGdQe13/LIiMz2EH6bY.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries",
+        "Commentary",
+        "Behind The Scenes"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5xgaysvnvyimrlxk4qkc84ko9jao",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
+    },
+    {
+      "title": "PRINCESS DIANA",
+      "description": "A two sided mystery...",
+      "tags": [
+        "docuseries",
+        "mind-bending"
+      ],
+      "presents": "bySurfTV presents",
+      "banner": "https://imgproxy.fourthwall.com/ymow8p5eCRQqI52mNSCP1f88CWu07sm-9dhfbhe6D_E/el:0/q:90/sm:1/enc/MzAzNjdlZWJmODQ3/YTk5MM7YFlw3J-ot/GpP19n7QX8zdgfZg/bx1V5zGF5w2E7loy/KZnpXfSY7zz_21ta/OXtJJ_zZYBavUF9S/6qzI534kp80mlVRq/oXTOplI-d0pC_oS0/JOZElZfD-5vW001M/yInGNV26IfHvijP8/7hTyT5GyLNA.webp",
+      "thumbnail": "https://imgproxy.fourthwall.com/Supx2ghBX1anBEa813E9nvWUOkfCEAvOAh-Yt2dB4zc/el:0/q:90/sm:1/enc/OWY3MjcwMjU0ZDc5/YzJlYVnO1JH2yZbA/BOdK9XH5s0NcZXgS/-A9C02RoNXsGxVMG/vNzMz_pOg7EPRQX4/Bb50EhsEUaekH-OJ/WVfrA1UmpM9FKDZw/-UZ7Z6rGs8SSa8TU/sA_LcGKR7mQn75oW/cd79xpr326QtZ054/H3y93gLVnoA.webp",
+      "category": "Docuseries",
+      "creatorLinks": [
+        {
+          "title": "Hosted by Barnes",
+          "href": "https://x.com/Barnical_"
+        }
+      ],
+      "isFree": false,
+      "isTVOriginal": true,
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/g9eb65ft05x69yqz7z6f3x1ijf2x",
+      "showModalHasVideo": true,
+      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/e3ffe20acb315e7df491bf4a3db64dc2_e84590f99650.mp4"
     },
     {
       "title": "Cyber Ninjas",
@@ -419,56 +469,6 @@
       "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/o0mbgamyy7xjz8w1nnc71uqkv3yg",
       "showModalHasVideo": true,
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/cdb2097d0467c2ad8c7dc7693b20c3df_8bbeeb368d55.mp4"
-    },
-    {
-      "title": "Behind The Video",
-      "description": "Over the past month and a half, I documented the process of making my lates",
-      "tags": [
-        "behind the scenes",
-        "bts",
-        "documentary",
-        "commentary"
-      ],
-      "presents": "",
-      "banner": "https://imgproxy.fourthwall.com/yM_-UAMmsHeWhWJZZLQtXjiqw8jXJEnxd2Z4Dgh9_7Q/el:0/q:90/sm:1/enc/Y2EwZmNiNzAxMDY2/MjQ2ZNSeb6iYjQPc/YkyTDbln4Gj7XKRL/tyZH-AqB6mZw0NQM/rlhbAeDxzExqei7A/sP_iYPYuzE2Sd2kF/kqvYOKRgCZ3Qte2O/PhEQ15XkhuPudqb_/5f8o3jpFxA2FCxP9/ZGLqMo1AfWhec-j0/qOWil4Gq_rU.webp",
-      "thumbnail": "https://imgproxy.fourthwall.com/Mei4DLts6U3U3wx1h0pgd6cNcBxm3Q9RvhnC4NAvh64/el:0/q:90/sm:1/enc/NjE4YTNhNGI0NGVj/ODgxM4ziYcrIkhkF/fjqA1cHTMTIjuY3W/f4JMW6OXkMOXAebh/HX1C3oYctRfUGImr/4Qq6uyFN-NrGFw1R/vbsHk0Ihpn5X4GKm/tBz6YT_1qkC_rPGP/e6cqtitVD-5y0mzN/2f8H1BQUybGdQe13/LIiMz2EH6bY.webp",
-      "category": "Documentaries",
-      "categories": [
-        "Documentaries",
-        "Commentary",
-        "Behind The Scenes"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": false,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/5xgaysvnvyimrlxk4qkc84ko9jao",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/4d40d6aa5525c7a922a7ad7dc18b1bf7_368424350d25.mp4"
-    },
-    {
-      "title": "Astral Mysteries",
-      "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
-      "tags": [
-        "documentary",
-        "disturbing",
-        "space"
-      ],
-      "presents": "",
-      "banner": "https://imgproxy.fourthwall.dev/WCONwZsDEuhCNhS-7VcfOX9aDmKB1mo0CsFOPWJFhio/el:0/q:90/sm:1/enc/MDkzYWEyZjkxZTA4/YThhMcV4ZGloaXyg/KW3WtuPCIg2G0Uo1/mnJa7ga7NibgT5up/m9c-MK6V9oWOy-VB/e7TjrFRnlQNK3kzi/K-APc9oyg91APyOk/FAHzT7SCtu7GfR2h/nvp13sOE7405nF8D/IvPFKuP2ZzGVbfJ4/G2U-_m0rb1U.webp",
-      "thumbnail": "https://imgproxy.fourthwall.dev/dXvF48k9-RAFw5Fv-FJI2Il5lqtFKC4KCykCDZoUUu0/el:0/q:90/sm:1/enc/MzMzY2YxMDk3N2Ni/Mzc2YsGu9TyR_B81/JRVT-kRbu6jZ-ofE/YUIpoX3e83ED3itX/4fBCwKZj02P5mXly/yybPmC4dya5PUfAd/h1ZQ7dQTlJRHMzxH/rM0yfwh9A1vXk0GX/VfCpQQlD0Ey0EOE0/RJwEhRRhnBndm1_D/sUp2me2Xs98.webp",
-      "category": "Documentaries",
-      "categories": [
-        "Documentaries",
-        "Space"
-      ],
-      "creatorLinks": [],
-      "isFree": false,
-      "isTVOriginal": false,
-      "showHasLogo": true,
-      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/0gzo0qm358y72q4cj7pzmgbw7j3d",
-      "showModalHasVideo": true,
-      "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/1ba2deae4554b66298350bbeb00ee040_3e5f1a5bb365.mp4"
     }
   ],
   "videos": [
