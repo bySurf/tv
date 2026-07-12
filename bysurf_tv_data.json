@@ -44,6 +44,25 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/bfbda50ca4c1850f874595a7b0547346_0d92f370f16d.mp4"
     },
     {
+      "title": "HEAVEN'S GATE",
+      "description": "The sad & disturbing story of Heaven's Gate, the Internet's First Cult..",
+      "tags": [],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.dev/Io6nnu9UaMOFEPNhPsFYafZ8zuAfuSYW88nT90glhEk/el:0/q:90/sm:1/enc/NmFlYzZkYmEyYmM5/MTA2ZLXEswyT4EwU/cLfr-ei0_ux0gpEJ/LyYZhsove0kqkTSE/fYeEqw7kR3uu_eyT/8dG5WChc8vgghiYp/X5IMNJNXfQTF8EyY/7uYZpgVIEH6yRRFZ/bsNFYZl2hp2WRuGY/T5DJSkFwvDpscBT5/UunMmszUkXg.webp",
+      "thumbnail": "https://imgproxy.fourthwall.dev/WSRubTvwnLP50-mFMXLqr-qM4gI-4KC6_daQg1MB1nM/el:0/q:90/sm:1/enc/ZGUxNWE0M2RjYjZi/ZThiNpkMT0JyK_cc/UMLNWRL_Ehtpta7t/E3VT40jSBICJLaxK/i_fCtik89MmXTMaq/Zoo3hfe0R6HTHCP3/v1ThDOKkw4hQyR7_/1Ogv5xLDL97hoyo5/FjQX6PMQAOxmFcJ_/Jd3MZJae01ny0hYP/0XDOSR0vxNo.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": false,
+      "showLogoUrl": "",
+      "showModalHasVideo": false,
+      "showModalVideoURL": ""
+    },
+    {
       "title": "Astral Mysteries",
       "description": "The Universe is one of the biggest, darkest and emptiest mysteries...",
       "tags": [
@@ -1148,9 +1167,8 @@
       "url": "https://bysurf.tv/supporters/videos/229624",
       "releaseDate": "2026-04-30",
       "isFree": false,
-      "isRecommended": true,
-      "addedToHero": false,
-      "recommendedOrder": 0
+      "isRecommended": false,
+      "addedToHero": false
     },
     {
       "title": "The YouTube Algorithm",
@@ -1163,6 +1181,18 @@
       "isFree": false,
       "isRecommended": false,
       "addedToHero": false
+    },
+    {
+      "title": "HEAVEN'S GATE (Full Documentary)",
+      "description": "24 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/mdrsuodit5uac8d34fx8jmhepf5t",
+      "show": "HEAVEN'S GATE",
+      "url": "https://bysurf.tv/supporters/videos/249467",
+      "releaseDate": "2026-07-12",
+      "isFree": false,
+      "isRecommended": true,
+      "addedToHero": false,
+      "recommendedOrder": 0
     }
   ],
   "categories": [
