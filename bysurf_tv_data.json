@@ -46,7 +46,13 @@
     {
       "title": "HEAVEN'S GATE",
       "description": "The sad & disturbing story of Heaven's Gate, the Internet's First Cult..",
-      "tags": [],
+      "tags": [
+        "disturbing",
+        "cult",
+        "internet",
+        "documentary",
+        "serial killer"
+      ],
       "presents": "",
       "banner": "https://imgproxy.fourthwall.dev/Io6nnu9UaMOFEPNhPsFYafZ8zuAfuSYW88nT90glhEk/el:0/q:90/sm:1/enc/NmFlYzZkYmEyYmM5/MTA2ZLXEswyT4EwU/cLfr-ei0_ux0gpEJ/LyYZhsove0kqkTSE/fYeEqw7kR3uu_eyT/8dG5WChc8vgghiYp/X5IMNJNXfQTF8EyY/7uYZpgVIEH6yRRFZ/bsNFYZl2hp2WRuGY/T5DJSkFwvDpscBT5/UunMmszUkXg.webp",
       "thumbnail": "https://imgproxy.fourthwall.dev/WSRubTvwnLP50-mFMXLqr-qM4gI-4KC6_daQg1MB1nM/el:0/q:90/sm:1/enc/ZGUxNWE0M2RjYjZi/ZThiNpkMT0JyK_cc/UMLNWRL_Ehtpta7t/E3VT40jSBICJLaxK/i_fCtik89MmXTMaq/Zoo3hfe0R6HTHCP3/v1ThDOKkw4hQyR7_/1Ogv5xLDL97hoyo5/FjQX6PMQAOxmFcJ_/Jd3MZJae01ny0hYP/0XDOSR0vxNo.webp",
@@ -57,8 +63,8 @@
       "creatorLinks": [],
       "isFree": false,
       "isTVOriginal": false,
-      "showHasLogo": false,
-      "showLogoUrl": "",
+      "showHasLogo": true,
+      "showLogoUrl": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/e6r2i3k9mjslifrkfsn2mi7t9dk7",
       "showModalHasVideo": false,
       "showModalVideoURL": ""
     },
