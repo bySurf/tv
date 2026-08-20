@@ -44,6 +44,28 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/bfbda50ca4c1850f874595a7b0547346_0d92f370f16d.mp4"
     },
     {
+      "title": "Horrors in Video Games",
+      "description": "Uncovering Video Games that went too far...",
+      "tags": [
+        "internet",
+        "video games"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.dev/WfI4xHXShjZNBRWIkwn0G-p7p25YVY521NHP8Nno7Mw/el:0/q:90/sm:1/enc/NmI4NWNkZTgyNDIw/M2IwN9oBoZiWPID2/Pk8dF3Lk5RHOKDhI/Yg5mJIQOBQhCpYul/CTY2-G32-vOVbwpo/4-6UAk-rxDTyieux/7RE3wiJ-Y4T0FCFx/aV33V3PHRhjjgwen/yEH5-sT1hf5aH1oi/C0I2PhrELZkbPviB/EcGVBFu5aAM.webp",
+      "thumbnail": "https://imgproxy.fourthwall.dev/-RLyGXj3c0u91Lh1kbZNuOR3hcAfUltUa92TgnrUXYs/el:0/q:90/sm:1/enc/NzVjNzE3OTQwZmZl/ZmEwNKwLHaHw5903/xPCr5J0sRqt4kWmo/AZQNIeBLAaUxVMKN/Lzm8p0Uzs3sBNiKQ/5JwSkdWopQ9q63wi/1Cqldd7x9C8awCEn/HmA3AE9nG7c40kOa/mG-7lwPoBO67FjPh/z2stmefW9dyQBuqb/rv93W03EFr4.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "",
+      "showModalHasVideo": false,
+      "showModalVideoURL": ""
+    },
+    {
       "title": "HEAVEN'S GATE",
       "description": "The sad & disturbing story of Heaven's Gate, the Internet's First Cult..",
       "tags": [
