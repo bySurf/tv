@@ -44,6 +44,29 @@
       "showModalVideoURL": "https://cdn.fourthwall.com/sr-creators/resources/1a6a9dd8-fe8a-42a4-aa3c-1568985af155/bfbda50ca4c1850f874595a7b0547346_0d92f370f16d.mp4"
     },
     {
+      "title": "The Multi-Million Dollar Bug",
+      "description": "Investigating Twitch's lack of oversight and potential theft...",
+      "tags": [
+        "documentary",
+        "internet",
+        "hacking"
+      ],
+      "presents": "",
+      "banner": "https://imgproxy.fourthwall.dev/x6y6tgtl_3sTLTKBQQM46xq1lu-uLz5RtCuIh-PwE2c/el:0/q:90/sm:1/enc/ZTA1Nzg5ZWRlM2Ez/MzM3Yw3DHvhvTTVJ/plsMCsqVz2-DvRR0/SH0upaQdY-UpXjQ5/aTUhL3j_RvE8fu_P/fwg6fJ4OLr6QOOHi/_TZl1FLNySNpksXD/0CEYJnAFPE0-BNZn/H4NKbxdRoyUDMnJZ/4wO54hF-4f87Bclg/yeLBHpr0E2A.webp",
+      "thumbnail": "https://imgproxy.fourthwall.dev/h_eUYeImij03eFbouCwC_NUy_CZ83tY720Cf88bN8k0/el:0/q:90/sm:1/enc/ZGY0ZmY1NTgxZjhi/ZTQ4OUcMbNVva9G7/OFLd2e4Rr4m0JY17/dkzloo6v4mOrluu2/24jUKLF_KBGkV_Cq/wBHVqRWbbs_jsfiG/hVWRzmfslilXvuEV/Vn0v6cSeQaWNTHDy/DI4jrkZ3kweESstM/pA_T10Aoq4SE5ZtQ/-nOzjn0mp98.webp",
+      "category": "Documentaries",
+      "categories": [
+        "Documentaries"
+      ],
+      "creatorLinks": [],
+      "isFree": false,
+      "isTVOriginal": false,
+      "showHasLogo": true,
+      "showLogoUrl": "",
+      "showModalHasVideo": false,
+      "showModalVideoURL": ""
+    },
+    {
       "title": "Horrors in Video Games",
       "description": "Uncovering Video Games that went too far...",
       "tags": [
@@ -1240,6 +1263,17 @@
       "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/q5m69qhfimq0x8xsscysdu6py8ci",
       "show": "Horrors in Video Games",
       "url": "https://bysurf.tv/supporters/videos/261287",
+      "releaseDate": "2026-08-20",
+      "isFree": false,
+      "isRecommended": false,
+      "addedToHero": false
+    },
+    {
+      "title": "The Multi-Million Dollar Bug (Full Documentary)",
+      "description": "34 Min",
+      "thumbnail": "https://storage.googleapis.com/popshopprod-membership-assets-single-b5px4371/obeqmzvc211t8wpulmnkiyp6r23b",
+      "show": "The Multi-Million Dollar Bug",
+      "url": "https://bysurf.tv/supporters/videos/261511",
       "releaseDate": "2026-08-20",
       "isFree": false,
       "isRecommended": false,
